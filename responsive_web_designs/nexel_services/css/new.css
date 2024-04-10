@@ -1,0 +1,47 @@
+.medical_benifits .section_details p {
+	margin-bottom: 10px;
+}
+.medical_services_billing .section_details h3,
+.medical_services_billing .section_details h4 {
+	font-size: 40px;
+	color: #1f242e;
+	font-family: 'Kumbh Sans', sans-serif;
+	font-weight: 700;
+	margin-bottom: 30px;
+	text-transform: capitalize;
+}
+.medical_services_billing .section_details h4 {
+	font-size: 35px;
+}
+.medical_services_billing ul {
+	padding-right: 18px;
+}
+.medical_services_billing ul li {
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19px;
+	line-height: 32px;
+	text-align: justify;
+	color: #707376;
+	margin-left: 19px;
+	padding-bottom: 10px;
+}
+
+
+/* responsive */
+.contact_office_container{
+    max-width: 1794px;
+    margin: auto;
+   
+}
+@media only screen and (max-width: 1794px) {
+    .office_card_image img {
+		width: 100%;
+	}
+	.contact_our_office {
+
+        padding-left: 25px;
+        padding-right: 25px;
+	}
+}

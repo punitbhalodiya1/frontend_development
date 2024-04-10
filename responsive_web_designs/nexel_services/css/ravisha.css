@@ -1,0 +1,1127 @@
+/* ------------------------contact page----------------------- */
+/* map */
+.contact_map #map {
+	height: 844px;
+	width: 100%;
+}
+
+/* contact detail */
+.contact_detail_container {
+	max-width: 1292px;
+	margin: auto;
+}
+
+.contact_form_user_img {
+	background: url(../images/contact_user.svg);
+	width: 25px;
+	background-repeat: no-repeat;
+	min-height: 21px;
+}
+.contact_form_email_img {
+	background: url(../images/contact_email.svg);
+	width: 25px;
+	background-repeat: no-repeat;
+	min-height: 18px;
+}
+.contact_form_phone_img {
+	background: url(../images/contact_phone.svg);
+	width: 25px;
+	background-repeat: no-repeat;
+	min-height: 20px;
+}
+.contact_form_subject_img {
+	background: url(../images/contact_subject.svg);
+	width: 25px;
+	background-repeat: no-repeat;
+	min-height: 20px;
+}
+.contact_form_help_img {
+	background: url(../images/contact_help.svg);
+	width: 25px;
+	background-repeat: no-repeat;
+	min-height: 20px;
+}
+.contact_details h2 {
+	font-size: 54px;
+	font-family: kumbh Sans;
+	font-weight: 700;
+	line-height: 54.32px;
+	text-align: center;
+	text-transform: capitalize;
+	letter-spacing: 0.05em;
+}
+.contact_details {
+	padding: 120px 0;
+}
+.contact_details_block {
+	padding-top: 99px;
+	display: flex;
+	justify-content: center;
+}
+.contact_details_block1 {
+	max-width: 268px;
+	font-family: Kumbh Sans;
+	font-style: normal;
+}
+.contact_details_block1 h3 {
+	font-weight: bold;
+	font-size: 23px;
+	line-height: 23px;
+	letter-spacing: 0.05em;
+	text-transform: capitalize;
+}
+.contact_details_block1 p {
+	padding-top: 37px;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: 0.15em;
+	color: #818487;
+}
+.contact_details_block1 h4 {
+	padding-top: 32px;
+	font-size: 15px;
+	line-height: 16px;
+	font-weight: normal;
+	letter-spacing: 0.15em;
+}
+.contact_details_block1 h4 a {
+	color: #818487;
+	font-size: 15px;
+}
+.contact_details_block1 h5 {
+	padding-top: 42px;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 18px;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	color: #1f242e;
+}
+.contact_details_block1 h5 a {
+	color: #1f242e;
+}
+.contact_details_block2 {
+	padding-left: 162px;
+}
+.contact_details_block2 input[type="text"],
+textarea {
+	border: none;
+	padding-left: 19px;
+	width: 100%;
+	font-size: 14px;
+	line-height: 14px;
+	letter-spacing: 0.15em;
+	color: #818487;
+}
+
+.contact_form_input,
+.contact_form_input_second {
+	display: flex;
+}
+/* .contact_form_input_third textarea {
+	border-bottom: 1px solid;
+	width: 100%;
+} */
+.contact_form_input_1,
+.contact_form_input_5 {
+	display: flex;
+	border-bottom: 1px solid #000000;
+	padding-bottom: 17px;
+	width: 415px;
+}
+
+.contact_details_block2 img {
+	width: 16px;
+	object-fit: none;
+}
+/* .contact_form_input :last-child ,.contact_form_input_second :last-child{
+	margin-left: 32px;
+} */
+
+.contact_form_input_2,
+.contact_form_input_4 {
+	margin-left: 32px;
+}
+.contact_form_input_2 img,
+.contact_form_input_4 img,
+.contact_form_input_5 img {
+	width: 20px;
+}
+.contact_form_input_second {
+	padding-top: 51px;
+}
+.contact_form_input_third {
+	padding-top: 56px;
+}
+.contact_form_input_5 {
+	width: 100%;
+}
+.contact_form_input_5 {
+	padding-bottom: 0;
+}
+
+.contact_form_input_5_block {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #000000;
+}
+.contact_button {
+	padding-top: 59px;
+}
+
+.contact_button button {
+	border: none;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 14px;
+	cursor: pointer;
+}
+.contact_arrow {
+	background: url(../images/contact_btn_arrow.jpg) no-repeat 0 0;
+	width: 21.22px;
+	height: 20.19px;
+	display: inline-block;
+	margin-right: 22px;
+	position: relative;
+	transition: 0.3s ease;
+}
+.btn_contact {
+	padding: 15px 34px 15px 35px;
+	min-width: 193px;
+	display: flex;
+	align-items: center;
+}
+.contact_button span {
+	margin-right: 16px;
+}
+.contact_button img {
+	width: 100%;
+}
+
+/* office */
+.contact_our_office h3 {
+	padding-bottom: 72px;
+	text-align: center;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 54px;
+	line-height: 54px;
+	letter-spacing: 0.05em;
+	text-transform: capitalize;
+}
+.contact_our_office {
+	padding: 120px 0;
+}
+.contact_our_office {
+	background: #f8f8f8;
+	padding-left: 64px;
+	padding-right: 65px;
+}
+.contact_office_card {
+	display: flex;
+}
+.office_card_1 {
+	margin-right: 33px;
+	background: #ffffff;
+	padding-top: 18px;
+	padding-left: 21px;
+	padding-right: 22px;
+	padding-bottom: 28px;
+}
+.office_card_4 {
+	margin-right: 0px;
+}
+.office_card_1 h4 {
+	padding-top: 24px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 32px;
+	text-align: justify;
+	color: #1f242e;
+}
+.office_card_details p {
+	padding-top: 12px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 32px;
+	padding-bottom: 21px;
+	color: #707376;
+}
+.office_card_details a {
+	padding-top: 21px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 32px;
+	text-align: justify;
+	text-decoration-line: underline;
+	color: #0f4977;
+}
+.office_card_details {
+	padding-left: 14px;
+}
+/* footer section */
+.footer_section .container {
+	padding: 0;
+}
+.footer_section {
+	width: 1292px;
+	margin: auto;
+	font-family: Kumbh Sans;
+	font-style: normal;
+	font-weight: normal;
+}
+.footer_inner_layout {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 54px;
+	padding-bottom: 56px;
+}
+.footer_section_nexel p {
+	padding-top: 45px;
+	width: 282px;
+	font-size: 17px;
+	line-height: 29px;
+	text-transform: capitalize;
+	color: #a1a1a1;
+}
+.footer_section_nexel h4 a {
+	color: #a1a1a1;
+}
+.footer_section_nexel h4 {
+	padding-top: 10px;
+	font-size: 17px;
+	line-height: 29px;
+	text-transform: capitalize;
+	font-weight: normal;
+}
+.footer_section_nexel h5 {
+	padding-top: 24px;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 29px;
+	/*text-transform: capitalize;*/
+}
+.footer_section_nexel h5 a {
+	color: #a1a1a1;
+}
+.footer_likdin img {
+	padding-top: 19px;
+}
+.footer_section li {
+	list-style-type: none;
+}
+.footer_section_services h3,
+.footer_section_support h3,
+.footer_section_date h3 {
+	font-family: Kumbh Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 19px;
+	line-height: 19px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #1f242e;
+}
+.footer_section_services h3,
+.footer_section_support h3 {
+	padding-bottom: 21px;
+}
+.footer_section_services a,
+.footer_section_support a {
+	font-family: Kumbh Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 47px;
+	letter-spacing: 0.05em;
+	text-transform: capitalize;
+	color: #a1a1a1;
+}
+.footer_section_date button {
+	padding: 0;
+	border: none;
+	background: transparent;
+
+	cursor: pointer;
+}
+/* .footer_email input[type="text"] {
+	color: #a1a1a1;
+	padding: 13px 0;
+	padding-left: 12px;
+	width: 255px;
+	font-family: Kumbh Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 14px;
+	border: none;
+	background: #e3e3e3;
+
+	border-radius: 8px;
+
+	letter-spacing: 0.05em;
+	text-transform: capitalize;
+} */
+
+.footer_email {
+	position: relative;
+}
+
+.footer_section_date h3 {
+	padding-bottom: 35px;
+}
+.footer_bottom {
+	border-top: 1px solid #f0f0f0;
+	padding-top: 23px;
+}
+.footer_bottom_text {
+	text-align: center;
+	font-family: Kumbh Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 29px;
+
+	text-transform: capitalize;
+
+	color: #a1a1a1;
+	padding-bottom: 25px;
+}
+.footer_email input[type="text"] ::placeholder {
+	font-family: Kumbh Sans;
+}
+.footer_section_email {
+	display: flex;
+	border: none;
+	background: #e3e3e3;
+	border-radius: 8px;
+	padding: 10px 0;
+
+	width: 255px;
+	justify-content: space-around;
+}
+.footer_section_email input[type="text"] {
+	border: none;
+	background: #e3e3e3;
+	text-transform: capitalize;
+
+	color: #a1a1a1;
+
+	font-family: Kumbh Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 14px;
+
+	letter-spacing: 0.05em;
+}
+::placeholder {
+	color: #a1a1a1;
+}
+
+/* ----------------our vision page------------- */
+.our_vision_section .tailored_funera_section {
+	border: 1px solid #f0f0f0;
+}
+.our_vision_section .always_excels_block .always_excels_block_cols2 .section_details h2 {
+	text-transform: capitalize;
+	width: 597px;
+}
+
+.our_vision_section .section_details h2 {
+	margin-bottom: 26px;
+}
+.our_vision_section p.our_vision_content_1 {
+	padding-bottom: 35px;
+}
+.our_vision_section .tailored_funera_section .home_page_container {
+	padding: 0px 26px;
+}
+.our_vision_section .section_details h6 {
+	margin-bottom: 27px;
+}
+
+/*---------------- ourmission page------------------- */
+.our_mission_section .always_excels_block .always_excels_block_cols2 .section_details h2 {
+	width: 559px;
+	text-transform: capitalize;
+}
+.our_mission_section p.our_vision_content_1 {
+	padding-bottom: 40px;
+}
+.our_mission_section .always_excels_block .always_excels_block_cols2 .section_details h2 {
+	margin-bottom: 26px;
+}
+.our_mission_section .tailored_funera_section {
+	border: 1px solid #f0f0f0;
+}
+.our_mission_section .section_details h6 {
+	margin-bottom: 27px;
+}
+
+/*----------------------- ourhistory page-------------------- */
+
+
+/* talent  */
+.our_history_section h2.sub_title {
+    text-transform: capitalize;
+}
+.our_history_section  .always_excels_block_cols2 {
+    padding: 64px 0px 84px 34px;
+}
+.our_history_section p.our_vision_content_1 {
+padding-bottom: 35px;
+}
+
+
+/* employee */
+.history_employee_details h2{
+	font-family: Kumbh Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 57px;
+	line-height: 57px;
+	letter-spacing: 0.05em;
+	text-transform: capitalize;
+	width: 749px;
+	color: #1f242e;
+	padding-bottom: 43px;
+}
+.our_history_employee .industry_section {
+	background: none;
+	padding: 0;
+}
+.our_history_employee .our_vision_content_1 {
+	margin-bottom: 39px;
+}
+.history_employee_block {
+	display: flex;
+}
+.history_employee_block_1 {
+	width: 828px;
+}
+.history_employee_block_2 {
+	width: 442px;
+}
+.history_employee_block_2 {
+	width: 566px;
+	padding-left: 66px;
+}
+
+.history_employee_details h6 {
+	font-family: Kumbh Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 12px;
+	padding-bottom: 21px;
+
+	letter-spacing: 0.15em;
+
+	color: #f6a50c;
+}
+.history_employee_block_2 p {
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19px;
+	line-height: 32px;
+
+	text-align: justify;
+
+	color: #707376;
+}
+.history_employee_block_1 img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.history_employee_details {
+	padding-bottom: 97px;
+}
+
+/* our history project */
+.our_history_project .tailored_funera_section {
+	padding: 0 0;
+	padding-bottom: 84px;
+}
+
+.our_history_project .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols2 {
+    padding-top: 60px;
+    padding-left: 0;
+    padding-right: 113px;
+}
+.our_history_project p:last-child{
+	padding-top: 35px;
+}
+.our_history_project .home_page_container .always_excels_block .always_excels_block_cols1 .always_excels_block_cols1_image1 {
+    
+    width: 100%;
+}
+/* business */
+.our_history_bussiness .tailored_funera_section {
+    padding: 0 0px;
+	padding-bottom: 120px;
+	border-bottom: 1px solid #F0F0F0;
+}
+.our_history_bussiness .section_details p:last-child{
+	padding-top: 35px;
+	
+}
+.our_history_bussiness .business_thing_our_way_section .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols2 {
+    padding: 0px 0px 0px 0px;
+}
+
+
+/* -----------------medical services-------------- */
+.medical_services_billing .section_details h2{
+	text-transform: capitalize;
+}
+.medical_services_billing .gateway_healthcare_section{
+	padding: 0;
+	padding-top: 120px;
+
+    padding-bottom: 45px;
+	border-bottom: 1px solid #E0E0E0;
+}
+.medical_billing_block_2 .gateway_healthcare_section{
+	padding: 0;
+	padding-top: 82px;
+	padding-bottom: 45px;
+	border-bottom: 1px solid #E0E0E0;
+}
+.medical_billing_block_2 .section_details h2 {
+    line-height: 67px;
+}
+.medical_services_billing .section_details h2 {
+    line-height: 67px;
+}
+.medical_benifits .tailored_funera_section{
+	padding: 82px 0;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+/* media query */
+@media only screen and (max-width: 1366px) {
+	/* map */
+	.contact_map #map {
+		height: 705px;
+	}
+
+	.contact_details_block2 {
+		padding-left: 94px;
+	}
+	.contact_detail_container {
+		padding: 0 20px;
+	}
+	.contact_form_input_1,
+	.contact_form_input_2,
+	.contact_form_input_3,
+	.contact_form_input_4 {
+		display: flex;
+		border-bottom: 1px solid #000000;
+		padding-bottom: 17px;
+		width: 315px;
+	}
+
+	.footer_section .container {
+		max-width: 1292px;
+	}
+
+	/* our office */
+	.office_card_image img {
+		width: 100%;
+	}
+	.contact_our_office {
+		padding-left: 45px;
+		padding-right: 45px;
+	}
+	/* our history */
+	/* business */
+	.our_history_talent_container {
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 50px;
+	}
+}
+
+
+@media only screen and (max-width: 1290px) {
+	.footer_block {
+		flex-basis: 24%;
+		padding-left: 19px;
+	}
+	.footer_inner_layout {
+		display: flex;
+
+		justify-content: normal;
+		flex-wrap: wrap;
+		padding: 54px 20px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	/* map */
+	.contact_map #map {
+		height: 644px;
+	}
+	.contact_details_block2 {
+		padding-left: 40px;
+	}
+	.contact_form_input_1,
+	.contact_form_input_2,
+	.contact_form_input_3,
+	.contact_form_input_4 {
+		width: 280px;
+	}
+	/* footer */
+
+	.footer_section {
+		width: 100%;
+		padding: 0 20px;
+	}
+	.footer_inner_layout {
+		justify-content: normal;
+		flex-wrap: wrap;
+	}
+	.footer_block {
+		flex-basis: 19%;
+	}
+	.footer_section_services a,
+	.footer_section_support a {
+		line-height: 31px;
+	}
+	.footer_block {
+		flex-basis: 49.9%;
+	}
+
+	.footer_section_services.footer_block,
+	.footer_section_date.footer_block {
+		padding-left: 46px;
+	}
+	.line_2 {
+		display: none;
+	}
+	.footer_section_support.footer_block,
+	.footer_section_date {
+		padding-top: 41px;
+	}
+	.footer_section_nexel p {
+		padding-top: 15px;
+	}
+	.footer_likdin img {
+		padding-top: 5px;
+	}
+	.footer_section_nexel h5 {
+		padding-top: 10px;
+	}
+	/* our vision */
+	.our_vision_section .always_excels_block .always_excels_block_cols2 .section_details h2 {
+		width: 100%;
+	}
+
+	/* our mission */
+	.our_mission_section .always_excels_block .always_excels_block_cols2 .section_details h2 {
+		width: 100%;
+	}
+
+	/* our history */
+	.history_employee_block_2 p {
+		font-size: 18px;
+		line-height: 26px;
+	}
+	.our_history_employee .our_vision_content_1 {
+		margin-bottom: 15px;
+	}
+	.history_employee_block_2 {
+		padding-left: 46px;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.contact_detail_container {
+		padding: 0px 45px;
+	}
+	.contact_details_block1 {
+		max-width: 30%;
+	}
+	.contact_details_block2 {
+		width: 70%;
+	}
+	.contact_form_input_1,
+	.contact_form_input_2,
+	.contact_form_input_3,
+	.contact_form_input_4 {
+		width: 100%;
+	}
+	.btn_contact {
+		padding: 12px 23px 12px 27px;
+	}
+	/* our office */
+	.office_card_1 {
+		margin-right: 15px;
+	}
+	.office_card_4 {
+		margin-right: 0;
+	}
+	.contact_our_office {
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+	.contact_our_office {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.office_card_1 {
+		padding-top: 13px;
+		padding-left: 13px;
+		padding-right: 13px;
+		padding-bottom: 20px;
+	}
+	.contact_our_office h3 {
+		font-size: 48px;
+	}
+	/* our history */
+	.history_employee_block_2 {
+		padding-left: 36px;
+	}
+	.history_employee_details h2 {
+		width: 70%;
+		font-size: 47px;
+    line-height: 47px;
+	}
+	.our_history_project .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols2 {
+		padding-top: 60px;
+		padding-left: 0;
+		padding-right: 60px;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.contact_detail_container {
+		padding: 0px 30px;
+	}
+	/* our vision */
+	.our_vision_section p.our_vision_content_1 {
+		padding-bottom: 25px;
+	}
+	/* our misssion */
+	.our_mission_section p.our_vision_content_1 {
+		padding-bottom: 30px;
+	}
+	/* our history */
+	.history_employee_block_2 p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.history_employee_details h2 {
+		width: 70%;
+		font-size: 37px;
+		line-height: 37px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	/* map */
+	.contact_map #map {
+		height: 484px;
+	}
+	.contact_details_block {
+		display: inline-block;
+	}
+	.contact_details {
+		padding: 50px 0;
+	}
+	.contact_details h2 {
+		font-size: 40px;
+	}
+	.contact_details_block1 {
+		padding-bottom: 65px;
+		max-width: 80%;
+		margin: auto;
+	}
+	.contact_details_block {
+		width: 100%;
+		padding-top: 42px;
+		text-align: center;
+	}
+	.contact_details_block1 p {
+		padding-top: 15px;
+	}
+	.contact_details_block1 h4 {
+		padding-top: 14px;
+	}
+	.contact_details_block1 h5 {
+		padding-top: 20px;
+	}
+	.contact_details_block2 {
+		padding-left: 0;
+		margin: auto;
+		width: 80%;
+	}
+
+	.contact_button {
+		padding-top: 43px;
+	}
+	.contact_button button {
+		margin: auto;
+	}
+	/* footer */
+
+	/* our office */
+	.contact_office_card {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.office_card_1 {
+		margin-bottom: 20px;
+		flex-basis: 47.5%;
+	}
+	.office_card_1 {
+		margin-right: 0;
+	}
+	.contact_our_office h3 {
+		padding-bottom: 49px;
+	}
+
+	/* our vision */
+	.our_vision_section p.our_vision_content_1 {
+		padding-bottom: 15px;
+	}
+	/* our mission */
+	.our_mission_section p.our_vision_content_1 {
+		padding-bottom: 19px;
+	}
+
+	/* our history */
+	.history_employee_block_2 {
+		width: 442px;
+		padding-left: 42px;
+	}
+	.history_employee_block {
+		display: inline-block;
+	}
+	.history_employee_block_1,
+	.history_employee_block_2 {
+		width: 100%;
+	}
+	.history_employee_block_2 {
+		padding-top: 27px;
+		padding-left: 0px;
+	}
+	.history_employee_block_2 p {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.history_employee_details h2 {
+		width: 100%;
+		font-size: 36px;
+		line-height: 44px;
+	}
+	.our_history_project .always_excels_block {
+		display: flex;
+		flex-direction: column-reverse !important;
+	}
+	.our_history_project .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols2 {
+		padding-top: 0;
+		padding-left: 0;
+		padding-right: 0px;
+	}
+	.history_employee_details {
+		padding-bottom: 76px;
+	}
+	.our_history_bussiness .tailored_funera_section {
+	
+		padding-bottom: 45px;
+	
+	}
+	.history_employee_details h2 {
+		
+		padding-bottom: 22px;
+	}
+	/* medical services */
+	.medical_services_billing .gateway_healthcare_section {
+		padding: 0;
+		padding-top: 50px;
+		padding-bottom: 30px;
+	}
+	.medical_services_billing .section_details h2 {
+		line-height: 45px;
+	}
+	.medical_benifits .tailored_funera_section {
+		padding: 53px 0;
+		border-bottom: 1px solid #E0E0E0;
+	}
+}
+
+@media only screen and (max-width: 668px) {
+	.footer_block {
+		flex-basis: 100%;
+	}
+	.footer_line {
+		display: none;
+	}
+	.footer_section_nexel.footer_block {
+		padding-bottom: 32px;
+	}
+	.footer_section_services.footer_block,
+	.footer_section_date.footer_block {
+		padding-left: 0px;
+	}
+
+	.footer_section_support.footer_block,
+	.footer_section_date {
+		padding-left: 0px;
+	}
+	.footer_block {
+		padding-left: 0px;
+	}
+}
+@media only screen and (max-width: 650px) {
+	/* map */
+	.contact_map #map {
+		height: 448px;
+	}
+	/* contact */
+	.contact_form_input_5_block {
+		padding-bottom: 22px;
+	}
+	/* footer */
+	.footer_block {
+		flex-basis: 100%;
+	}
+	.footer_line {
+		display: none;
+	}
+	.footer_section_services.footer_block,
+	.footer_section_date.footer_block {
+		padding-left: 0px;
+	}
+	.footer_section_nexel.footer_block {
+		padding-bottom: 32px;
+	}
+	.footer_section_support.footer_block,
+	.footer_section_date {
+		padding-top: 32px;
+	}
+	.footer_section_date h3 {
+		padding-bottom: 28px;
+	}
+	.footer_email input[type="text"] {
+		width: 63%;
+	}
+
+	/* our office */
+	.office_card_1 h4 {
+		padding-top: 12px;
+		font-size: 19px;
+	}
+	.office_card_details p {
+		padding-top: 9px;
+		font-size: 16px;
+		line-height: 29px;
+		padding-bottom: 13px;
+	}
+
+	/* history */
+	.history_employee_details {
+		padding-bottom: 50px;
+	}
+	.our_history_project .tailored_funera_section {
+		padding: 0 0;
+		padding-bottom: 50px;
+	}
+	/* medical services */
+	.medical_services_billing .section_details h2 {
+		line-height: 42px;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.history_employee_block_2 p {
+		font-size: 14.5px;
+		line-height: 22px;
+	}
+	.history_employee_details h2 {
+		
+		font-size: 33px;
+		
+	}
+
+	
+}
+@media only screen and (max-width: 540px) {
+	.contact_button {
+		padding-top: 26px;
+	}
+	.contact_details_block2 {
+		width: 94%;
+	}
+	.contact_details h2 {
+		font-size: 30px;
+	}
+	.contact_details {
+		padding: 34px 0;
+	}
+	.contact_details_block {
+		padding-top: 18px;
+	}
+	.contact_form_input_third {
+		padding-top: 43px;
+	}
+
+	.contact_detail_container {
+		padding: 0px 10px;
+	}
+	/* our office */
+	.contact_our_office {
+		padding-top: 42px;
+		padding-bottom: 42px;
+	}
+	.contact_our_office h3 {
+		font-size: 38px;
+	}
+	.contact_our_office h3 {
+		padding-bottom: 34px;
+	}
+}
+@media only screen and (max-width: 420px) {
+	.btn_contact {
+		padding: 8px 16px 9px 14px;
+		min-width: 62px;
+	}
+	.contact_details_block2 input[type="text"],
+	textarea {
+		font-size: 12px;
+		line-height: 11px;
+		letter-spacing: 1px;
+		padding-left: 6px;
+	}
+	/* our office */
+	.office_card_1 {
+		flex-basis: 100%;
+	}
+	.history_employee_details h2 {
+		width: 100%;
+		font-size: 27px;
+		line-height: 33px;
+	}
+	/* medical */
+	.medical_benifits .tailored_funera_section {
+		padding: 39px 0;
+		border-bottom: 1px solid #E0E0E0;
+	}
+}
+@media only screen and (max-width: 375px) {
+	.footer_email input[type="text"] {
+		width: 75%;
+	}
+	.medical_services_billing .section_details h2 {
+		line-height: 35px;
+	}
+}

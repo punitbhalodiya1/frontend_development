@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    
+    <link rel="stylesheet" href="css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="css/dashboard.css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+</head>
+<body>
+
+<div id="myDIV" class="side-bar-area-main">
+    <div class="side-bar-inner-box">
+        <div class="side-bar-logo">
+            <a href='#'>
+                <img src="images/tg-logo-white.svg" alt="img" />
+            </a>
+        </div>
+        <div class="side-bar-links-area">
+            <div class="side-bar-links active-links">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="42.688" height="38.198" viewBox="0 0 42.688 38.198">
+                        <g id="Group_220" data-name="Group 220" transform="translate(0 0)" opacity="0.503">
+                          <g id="Group_219" data-name="Group 219" transform="translate(0 0)">
+                            <path id="Path_433" data-name="Path 433" d="M1291.732,3302.368l-20.74,20.611h5.573v17.564h10.519v-14.638h8.65v14.661h10.582v-17.711h7.365Z" transform="translate(-1270.992 -3302.368)" fill="#fff"/>
+                          </g>
+                        </g>
+                    </svg>                      
+                </a>
+            </div>
+            <div class="side-bar-links">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="27.191" height="41.059" viewBox="0 0 27.191 41.059">
+                        <g id="_490" data-name="490" transform="translate(0)" opacity="0.494">
+                          <path id="Path_425" data-name="Path 425" d="M1435.723,3301.278h-2.6c-1.193,0-1.756.982-2.254,1.849l-.187.333a.413.413,0,0,1-.033.055h-.86a3.25,3.25,0,0,1-.556-.8,2.534,2.534,0,0,0-2.1-1.44l-4.987,0c-.286.012-7.021.357-9.912,5.711-.474.878-1.308,3.141-1.4,3.4a.973.973,0,0,0,1.458,1.14,12,12,0,0,1,5.747-1.9c.221,0,.442.009.612.027a1.945,1.945,0,0,1,1.136.848l.418.777c.392.775.837,1.652,2.126,1.652h5.023a2.482,2.482,0,0,0,2.308-1.884l.3-.858a.144.144,0,0,1,.02-.027h.505a3.183,3.183,0,0,1,.393.841.761.761,0,0,0,.068.17l.1.212a2.018,2.018,0,0,0,2.08,1.36h2.6a2.462,2.462,0,0,0,2.236-2.681v-6.107A2.464,2.464,0,0,0,1435.723,3301.278Z" transform="translate(-1410.768 -3301.278)" fill="#fff"/>
+                          <path id="Path_426" data-name="Path 426" d="M1427.23,3314.081h-4.375a.972.972,0,0,0-.972.918l-1.458,25.392a.971.971,0,0,0,.358.81,6.35,6.35,0,0,0,3.905,1.136,11.046,11.046,0,0,0,4.389-1,.973.973,0,0,0,.583-.947L1428.2,3315A.973.973,0,0,0,1427.23,3314.081Z" transform="translate(-1410.768 -3301.278)" fill="#fff"/>
+                        </g>
+                    </svg>                      
+                </a>
+            </div>
+            <div class="side-bar-links">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30.729" height="30.931" viewBox="0 0 30.729 30.931">
+                        <path id="Path_432" data-name="Path 432" d="M1365.716,3312.567v-3.744a.952.952,0,0,0-.982-.919h-3.083V3305a.952.952,0,0,0-.982-.92h-3.961a.952.952,0,0,0-.981.92v2.9h-10.513V3305a.952.952,0,0,0-.981-.92h-3.961a.953.953,0,0,0-.982.92v2.9h-3.273a.953.953,0,0,0-.982.919v3.744h-.024v20.665a1.846,1.846,0,0,0,1.9,1.781h26.926a1.846,1.846,0,0,0,1.9-1.781v-20.665Zm-24.005-5.436a.492.492,0,0,1,.982,0v4.346a.492.492,0,0,1-.982,0Zm2.348,23.083a.892.892,0,0,1-.919.861h-3.106a.892.892,0,0,1-.92-.861v-2.908a.892.892,0,0,1,.92-.861h3.106a.892.892,0,0,1,.919.861Zm0-8.883a.892.892,0,0,1-.919.863h-3.106a.893.893,0,0,1-.92-.863v-2.907a.891.891,0,0,1,.92-.861h3.106a.891.891,0,0,1,.919.861Zm8.788,8.883a.891.891,0,0,1-.92.861h-3.1a.891.891,0,0,1-.919-.861v-2.908a.891.891,0,0,1,.919-.861h3.1a.891.891,0,0,1,.92.861Zm0-8.883a.892.892,0,0,1-.92.863h-3.1a.892.892,0,0,1-.919-.863v-2.907a.891.891,0,0,1,.919-.861h3.1a.891.891,0,0,1,.92.861Zm5.279-14.192a.492.492,0,0,1,.981,0v4.346a.492.492,0,0,1-.981,0Zm3.51,23.075a.892.892,0,0,1-.92.861h-3.106a.892.892,0,0,1-.92-.861v-2.908a.892.892,0,0,1,.92-.861h3.106a.892.892,0,0,1,.92.861Zm0-8.883a.893.893,0,0,1-.92.863h-3.106a.892.892,0,0,1-.92-.863v-2.907a.891.891,0,0,1,.92-.861h3.106a.891.891,0,0,1,.92.861Z" transform="translate(-1335.01 -3304.083)" fill="#fff" opacity="0.503"/>
+                    </svg>                      
+                </a>
+            </div>
+            <div class="side-bar-links">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32.879" height="35.977" viewBox="0 0 32.879 35.977">
+                        <g id="Group_218" data-name="Group 218" transform="translate(0)" opacity="0.494">
+                          <path id="Path_427" data-name="Path 427" d="M1476.578,3316.7v-3.865a1.077,1.077,0,0,0-.912-1.185h-1.255a1.075,1.075,0,0,0-.91,1.185v3.865a1.079,1.079,0,0,0,.91,1.188h1.255A1.081,1.081,0,0,0,1476.578,3316.7Z" transform="translate(-1473.501 -3303.819)" fill="#fff" fill-rule="evenodd"/>
+                          <path id="Path_428" data-name="Path 428" d="M1505.472,3311.65h-1.256a1.075,1.075,0,0,0-.911,1.185v3.865a1.079,1.079,0,0,0,.911,1.188h1.256a1.081,1.081,0,0,0,.909-1.188v-3.865A1.077,1.077,0,0,0,1505.472,3311.65Z" transform="translate(-1473.502 -3303.819)" fill="#fff" fill-rule="evenodd"/>
+                          <path id="Path_429" data-name="Path 429" d="M1502.563,3332.233h-25.291l-.9-.945s-1.151,3.48.66,4.3h2.9a.626.626,0,0,0-.083.3v2.634a1.277,1.277,0,0,0,1.274,1.275h2.287a1.277,1.277,0,0,0,1.274-1.275v-2.634a.637.637,0,0,0-.083-.3h10.835a.626.626,0,0,0-.083.3v2.634a1.274,1.274,0,0,0,1.27,1.275h2.289a1.276,1.276,0,0,0,1.273-1.275v-2.634a.637.637,0,0,0-.083-.3h2.7c1.552-.764.661-4.3.661-4.3Z" transform="translate(-1473.501 -3303.819)" fill="#fff" fill-rule="evenodd"/>
+                          <path id="Path_430" data-name="Path 430" d="M1489.872,3308.2c5.267,0,12.2.137,12.2.137v-4.07s-5.159-.449-12.307-.449h-.14c-7.147,0-12.168.449-12.168.449v4.07s6.936-.137,12.2-.137Z" transform="translate(-1473.501 -3303.819)" fill="#fff" fill-rule="evenodd"/>
+                          <path id="Path_431" data-name="Path 431" d="M1500.385,3309.05h-21.045c-1.233,0-1.593.987-1.756,1.685l-1.007,8.8v11.084a1.6,1.6,0,0,0,1.616,1.586h23.493a1.6,1.6,0,0,0,1.617-1.586l-.006-11.084-1.2-8.8C1501.945,3310.037,1501.552,3309.05,1500.385,3309.05Zm-8.785,4.063a.853.853,0,0,1,.852-.853h6.257a.853.853,0,0,1,.854.853l.85,5.291a.85.85,0,0,1-.85.852h-7.111a.852.852,0,0,1-.852-.852Zm-11.19,0a.852.852,0,0,1,.852-.853h6.258a.853.853,0,0,1,.852.853v5.291a.852.852,0,0,1-.852.852h-7.11a.852.852,0,0,1-.854-.852Zm2.511,15.9a.653.653,0,0,1-.653.654h-2.147a.653.653,0,0,1-.654-.654v-1.456a.654.654,0,0,1,.654-.654h2.147a.653.653,0,0,1,.653.654Zm-.416-5.2h-2.623a.654.654,0,1,1,0-1.307h2.623a.654.654,0,1,1,0,1.307Zm11.427,6.136h-8.026a.654.654,0,0,1,0-1.308h8.026a.654.654,0,0,1,0,1.308Zm0-3.067h-8.026a.654.654,0,1,1,0-1.308h8.026a.654.654,0,0,1,0,1.308Zm0-3.069h-8.026a.654.654,0,1,1,0-1.307h8.026a.654.654,0,0,1,0,1.307Zm6.506,5.2a.654.654,0,0,1-.654.654h-2.148a.653.653,0,0,1-.653-.654v-1.456a.653.653,0,0,1,.653-.654h2.148a.654.654,0,0,1,.654.654Zm-.417-5.2H1497.4a.654.654,0,1,1,0-1.307h2.622a.654.654,0,1,1,0,1.307Z" transform="translate(-1473.501 -3303.819)" fill="#fff" fill-rule="evenodd"/>
+                        </g>
+                    </svg>                      
+                </a>
+            </div>
+            <div class="side-bar-links">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30.665" height="33.323" viewBox="0 0 30.665 33.323">
+                        <path id="_13" data-name="13" d="M1558.174,3311.168a1.128,1.128,0,0,0,.029-.249v-2.894a1.483,1.483,0,0,1,1.5-1.464h25.372a1.179,1.179,0,1,0,0-2.358H1559.7a3.872,3.872,0,0,0-3.911,3.822v2.894a1.147,1.147,0,0,0,.04.288v26.318h30.625v-26.357h-28.28Zm8.979,7.89c.194-.166.268,0,.268,0,.341-2.3,1.806-4.028,3.563-4.028,1.651,0,3.045,1.527,3.489,3.617a.381.381,0,0,1,.142.1,1.945,1.945,0,0,1,.168,2.2c-.123.279-.255.256-.255.256a5.758,5.758,0,0,1-1,2.468l-.284.346-.012.014.007-.007-.015.018a3.12,3.12,0,0,1-2.245,1.038,3.417,3.417,0,0,1-2.172-.978,5.454,5.454,0,0,1-1.355-2.829.126.126,0,0,1-.168-.07A2.109,2.109,0,0,1,1567.153,3319.058Zm6.388,4.6-.008,0,.006-.009Zm-4.759.417c-.008-.007-.018-.011-.026-.017v-.007A.276.276,0,0,0,1568.782,3324.08Zm12.585,8.336h-20.406v-2.4c.1-3.073,7.265-3.689,7.265-3.689a2.632,2.632,0,0,0,.468-1.126,3.779,3.779,0,0,0,2.269.9h.061a3.652,3.652,0,0,0,2.573-1.194,3.212,3.212,0,0,0,.5,1.417s7.169.616,7.267,3.689Z" transform="translate(-1555.789 -3304.203)" fill="#fff" opacity="0.494"/>
+                    </svg>                      
+                </a>
+            </div>
+            <div class="side-bar-links">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34.877" height="31.307" viewBox="0 0 34.877 31.307">
+                        <g id="_172" data-name="172" transform="translate(0)" opacity="0.494">
+                          <g id="_8" data-name="8" transform="translate(22.221 19.823)">
+                            <path id="Path_410" data-name="Path 410" d="M1670.416,3326.283a1.549,1.549,0,1,0,1.544,1.552A1.547,1.547,0,0,0,1670.416,3326.283Z" transform="translate(-1664.112 -3324.527)" fill="#fff"/>
+                            <path id="Path_411" data-name="Path 411" d="M1675.563,3324.369h-11.1a.776.776,0,0,0-.776.772v9.941a.775.775,0,0,0,.776.772h11.1a.775.775,0,0,0,.778-.772v-9.941A.776.776,0,0,0,1675.563,3324.369Zm-.633,8.2h-2.339v-1.048a2,2,0,0,0-1.976-2.028h-1.265a2.005,2.005,0,0,0-1.977,2.028v1.048h-2.278v-6.837h9.836Z" transform="translate(-1663.684 -3324.369)" fill="#fff"/>
+                          </g>
+                          <path id="Path_412" data-name="Path 412" d="M1655.362,3325.489c0-2.148,1.381-3.9,3.078-3.9h8.7l.725-2.309a4.056,4.056,0,0,0-.282-3.047,3.324,3.324,0,0,0-2.378-1.6h-23a1.929,1.929,0,0,0-2.029,1.539c-.01.04-.02.079-.033.119l-3.74,11.613v-5.832l2.212-6.761c.275-1.149,1.354-3.162,3.613-2.956l18.313,0a1.486,1.486,0,0,0,.941-1.484,1.39,1.39,0,0,0-1.2-1.521h-10.652a5.01,5.01,0,0,0-4.413-3.6h-6.531a5.107,5.107,0,0,0-4.65,5.148v18.42c0,2.839,1.822,5.148,4.062,5.148h17.262Z" transform="translate(-1634.037 -3305.752)" fill="#fff"/>
+                        </g>
+                    </svg>                      
+                </a>
+            </div>
+            <div class="side-bar-links">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34.043" height="27.609" viewBox="0 0 34.043 27.609">
+                        <g id="_352" data-name="352" transform="translate(0)" opacity="0.494">
+                          <g id="Group_212" data-name="Group 212" transform="translate(3.422 0)">
+                            <g id="Group_210" data-name="Group 210">
+                              <path id="Path_406" data-name="Path 406" d="M1805.795,3301.764a7.2,7.2,0,0,0-1.368-1.05,15.887,15.887,0,0,0-10.217-2.5,1.22,1.22,0,0,0-1.33,1.069v16.785c0,.593-.027,1.348,1.048,1.33,0,0,5.455-.931,11.867,5.583Z" transform="translate(-1792.88 -3298.142)" fill="#fff"/>
+                            </g>
+                            <g id="Group_211" data-name="Group 211" transform="translate(13.941 0.015)">
+                              <path id="Path_407" data-name="Path 407" d="M1821.095,3298.234a15.89,15.89,0,0,0-10.217,2.5,10.751,10.751,0,0,0-1.369,1.1v21.141a15.7,15.7,0,0,1,11.759-4.927c1.156-.013,1.081-.286,1.156-.888V3299.3A1.221,1.221,0,0,0,1821.095,3298.234Z" transform="translate(-1809.509 -3298.159)" fill="#fff"/>
+                            </g>
+                          </g>
+                          <g id="Group_215" data-name="Group 215" transform="translate(0 1.327)">
+                            <g id="Group_213" data-name="Group 213" transform="translate(17.385 0.099)">
+                              <path id="Path_408" data-name="Path 408" d="M1826.176,3319.346v-18.792a.442.442,0,0,0-.151-.34,2.012,2.012,0,0,0-2.063-.168v18.5l-.008.059-.016.138c-.122,1.124-.612,1.508-1.937,1.524h-.055c-.012,0-.164-.011-.428-.011a15.982,15.982,0,0,0-11.468,5l-.514.556v.217a.916.916,0,0,0,.279-.144l1.663-.92a29.521,29.521,0,0,1,12.2-2.793,2.5,2.5,0,0,0,2.046-.7A2.925,2.925,0,0,0,1826.176,3319.346Z" transform="translate(-1809.535 -3299.843)" fill="#fff"/>
+                            </g>
+                            <g id="Group_214" data-name="Group 214">
+                              <path id="Path_409" data-name="Path 409" d="M1805.439,3325.788l-.5-.506c-5.107-5.187-9.584-5.747-11.272-5.747a4.9,4.9,0,0,0-.693.04l-.05.009h-.1a1.718,1.718,0,0,1-1.353-.536,2.4,2.4,0,0,1-.46-1.671v-17.355a1.94,1.94,0,0,0-2.045-.03.435.435,0,0,0-.171.353v20.115c0,.971.7,1.552,1.875,1.552h0a28.033,28.033,0,0,1,13.14,3.158l1.325.683a1.405,1.405,0,0,0,.3.137Z" transform="translate(-1788.797 -3299.725)" fill="#fff"/>
+                            </g>
+                          </g>
+                        </g>
+                    </svg>                      
+                </a>
+            </div>
+            <div class="side-bar-links">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34.836" height="31.328" viewBox="0 0 34.836 31.328">
+                        <g id="_406" data-name="406" transform="translate(0)" opacity="0.494">
+                          <g id="Group_216" data-name="Group 216" transform="translate(15.384)">
+                            <path id="Path_413" data-name="Path 413" d="M1899.937,3308.083a.885.885,0,0,0-.757-1.6c-10.012,4.734-16.521.271-16.793.08a.884.884,0,0,0-1.026,1.44,16.012,16.012,0,0,0,8.856,2.416A22.617,22.617,0,0,0,1899.937,3308.083Z" transform="translate(-1880.991 -3298.675)" fill="#fff"/>
+                            <path id="Path_414" data-name="Path 414" d="M1899.481,3310.615c-6.864,3.243-12.152,2.095-14.69,1.123a.884.884,0,1,0-.634,1.651,17.929,17.929,0,0,0,6.385,1.136,22.571,22.571,0,0,0,9.7-2.31.885.885,0,0,0-.757-1.6Z" transform="translate(-1881.292 -3299.153)" fill="#fff"/>
+                            <path id="Path_415" data-name="Path 415" d="M1899.481,3314.744c-6.859,3.241-12.148,2.095-14.689,1.123a.885.885,0,0,0-.632,1.653,17.927,17.927,0,0,0,6.383,1.134,22.559,22.559,0,0,0,9.695-2.31.885.885,0,0,0-.757-1.6Z" transform="translate(-1881.292 -3299.632)" fill="#fff"/>
+                            <path id="Path_416" data-name="Path 416" d="M1899.481,3318.871c-6.859,3.243-12.149,2.1-14.692,1.125a.884.884,0,1,0-.63,1.652,17.926,17.926,0,0,0,6.383,1.134,22.551,22.551,0,0,0,9.7-2.312.885.885,0,0,0-.757-1.6Z" transform="translate(-1881.292 -3300.11)" fill="#fff"/>
+                            <path id="Path_417" data-name="Path 417" d="M1884.157,3326.291a17.9,17.9,0,0,0,6.385,1.138,22.581,22.581,0,0,0,9.7-2.313.884.884,0,0,0-.757-1.6c-6.866,3.245-12.152,2.094-14.69,1.122a.884.884,0,0,0-.634,1.651Z" transform="translate(-1881.292 -3300.648)" fill="#fff"/>
+                            <path id="Path_418" data-name="Path 418" d="M1899.481,3327.647c-6.859,3.241-12.148,2.1-14.692,1.124a.884.884,0,1,0-.63,1.651,17.909,17.909,0,0,0,6.383,1.135,22.564,22.564,0,0,0,9.7-2.31.884.884,0,0,0-.757-1.6Z" transform="translate(-1881.292 -3301.126)" fill="#fff"/>
+                            <path id="Path_419" data-name="Path 419" d="M1890.739,3305.187c5.28,0,9.56-1.685,9.56-3.763s-4.279-3.761-9.56-3.761-9.56,1.684-9.56,3.761S1885.459,3305.187,1890.739,3305.187Zm-3.188-5.064c.212-.593,1.8-.729,2.857-.75v-.35a.332.332,0,0,1,.663,0v.359a13.456,13.456,0,0,1,2.712.347.331.331,0,1,1-.2.632,13.961,13.961,0,0,0-2.98-.328,5.891,5.891,0,0,0-2.463.389c.106.088.627.368,2.538.348h.115c2.493,0,2.982.407,3.151.723a.573.573,0,0,1-.019.586c-.212.594-1.8.73-2.857.751v.337a.332.332,0,0,1-.663,0v-.344a14.793,14.793,0,0,1-2.707-.272.332.332,0,0,1-.224-.413.329.329,0,0,1,.412-.223,16.3,16.3,0,0,0,2.984.256,5.891,5.891,0,0,0,2.463-.39c-.105-.087-.631-.354-2.538-.347h-.115c-2.508,0-2.982-.408-3.151-.725A.573.573,0,0,1,1887.551,3300.123Z" transform="translate(-1881.013 -3297.663)" fill="#fff"/>
+                          </g>
+                          <g id="Group_217" data-name="Group 217" transform="translate(0 9.072)">
+                            <path id="Path_420" data-name="Path 420" d="M1872.816,3320.179a22.616,22.616,0,0,0,9.72-2.336.884.884,0,0,0-.754-1.6c-10.007,4.732-16.514.277-16.793.08a.885.885,0,0,0-1.027,1.44A16,16,0,0,0,1872.816,3320.179Z" transform="translate(-1863.591 -3308.877)" fill="#fff"/>
+                            <path id="Path_421" data-name="Path 421" d="M1881.782,3320.375c-10,4.723-16.5.283-16.792.08a.884.884,0,1,0-1.027,1.438,15.98,15.98,0,0,0,8.853,2.416,22.635,22.635,0,0,0,9.72-2.334.884.884,0,1,0-.754-1.6Z" transform="translate(-1863.591 -3309.356)" fill="#fff"/>
+                            <path id="Path_422" data-name="Path 422" d="M1881.782,3324.5c-10.008,4.73-16.514.277-16.793.08a.885.885,0,0,0-1.027,1.44,16,16,0,0,0,8.854,2.416,22.616,22.616,0,0,0,9.72-2.336.884.884,0,0,0-.754-1.6Z" transform="translate(-1863.591 -3309.834)" fill="#fff"/>
+                            <path id="Path_423" data-name="Path 423" d="M1881.782,3328.633c-10.009,4.728-16.515.276-16.794.079a.884.884,0,0,0-1.026,1.44,16,16,0,0,0,8.853,2.416,22.641,22.641,0,0,0,9.72-2.336.884.884,0,1,0-.754-1.6Z" transform="translate(-1863.591 -3310.312)" fill="#fff"/>
+                            <path id="Path_424" data-name="Path 424" d="M1873.334,3315.475c5.3,0,9.6-1.69,9.6-3.776s-4.3-3.775-9.6-3.775-9.595,1.69-9.595,3.775S1868.034,3315.475,1873.334,3315.475Zm.057-3.73h-.114c-2.433.011-2.923-.4-3.089-.713a.568.568,0,0,1,.018-.582c.206-.581,1.76-.717,2.8-.737v-.337a.332.332,0,0,1,.663,0v.345a13.3,13.3,0,0,1,2.655.339.334.334,0,0,1,.218.416.33.33,0,0,1-.416.217,13.66,13.66,0,0,0-2.921-.323,5.741,5.741,0,0,0-2.4.377c.11.086.607.338,2.475.334h.114c2.4.012,2.927.4,3.094.713a.568.568,0,0,1-.018.58c-.209.583-1.763.719-2.8.737v.327a.332.332,0,0,1-.663,0v-.332a14.279,14.279,0,0,1-2.65-.27.331.331,0,0,1-.223-.413.335.335,0,0,1,.412-.223,15.754,15.754,0,0,0,2.923.252,5.8,5.8,0,0,0,2.4-.375C1875.756,3311.992,1875.253,3311.762,1873.391,3311.744Z" transform="translate(-1863.608 -3307.923)" fill="#fff"/>
+                          </g>
+                        </g>
+                    </svg>                      
+                </a>
+            </div>
+            <div class="side-bar-links">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="33.597" height="28.5" viewBox="0 0 33.597 28.5">
+                        <path id="_413" data-name="413" d="M1751.824,3322.338H1748v-17.45h-4.516v17.45H1738.9V3301.3h-4.516v21.035h-4.306v-12.49h-4.515v12.49h-3.259v-25.858a.88.88,0,0,0-.88-.88h-1.439a.88.88,0,1,0,0,1.761h.559v4.925h-.559a.88.88,0,1,0,0,1.761h.559v4.921h-.559a.88.88,0,1,0,0,1.761h.559v4.924h-.559a.881.881,0,0,0,0,1.761h.559v4.925h-.559a.88.88,0,1,0,0,1.761h31.837a.88.88,0,0,0,0-1.761Z" transform="translate(-1719.107 -3295.599)" fill="#fff" opacity="0.494"/>
+                    </svg>                      
+                </a>
+            </div>
+            <div class="side-bar-links">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="31.659" height="32.591" viewBox="0 0 31.659 32.591">
+                        <path id="_9" data-name="9" d="M2073.71,3324.358l-4.039-2.331-.006-.009c.021-1.524-.032-2.305-.029-3.752l4.06-2.345a.858.858,0,0,0,.314-1.169l-3.191-5.52a.854.854,0,0,0-1.169-.313l-4.036,2.33-.011-.008c-1.333-.751-1.888-1.122-3.266-1.878v-4.651a.856.856,0,0,0-.857-.855h-6.375a.856.856,0,0,0-.857.855v4.305c-1.481,1.1-3.272,2.252-3.272,2.252l-4.027-2.325a.853.853,0,0,0-1.169.315l-3.187,5.517a.857.857,0,0,0,.313,1.17l3.822,2.166c-.015,1.81,0,4.074,0,4.074l-3.808,2.2a.859.859,0,0,0-.313,1.171l3.187,5.522a.857.857,0,0,0,1.171.311l4.037-2.329,0,.008a35.34,35.34,0,0,0,3.271,1.932v4.595a.856.856,0,0,0,.858.857h6.374a.856.856,0,0,0,.857-.857V3331a25.849,25.849,0,0,0,3.27-1.961l4.029,2.327a.857.857,0,0,0,1.169-.315l3.189-5.518A.857.857,0,0,0,2073.71,3324.358Zm-15.508,1.668a5.85,5.85,0,1,1,5.849-5.849A5.848,5.848,0,0,1,2058.2,3326.026Z" transform="translate(-2042.479 -3303.857)" fill="#fff" opacity="0.494"/>
+                    </svg>                      
+                </a>
+            </div>
+        </div>
+        <div class="profile-pic">
+            <a href="#"><img src="images/last-icon.svg" alt="img"/></a>
+        </div>
+    </div>
+</div>
+<div class="blur-effect" onclick="myFunction()"></div>
+
+<div class="page-start-here">
+    <div class="header-box-main">
+        <div class="inner-box-main">
+            <div class="left-side-boxed-main">
+                <div class="title-text">Vaata juhendit</div>
+                <div class="logout-boxed-main">
+                    <span>Joonas</span> ootel
+                    <div class="img-boxed">
+                        <img src="images/logout-icon.svg" alt="logout" />
+                    </div>
+                </div>
+            </div>
+            <div class="right-sie-boxed-main">
+               
+                <button class="toggle-btn-main" onclick="myFunction()">
+                    <img src='images/icon-menu.svg' alt="img" />
+                </button>
+                <div class="input-boxed-main">
+                    <img src='images/Search.svg' alt="img" class="search-icons" />
+                    <input type="text" placeholder='Otsing' />
+                </div>
+                <div class="notifications-bell-main">
+                    <div class="not-bell">
+                        <img src="images/notifications-bell.svg" alt="img" />
+                    </div>
+                    <div class="est-dropdowns">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              EST
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="inner-box-main-padding-main">
+        <div class="first-dash-row-main">
+            <div class="inner-left-boxed">Hiljuti vaadatud lehed</div>
+            <div class="inner-right-boxed">
+                <div class="tag-boxed">
+                    <img src="images/Text-file.svg" alt="img" class="img-file" />
+                    PAKKUMINE 2
+                    <img src="images/cross-icon.svg" alt="img" class='cross-img' />
+                </div>
+                <div class="tag-boxed">
+                    <img src="images/hammer-outline.svg" alt="img" class="img-file" />
+                    Töö 2
+                    <img src="images/cross-icon.svg" alt="img" class='cross-img' />
+                </div>
+                <div class="tag-boxed">
+                    <img src="images/Text-file.svg" alt="img" class="img-file" />
+                    PAKKUMINE 2
+                    <img src="images/cross-icon.svg" alt="img" class='cross-img' />
+                </div>
+                <div class="tag-boxed">
+                    <img src="images/hammer-outline.svg" alt="img" class="img-file" />
+                    Töö 2
+                    <img src="images/cross-icon.svg" alt="img" class='cross-img' />
+                </div>
+                <div class="tag-boxed">
+                    <img src="images/Text-file.svg" alt="img" class="img-file" />
+                    PAKKUMINE 2
+                    <img src="images/cross-icon.svg" alt="img" class='cross-img' />
+                </div>
+                <div class="tag-boxed">
+                    <img src="images/hammer-outline.svg" alt="img" class="img-file" />
+                    Töö 2
+                    <img src="images/cross-icon.svg" alt="img" class='cross-img' />
+                </div>
+                <div class="tag-boxed">
+                    <img src="images/Text-file.svg" alt="img" class="img-file" />
+                    PAKKUMINE 2
+                    <img src="images/cross-icon.svg" alt="img" class='cross-img' />
+                </div>
+                <div class="tag-boxed">
+                    <img src="images/hammer-outline.svg" alt="img" class="img-file" />
+                    Töö 2
+                    <img src="images/cross-icon.svg" alt="img" class='cross-img' />
+                </div>
+            </div>
+        </div>
+
+        <div class="white-box-main">
+            <div class="comman-title mb-4 px-4 pt-4">Aktiivsed tööd</div>
+            <div class="tood-table-main over-flow-table">
+                <table id="example" class="display">
+                    <thead>
+                        <tr>
+                            <th style="width: 10%;">NR</th>
+                            <th style="width: 10%;">NIMI</th>
+                            <th style="width: 14%;">KONTAKTISIK</th>
+                            <th style="width: 34%;">SÕIDUK</th>
+                            <th style="width: 10%;">LISATUD</th>
+                            <th style="width: 10%;">MÜÜGILADU</th>
+                            <th style="width: 10%;">STAATUS</th>
+                            <th data-orderable="false" style="width: 1%;"></th>
+                            <th data-orderable="false" style="width: 1%;"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+        
+                        <tr class="red-row">
+                            <td>154BCD</td>
+                            <td>Remont</td>
+                            <td>Siim Sõmerjalg</td>
+                            <td><div class="big-text" >NR: 888OOK; VIN: WAUZZZ4F48N143027 <br/> (AUDI; A6; 171 kw; 2967 ccm;; 2008)</div></td>
+                            <td>14.08.21</td>
+                            <td>Tallinna ladu</td>
+                            <td>
+                                <div class="inner-boxed-main">
+                                    <div class="red-labal">Üle tähtaja</div>
+                                </div>
+                            </td>
+                            <td>
+                            </td>
+                            <td>
+                                <div class="more-btn"> <img src="images/More.svg" alt="img" /></div>
+                            </td>
+                        </tr>
+                        <tr class="yellow-row">
+                            <td>154BCD</td>
+                            <td>Remont</td>
+                            <td>Siim Sõmerjalg</td>
+                            <td><div class="big-text" >NR: 888OOK; VIN: WAUZZZ4F48N143027 <br/> (AUDI; A6; 171 kw; 2967 ccm;; 2008)</div></td>
+                            <td>14.08.21</td>
+                            <td>Tallinna ladu</td>
+                            <td>
+                                <div class="inner-boxed-main">
+                                    <div class="yellow-labal">Varuosa vaja</div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="inner-boxed-main invoice-icon">
+                                    <div class="icon-pics" data-bs-toggle="modal" data-bs-target="#invoiceModal">
+                                        <img src="images/green-invoice-1.svg" alt="img" />
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="more-btn"> <img src="images/More.svg" alt="img" /></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>154BCD</td>
+                            <td>Remont</td>
+                            <td>Siim Sõmerjalg</td>
+                            <td><div class="big-text" >NR: 888OOK; VIN: WAUZZZ4F48N143027 <br/> (AUDI; A6; 171 kw; 2967 ccm;; 2008)</div></td>
+                            <td>14.08.21</td>
+                            <td>Tallinna ladu</td>
+                            <td>
+                                <div class="inner-boxed-main">
+                                    <div class="green-labal">Valmis</div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="inner-boxed-main invoice-icon">
+                                    <div class="icon-pics">
+                                        <img src="images/invoice-yellow-icon.svg" alt="img" />
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="more-btn"> <img src="images/More.svg" alt="img" /></div>
+                            </td>
+                        </tr>
+                        <tr class="blue-row">
+                            <td>154BCD</td>
+                            <td>Remont</td>
+                            <td>Siim Sõmerjalg</td>
+                            <td><div class="big-text" >NR: 888OOK; VIN: WAUZZZ4F48N143027 <br/> (AUDI; A6; 171 kw; 2967 ccm;; 2008)</div></td>
+                            <td>14.08.21</td>
+                            <td>Tallinna ladu</td>
+                            <td>
+                                <div class="inner-boxed-main">
+                                    <div class="blues-labal">Saabumas</div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="inner-boxed-main invoice-icon">
+                                    <div class="icon-pics">
+                                        <img src="images/invoice-yellow-icon.svg" alt="img" />
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="more-btn"> <img src="images/More.svg" alt="img" /></div>
+                            </td>
+                        </tr>
+        
+                    </tbody>     
+                </table>
+            </div>
+        </div>
+    
+        <div class="white-box-main">
+            <div class="comman-title mb-4 px-4 pt-4">Aktiivsed pakkumised</div>
+            <div class="tood-table-main over-flow-table">
+                <table id="example1" class="display">
+                    <thead>
+                        <tr>
+                            <th style="width: 9%;">Nr</th>
+                            <th style="width: 9%;">Töö NR</th>
+                            <th style="width: 16%;">Pakkumise nimi</th>
+                            <th style="width: 34%;">Pakkumise saaja</th>
+                            <th style="width: 10%;">Summa</th>
+                            <th style="width: 10%;">Lõpetatud</th>
+                            <th style="width: 10%;">Müügiladu</th>
+                            <th style="width: 10%;">STAATUS</th>
+                            <th data-orderable="false" style="width: 2%;"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+        
+                        <tr class="red-row">
+                            <td>154BCD</td>
+                            <td>154BCD</td>
+                            <td>Remont</td>
+                            <td><div class="big-text" >Trumpauto OÜ Harju maakond, Tallinn,<br/>Kristiine linnaosa, Keemia tn 4 Reg nr: 14639421</div></td>
+                            <td>610.00 €</td>
+                            <td>14.08.21</td>
+                            <td>Tallinna ladu</td>
+                            <td>
+                                <div class="inner-boxed-main">
+                                    <div class="red-labal">Vaata pakkumist</div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="more-btn"> <img src="images/More.svg" alt="img" /></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>007JBD</td>
+                            <td></td>
+                            <td>Töö 123</td>
+                            <td><div class="big-text" >Trumpauto OÜ Harju maakond, Tallinn,<br/>Kristiine linnaosa, Keemia tn 4 Reg nr: 14639421</div></td>
+                            <td>412.56 €</td>
+                            <td>14.08.21</td>
+                            <td>Tallinna ladu</td>
+                            <td>
+                                <div class="inner-boxed-main">
+                                    <div class="yellow-labal">Saadetud</div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="more-btn"> <img src="images/More.svg" alt="img" /></div>
+                            </td>
+                        </tr>
+                        <tr class="yellow-row">
+                            <td>354MFU</td>
+                            <td>354MFU</td>
+                            <td>Diagnostika</td>
+                            <td><div class="big-text" >Peeter, 1234567788 777ZLO; BMW; 330D; 2013</div></td>
+                            <td>310.00 €</td>
+                            <td>14.08.21</td>
+                            <td>Tallinna ladu</td>
+                            <td>
+                                <div class="inner-boxed-main">
+                                    <div class="green-labal">Ootab vastust</div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="more-btn"> <img src="images/More.svg" alt="img" /></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>455NFT</td>
+                            <td>455NFT</td>
+                            <td>Diagnostika</td>
+                            <td><div class="big-text" >Trumpauto OÜ Harju maakond, Tallinn,<br/>Kristiine linnaosa, Keemia tn 4 Reg nr: 14639421</div></td>
+                            <td>325.00 €</td>
+                            <td>14.08.21</td>
+                            <td>Tallinna ladu</td>
+                            <td>
+                                <div class="inner-boxed-main">
+                                    <div class="blues-labal">Aktsepteeritud</div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="more-btn"> <img src="images/More.svg" alt="img" /></div>
+                            </td>
+                        </tr>
+        
+                    </tbody>     
+                </table>
+            </div>
+        </div>
+        <div class='last-row-boxed-main-dashboard'>
+            <div class='left-boxed-main'>
+                <div class="white-box-main">
+                    <div class="comman-title mb-4 px-4 pt-4">Tänane tööpäev</div>
+                    <div class="tood-table-main overflow-tab-2">
+                        <table id="example2" class="display">
+                            <thead>
+                                <tr>
+                                    <th>Töötaja nimi</th>
+                                    <th>Asukoht</th>
+                                    <th>töö NR</th>
+                                    <th>STAATUS</th>
+                                    <th data-orderable="false"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="name-title">Regina Cooper</div>
+                                        <div class="email-ids-main">cooper@example.com</div>
+                                    </td>
+                                    <td>Sydney, Australia</td>
+                                    <td>857</td>
+                                    <td>
+                                        <div class="inner-boxed-main">
+                                            <div class="green-labal">Active</div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="more-btn"> <img src="images/More.svg" alt="img" /></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="name-title">Robert Edwards</div>
+                                        <div class="email-ids-main">edwards@example.com</div>
+                                    </td>
+                                    <td>France, Paris</td>
+                                    <td>857</td>
+                                    <td>
+                                        <div class="inner-boxed-main">
+                                            <div class="green-labal">Active</div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="more-btn"> <img src="images/More.svg" alt="img" /></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="name-title">Dustin Williamson</div>
+                                        <div class="email-ids-main">williams@example.com</div>
+                                    </td>
+                                    <td>Sochi, Russia</td>
+                                    <td>857</td>
+                                    <td>
+                                        <div class="inner-boxed-main">
+                                            <div class="green-labal">Active</div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="more-btn"> <img src="images/More.svg" alt="img" /></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="name-title">Calvin Flores</div>
+                                        <div class="email-ids-main">flores@example.com</div>
+                                    </td>
+                                    <td>Germany, Berlin</td>
+                                    <td>857</td>
+                                    <td>
+                                        <div class="inner-boxed-main">
+                                            <div class="green-labal">Active</div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="more-btn"> <img src="images/More.svg" alt="img" /></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="name-title">Ronald Robertson</div>
+                                        <div class="email-ids-main">robe@example.com</div>
+                                    </td>
+                                    <td>New York, USA</td>
+                                    <td>857</td>
+                                    <td>
+                                        <div class="inner-boxed-main">
+                                            <div class="green-labal">Active</div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="more-btn"> <img src="images/More.svg" alt="img" /></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="name-title">Judith Black</div>
+                                        <div class="email-ids-main">black@example.com</div>
+                                    </td>
+                                    <td>Shanghai, China</td>
+                                    <td>857</td>
+                                    <td>
+                                        <div class="inner-boxed-main">
+                                            <div class="red-labal">Üle aja</div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="more-btn"> <img src="images/More.svg" alt="img" /></div>
+                                    </td>
+                                </tr>
+                            </tbody>     
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="right-boxed-main">
+                <div class="white-box-main">
+                    <div class="comman-title mb-4 px-4 pt-4">Teavitused</div>
+                    <div class="scroll-box-main">
+                        <div class="white-row-main">
+                            <div class="first-col-main">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked="checked">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        <span class="above-text">Website Redesign</span>
+                                        <span class="below-text">It is necessary to develop a website redesign in a cor…</span>
+                                    </label>
+                                </div>
+                                <div class="alert-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14.721" height="14.952" viewBox="0 0 14.721 14.952">
+                                        <path  d="M6.111,2.205A.685.685,0,0,1,6.6,2h5.523a.685.685,0,0,1,.488.205l3.909,3.97a.706.706,0,0,1,.2.5v5.61a.706.706,0,0,1-.2.5l-3.909,3.97a.684.684,0,0,1-.488.205H6.6a.685.685,0,0,1-.488-.205L2.2,12.776a.706.706,0,0,1-.2-.5V6.671a.706.706,0,0,1,.2-.5Zm.774,1.2-3.5,3.56V11.99l3.5,3.56h4.951l3.5-3.56V6.961l-3.5-3.56ZM9.361,6.065a.7.7,0,0,1,.69.7v2.71a.69.69,0,1,1-1.38,0V6.766A.7.7,0,0,1,9.361,6.065Zm0,5.42a.7.7,0,0,0,0,1.4h.007a.7.7,0,0,0,0-1.4Z" transform="translate(-2 -2)" fill="#8697a8" fill-rule="evenodd"/>
+                                    </svg>
+                                </div>
+                                <div class="more-btn"> <img src="images/More.svg" alt="img" /></div>
+                            </div>
+                        </div>
+                        <div class="white-row-main">
+                            <div class="first-col-main">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                                    <label class="form-check-label" for="flexCheckDefault1">
+                                        <span class="above-text">App Development</span>
+                                        <span class="below-text">Create a mobile application on iOS and Android devices.</span>
+                                    </label>
+                                </div>
+                                <div class="alert-icon red-color-icons">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14.721" height="14.952" viewBox="0 0 14.721 14.952">
+                                        <path  d="M6.111,2.205A.685.685,0,0,1,6.6,2h5.523a.685.685,0,0,1,.488.205l3.909,3.97a.706.706,0,0,1,.2.5v5.61a.706.706,0,0,1-.2.5l-3.909,3.97a.684.684,0,0,1-.488.205H6.6a.685.685,0,0,1-.488-.205L2.2,12.776a.706.706,0,0,1-.2-.5V6.671a.706.706,0,0,1,.2-.5Zm.774,1.2-3.5,3.56V11.99l3.5,3.56h4.951l3.5-3.56V6.961l-3.5-3.56ZM9.361,6.065a.7.7,0,0,1,.69.7v2.71a.69.69,0,1,1-1.38,0V6.766A.7.7,0,0,1,9.361,6.065Zm0,5.42a.7.7,0,0,0,0,1.4h.007a.7.7,0,0,0,0-1.4Z" transform="translate(-2 -2)" fill="#8697a8" fill-rule="evenodd"/>
+                                    </svg>
+                                </div>
+                                <div class="more-btn"> <img src="images/More.svg" alt="img" /></div>
+                            </div>
+                        </div>
+                        <div class="white-row-main">
+                            <div class="first-col-main">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2" checked="checked">
+                                    <label class="form-check-label" for="flexCheckDefault2">
+                                        <span class="above-text">Landing Page</span>
+                                        <span class="below-text">It is necessary to create a landing together with the dev…</span>
+                                    </label>
+                                </div>
+                                <div class="alert-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14.721" height="14.952" viewBox="0 0 14.721 14.952">
+                                        <path  d="M6.111,2.205A.685.685,0,0,1,6.6,2h5.523a.685.685,0,0,1,.488.205l3.909,3.97a.706.706,0,0,1,.2.5v5.61a.706.706,0,0,1-.2.5l-3.909,3.97a.684.684,0,0,1-.488.205H6.6a.685.685,0,0,1-.488-.205L2.2,12.776a.706.706,0,0,1-.2-.5V6.671a.706.706,0,0,1,.2-.5Zm.774,1.2-3.5,3.56V11.99l3.5,3.56h4.951l3.5-3.56V6.961l-3.5-3.56ZM9.361,6.065a.7.7,0,0,1,.69.7v2.71a.69.69,0,1,1-1.38,0V6.766A.7.7,0,0,1,9.361,6.065Zm0,5.42a.7.7,0,0,0,0,1.4h.007a.7.7,0,0,0,0-1.4Z" transform="translate(-2 -2)" fill="#8697a8" fill-rule="evenodd"/>
+                                    </svg>
+                                </div>
+                                <div class="more-btn"> <img src="images/More.svg" alt="img" /></div>
+                            </div>
+                        </div>
+                        <div class="white-row-main">
+                            <div class="first-col-main">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3" checked="checked">
+                                    <label class="form-check-label" for="flexCheckDefault3">
+                                        <span class="above-text">Parser Development</span>
+                                        <span class="below-text">It is necessary to develop a ticket site parser in python.</span>
+                                    </label>
+                                </div>
+                                <div class="alert-icon red-color-icons">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14.721" height="14.952" viewBox="0 0 14.721 14.952">
+                                        <path  d="M6.111,2.205A.685.685,0,0,1,6.6,2h5.523a.685.685,0,0,1,.488.205l3.909,3.97a.706.706,0,0,1,.2.5v5.61a.706.706,0,0,1-.2.5l-3.909,3.97a.684.684,0,0,1-.488.205H6.6a.685.685,0,0,1-.488-.205L2.2,12.776a.706.706,0,0,1-.2-.5V6.671a.706.706,0,0,1,.2-.5Zm.774,1.2-3.5,3.56V11.99l3.5,3.56h4.951l3.5-3.56V6.961l-3.5-3.56ZM9.361,6.065a.7.7,0,0,1,.69.7v2.71a.69.69,0,1,1-1.38,0V6.766A.7.7,0,0,1,9.361,6.065Zm0,5.42a.7.7,0,0,0,0,1.4h.007a.7.7,0,0,0,0-1.4Z" transform="translate(-2 -2)" fill="#8697a8" fill-rule="evenodd"/>
+                                    </svg>
+                                </div>
+                                <div class="more-btn"> <img src="images/More.svg" alt="img" /></div>
+                            </div>
+                        </div>
+                        <div class="white-row-main">
+                            <div class="first-col-main">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4" checked="checked">
+                                    <label class="form-check-label" for="flexCheckDefault4">
+                                        <span class="above-text">App Development</span>
+                                        <span class="below-text">Create a mobile application on iOS and Android devices.</span>
+                                    </label>
+                                </div>
+                                <div class="alert-icon red-color-icons">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14.721" height="14.952" viewBox="0 0 14.721 14.952">
+                                        <path  d="M6.111,2.205A.685.685,0,0,1,6.6,2h5.523a.685.685,0,0,1,.488.205l3.909,3.97a.706.706,0,0,1,.2.5v5.61a.706.706,0,0,1-.2.5l-3.909,3.97a.684.684,0,0,1-.488.205H6.6a.685.685,0,0,1-.488-.205L2.2,12.776a.706.706,0,0,1-.2-.5V6.671a.706.706,0,0,1,.2-.5Zm.774,1.2-3.5,3.56V11.99l3.5,3.56h4.951l3.5-3.56V6.961l-3.5-3.56ZM9.361,6.065a.7.7,0,0,1,.69.7v2.71a.69.69,0,1,1-1.38,0V6.766A.7.7,0,0,1,9.361,6.065Zm0,5.42a.7.7,0,0,0,0,1.4h.007a.7.7,0,0,0,0-1.4Z" transform="translate(-2 -2)" fill="#8697a8" fill-rule="evenodd"/>
+                                    </svg>
+                                </div>
+                                <div class="more-btn"> <img src="images/More.svg" alt="img" /></div>
+                            </div>
+                        </div>
+                        <div class="white-row-main">
+                            <div class="first-col-main">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5" checked="checked">
+                                    <label class="form-check-label" for="flexCheckDefault5">
+                                        <span class="above-text">App Development</span>
+                                        <span class="below-text">Create a mobile application on iOS and Android devices.</span>
+                                    </label>
+                                </div>
+                                <div class="alert-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14.721" height="14.952" viewBox="0 0 14.721 14.952">
+                                        <path  d="M6.111,2.205A.685.685,0,0,1,6.6,2h5.523a.685.685,0,0,1,.488.205l3.909,3.97a.706.706,0,0,1,.2.5v5.61a.706.706,0,0,1-.2.5l-3.909,3.97a.684.684,0,0,1-.488.205H6.6a.685.685,0,0,1-.488-.205L2.2,12.776a.706.706,0,0,1-.2-.5V6.671a.706.706,0,0,1,.2-.5Zm.774,1.2-3.5,3.56V11.99l3.5,3.56h4.951l3.5-3.56V6.961l-3.5-3.56ZM9.361,6.065a.7.7,0,0,1,.69.7v2.71a.69.69,0,1,1-1.38,0V6.766A.7.7,0,0,1,9.361,6.065Zm0,5.42a.7.7,0,0,0,0,1.4h.007a.7.7,0,0,0,0-1.4Z" transform="translate(-2 -2)" fill="#8697a8" fill-rule="evenodd"/>
+                                    </svg>
+                                </div>
+                                <div class="more-btn"> <img src="images/More.svg" alt="img" /></div>
+                            </div>
+                        </div>
+                        <div class="white-row-main">
+                            <div class="first-col-main">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6">
+                                    <label class="form-check-label" for="flexCheckDefault6">
+                                        <span class="above-text">App Development</span>
+                                        <span class="below-text">Create a mobile application on iOS and Android devices.</span>
+                                    </label>
+                                </div>
+                                <div class="alert-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14.721" height="14.952" viewBox="0 0 14.721 14.952">
+                                        <path  d="M6.111,2.205A.685.685,0,0,1,6.6,2h5.523a.685.685,0,0,1,.488.205l3.909,3.97a.706.706,0,0,1,.2.5v5.61a.706.706,0,0,1-.2.5l-3.909,3.97a.684.684,0,0,1-.488.205H6.6a.685.685,0,0,1-.488-.205L2.2,12.776a.706.706,0,0,1-.2-.5V6.671a.706.706,0,0,1,.2-.5Zm.774,1.2-3.5,3.56V11.99l3.5,3.56h4.951l3.5-3.56V6.961l-3.5-3.56ZM9.361,6.065a.7.7,0,0,1,.69.7v2.71a.69.69,0,1,1-1.38,0V6.766A.7.7,0,0,1,9.361,6.065Zm0,5.42a.7.7,0,0,0,0,1.4h.007a.7.7,0,0,0,0-1.4Z" transform="translate(-2 -2)" fill="#8697a8" fill-rule="evenodd"/>
+                                    </svg>
+                                </div>
+                                <div class="more-btn"> <img src="images/More.svg" alt="img" /></div>
+                            </div>
+                        </div>
+                        <div class="white-row-main">
+                            <div class="first-col-main">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault7">
+                                    <label class="form-check-label" for="flexCheckDefault7">
+                                        <span class="above-text">Website Redesign</span>
+                                        <span class="below-text">It is necessary to develop a website redesign in a cor…</span>
+                                    </label>
+                                </div>
+                                <div class="alert-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14.721" height="14.952" viewBox="0 0 14.721 14.952">
+                                        <path  d="M6.111,2.205A.685.685,0,0,1,6.6,2h5.523a.685.685,0,0,1,.488.205l3.909,3.97a.706.706,0,0,1,.2.5v5.61a.706.706,0,0,1-.2.5l-3.909,3.97a.684.684,0,0,1-.488.205H6.6a.685.685,0,0,1-.488-.205L2.2,12.776a.706.706,0,0,1-.2-.5V6.671a.706.706,0,0,1,.2-.5Zm.774,1.2-3.5,3.56V11.99l3.5,3.56h4.951l3.5-3.56V6.961l-3.5-3.56ZM9.361,6.065a.7.7,0,0,1,.69.7v2.71a.69.69,0,1,1-1.38,0V6.766A.7.7,0,0,1,9.361,6.065Zm0,5.42a.7.7,0,0,0,0,1.4h.007a.7.7,0,0,0,0-1.4Z" transform="translate(-2 -2)" fill="#8697a8" fill-rule="evenodd"/>
+                                    </svg>
+                                </div>
+                                <div class="more-btn"> <img src="images/More.svg" alt="img" /></div>
+                            </div>
+                        </div>
+                        <div class="white-row-main">
+                            <div class="first-col-main">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault8">
+                                    <label class="form-check-label" for="flexCheckDefault8">
+                                        <span class="above-text">Website Redesign</span>
+                                        <span class="below-text">It is necessary to develop a website redesign in a cor…</span>
+                                    </label>
+                                </div>
+                                <div class="alert-icon red-color-icons">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14.721" height="14.952" viewBox="0 0 14.721 14.952">
+                                        <path  d="M6.111,2.205A.685.685,0,0,1,6.6,2h5.523a.685.685,0,0,1,.488.205l3.909,3.97a.706.706,0,0,1,.2.5v5.61a.706.706,0,0,1-.2.5l-3.909,3.97a.684.684,0,0,1-.488.205H6.6a.685.685,0,0,1-.488-.205L2.2,12.776a.706.706,0,0,1-.2-.5V6.671a.706.706,0,0,1,.2-.5Zm.774,1.2-3.5,3.56V11.99l3.5,3.56h4.951l3.5-3.56V6.961l-3.5-3.56ZM9.361,6.065a.7.7,0,0,1,.69.7v2.71a.69.69,0,1,1-1.38,0V6.766A.7.7,0,0,1,9.361,6.065Zm0,5.42a.7.7,0,0,0,0,1.4h.007a.7.7,0,0,0,0-1.4Z" transform="translate(-2 -2)" fill="#8697a8" fill-rule="evenodd"/>
+                                    </svg>
+                                </div>
+                                <div class="more-btn"> <img src="images/More.svg" alt="img" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="invoiceModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable invoiced-modal-main">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="left-side-main">
+            <div class="title-modal">Arve üldinfo</div>
+            <div class="sub-row-main">
+                <div class="comman-col">
+                    <div class="icon-and-title">
+                        <img src="images/User.svg" alt="img" />
+                        Name:
+                    </div>
+                    <div class="title-name">Regina Cooper</div>
+                </div>
+                <div class="comman-col">
+                    <div class="icon-and-title">
+                        <img src="images/Smartphone.svg" alt="img" />
+                        Phone:
+                    </div>
+                    <div class="title-name">+1 070–456–8800</div>
+                </div>
+                <div class="comman-col">
+                    <div class="icon-and-title">
+                        <img src="images/Mail.svg" alt="img" />
+                        Email:
+                    </div>
+                    <div class="title-name">example@mail.com</div>
+                </div>
+            </div>
+          </div>
+          <div class="right-side-main">Placed on 12.07.2021 10:00</div>
+        </div>
+        <div class="modal-body inovice-modal-body">
+             <div class="inside-first-row">
+                <div class='comman-col-main'>
+                    <div class="drop-title">
+                      Payment method
+                    </div>
+                    <div class="dropdowns-main">
+                        <div class="btn-group">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                            Credit Card
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Menu item</a></li>
+                              <li><a class="dropdown-item" href="#">Menu item</a></li>
+                              <li><a class="dropdown-item" href="#">Menu item</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sub-title">
+                        <span class="title-small">Transaction ID:</span>
+                        000001-TXHQ
+                    </div>
+                    <div class="sub-title">
+                        <span class="title-small">Amount:</span>
+                        $2.500 
+                    </div>
+                </div>
+                <div class='comman-col-main'>
+                    <div class="drop-title">
+                      Shipping method
+                    </div>
+                    <div class="dropdowns-main">
+                        <div class="btn-group">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                            Carrier
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Menu item</a></li>
+                              <li><a class="dropdown-item" href="#">Menu item</a></li>
+                              <li><a class="dropdown-item" href="#">Menu item</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sub-title">
+                        <span class="title-small">Tracking Code:</span>
+                        000001-TXHQ
+                    </div>
+                    <div class="sub-title">
+                        <span class="title-small">Date:</span>
+                        $2.500 
+                    </div>
+                </div>
+                <div class='comman-col-main'>
+                    <div class="drop-title">
+                       Fulfilment status
+                    </div>
+                    <div class="dropdowns-main">
+                        <div class="btn-group">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                             Delivered
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Menu item</a></li>
+                              <li><a class="dropdown-item" href="#">Menu item</a></li>
+                              <li><a class="dropdown-item" href="#">Menu item</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class='comman-col-main'>
+                    <div class="drop-title">
+                      Payment status
+                    </div>
+                    <div class="dropdowns-main">
+                        <div class="btn-group">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                                Paid
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Menu item</a></li>
+                              <li><a class="dropdown-item" href="#">Menu item</a></li>
+                              <li><a class="dropdown-item" href="#">Menu item</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+             </div>
+
+             <div class="inside-second-row">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Billing address
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                           <div class="inner-accord-box">
+                                <div class="comman-col">
+                                    <div class="comman-row">
+                                        <span class="comman-title">First name:</span>Regina
+                                    </div>
+                                    <div class="comman-row">
+                                        <span class="comman-title">Last name:</span>Cooper
+                                    </div>
+                                    <div class="comman-row">
+                                        <span class="comman-title">Address:</span>993 E. Brewer St. Holtsville
+                                    </div>
+                                </div>
+                                <div class="comman-col">
+                                    <div class="comman-row">
+                                        <span class="comman-title">State/Region:</span>New York
+                                    </div>
+                                    <div class="comman-row">
+                                        <span class="comman-title">City:</span>New York
+                                    </div>
+                                    <div class="comman-row">
+                                        <span class="comman-title">Country:</span>United States
+                                    </div>
+                                </div>
+                                <div class="comman-col">
+                                    <div class="comman-row">
+                                        <span class="comman-title">Phone:</span>+1 070–456–8800
+                                    </div>
+                                    <div class="comman-row">
+                                        <span class="comman-title">Email:</span>example@mail.com
+                                    </div>
+                                    <div class="comman-row">
+                                        <span class="comman-title">Postcode:</span>11742
+                                    </div>
+                                </div>
+                           </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Shipping address
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+             </div>
+            
+             <div class="table-data-main">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>PRODUCT</th>
+                            <th>PRICE</th>
+                            <th>QUANTITY</th>
+                            <th>TOTAL</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="color-blue">
+                            <td>MacBook Pro 15 Retina Touch Bar MV902</td>
+                            <td>$2.500</td>
+                            <td>1</td>
+                            <td>$2.500</td>
+                            <td>
+                                <img src="images/Delete.svg" alt="img" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Apple Watch Series 5 Edition GPS + Cellular</td>
+                            <td>$1.500</td>
+                            <td>2</td>
+                            <td>$3.000</td>
+                            <td>
+                                <img src="images/Delete.svg" alt="img" />
+                            </td>
+                        </tr>
+                        <tr class="color-blue">
+                            <td>Apple iPhone 11 Pro Max 256GB Space Gray</td>
+                            <td>$1.100</td>
+                            <td>1</td>
+                            <td>$1.100</td>
+                            <td>
+                                <img src="images/Delete.svg" alt="img" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+             </div>
+           
+             <div class="last-row-main">
+                <div class="left-col-main">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>          
+                </div>
+                <div class="right-col-main">
+                    <div class="comman-sub-row">
+                        <div class="small-title-main">Subtotal</div>
+                        <div class="small-des-main">$6.600</div>
+                    </div>
+                    <div class="comman-sub-row">
+                        <div class="small-title-main">TAX(20%)</div>
+                        <div class="small-des-main">$7.920</div>
+                    </div>
+                    <div class="comman-sub-row">
+                        <div class="small-title-main">Discount</div>
+                        <div class="small-des-main">-$792</div>
+                    </div>
+                    <div class="total-sub-row">
+                        <div class="small-title-main">Total</div>
+                        <div class="small-des-main">$7.128</div>
+                    </div>
+                </div>
+             </div>
+
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+<script>
+    function myFunction() {
+       var element = document.getElementById("myDIV");
+       element.classList.toggle("mystyle");
+    }
+</script>
+
+<script src="js/common.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

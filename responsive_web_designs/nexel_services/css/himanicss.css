@@ -1,0 +1,1792 @@
+/* containers */
+
+.home_page_container{
+    max-width: 1302px;
+    padding:0px 15px;
+    margin: 0 auto;
+}
+.about_us_nexel_services_section .tailored_funera_section .home_page_container{
+    max-width: 1221px;
+    padding:0px 11px;
+}
+.welcome_to_nexel_section .home_page_container{
+    max-width: 1324px;
+    padding:0px 10px;
+}
+.business_thing_our_way_section .tailored_funera_section .home_page_container{
+    max-width: 1206px;
+    padding:0px 0px;
+}
+.business_nexel_health_section .tailored_funera_section .home_page_container{
+    max-width: 1321px;
+    padding: 0px 0px 0px 57px;
+}
+.business_insurance_section .welcome_to_nexel_section .home_page_container{
+    max-width: 1324px;
+    padding: 0px 0px 0px 10px;
+}
+.business_nexel_software_section .tailored_funera_section .home_page_container{
+    max-width: 1333px;
+    padding: 0px 0px 0px 53px;
+}
+.business_our_business_section .discover_our_business_section .home_page_container{
+    max-width: 1333px;
+    padding: 0px 0px 0px 53px;
+}
+.business_blue_karrots_section .industry_section .home_page_container{
+    max-width: 1334px;
+    padding: 0px 0px 0px 0px;
+}
+.business_team_project_section .tailored_funera_section .home_page_container{
+    max-width: 1194px;
+    padding: 0px 0px 0px 16px;
+}
+.business_team_project_section .tailored_funera_section .home_page_container{
+    max-width: 1223px;
+    padding: 0px 0px 0px 10px;
+}
+/* .things_our_way_container{
+    max-width: 1206px;
+    padding:0px 0px;
+    margin: 0 auto;
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* start Discover Our Businesses banner section css */
+.discover_our_business_banner_section .page_banner .page_title{
+    max-width: 850px;
+}
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 15px;
+    background-color: #bbb; 
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  /* .active{
+    background: #F6A50C;
+  } */
+  .three_dots_position{
+    position: absolute;
+    bottom: 108px;
+    left: calc(50% - 67px);
+    z-index: 58;
+  }
+.discover_our_business_banner_section{position: relative;}
+.prev{
+    position: absolute;
+    top:50%;
+    color:white;
+    font-size: 22px;
+    left:71px;
+    z-index: 10;
+}
+.next{
+    position: absolute;
+    top:50%;
+    right:71px;
+    font-size: 22px;
+    color:white; 
+    z-index: 10;
+}
+.discover_our_business_banner_section .page_banner::after{background: rgba(0, 0, 0, 0.4);}
+.discover_our_business_banner_section .page_title a{margin-top:26px;} 
+.discover_our_business_banner_section .page_banner .page_title h1{letter-spacing: 0.1em;}
+.discover_our_business_banner_section .page_banner .page_title p{letter-spacing: 0.02em;}
+
+
+/* start Nexel Services always excels section css */
+.always_excels_block .always_excels_block_cols2 .section_details h6{letter-spacing: 0.15em;}
+.always_excels_block .always_excels_block_cols2 .section_details h2{
+    line-height: 57px;
+    letter-spacing: 0.05em;
+}
+.always_excels_block .always_excels_block_cols2 .section_details p{
+    font-size: 19px;
+    line-height: 32px;
+    }
+
+.always_excels_block{
+    display: flex;
+}
+.always_excels_block_cols1{
+    width:50%;
+    position: relative;
+}
+.always_excels_block_cols2{
+    width:50%;
+    padding: 107px 0px 138px 118px;
+}
+.always_excels_block_cols1_image1{
+    width:65%;
+}
+.always_excels_block_cols1_image2{
+    width:58%;
+    position: absolute;
+    bottom: 0;
+    right:37px;
+    z-index: 1;
+}
+.always_excels_section{padding:120px 0px;}
+
+
+ /* [start] Takes Every Industry section css */
+.industry_block_cols_image img{margin-top:4px;}
+ .industry_block .section_details .industry_block_cols .industry_block_cols_image h6{letter-spacing: 0.15em;}
+ .industry_block .section_details .industry_block_cols .industry_block_cols_image h2{
+    line-height: 57px;
+    letter-spacing: 0.05em;
+}
+ .industry_block .section_details .industry_block_cols .industry_block_cols_info p{
+    line-height: 32px;
+    }
+ .industry_section{
+    background: #F8F8F8;
+    padding:120px 0px;
+ }
+ .industry_block_cols{
+     display: flex;
+ }
+ .industry_block_cols_image{
+     width:62.5%;
+ }
+ .industry_block_cols_info{
+     width:37.5%;
+     padding-top: 187px;
+     padding-bottom: 10px;
+     padding-left: 66px;
+ }
+ .industry_block_cols_info p:first-child{margin-bottom:40px;}
+
+/* start see more project section css */
+.see_more_project_section .page_banner::after{background: rgba(0, 0, 0, 0.7);}
+.see_more_project_section .page_banner h2{
+    font-size: 57px;
+    font-family: Kumbh Sans;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color:white;
+    margin-bottom:19px;
+}
+.see_more_project_section .page_banner p{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.1em;   
+    color: #FFFFFF;
+}
+.see_more_project_section .page_banner a{margin-top:19px;}
+.see_more_project_section .page_banner{margin-top:120px;}
+
+
+
+/* start Discover Our Businesses section */
+.discover_our_business_section .home_page_container .always_excels_block .always_excels_block_cols1 .always_excels_block_cols1_image2{
+    background: #F6A50C;
+    padding:47px 35px 46px 36px;
+    color:white;
+    right: 24px;
+    width: 54%;
+    font-family: Kumbh Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 45px;
+}
+.discover_our_business_section{padding:120px 0px;}
+.discover_our_business_section .home_page_container .always_excels_block .always_excels_block_cols2{
+    padding: 116px 0px 116px 116px;
+}
+.discover_our_business_section .home_page_container .always_excels_block .always_excels_block_cols1 .always_excels_block_cols1_image1{
+    width:77%
+}
+
+ /* start Nexel Health services section css */
+.Nexel_Health_services_section .see_more_project_section .page_banner{margin-top:0px;}
+.Nexel_Health_services_section .see_more_project_section .page_banner .page_title{max-width: 1066px;}
+
+
+
+
+/* start tailored funera section css */
+/* .tailored_funera_section .home_page_container{
+    padding:0px 50px;
+} */
+.tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols1 .always_excels_block_cols1_image1{
+    width: 81%;
+}
+.tailored_funera_section{padding:120px 0px;}
+.tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols2{
+    padding: 84px 0px 84px 34px;
+}
+
+
+/* strat questions section */
+.questions_section .contact_map #map {
+    width:100%;
+    height:100%;
+}
+.questions_section .contact_map{
+    width:50%;
+}
+.questions_section{display: flex;}
+.questions_section_map_cols{width:50%;}
+.questions_section_form_cols{width:50%;background: #0E4A78; color:white;letter-spacing: 0.15em;}
+.questions_section_form_cols .section_details h6{color:white;}
+.questions_section_form_cols .section_details .sub_title{color:white;letter-spacing: 0.05em;}
+.questions_section_form_cols .section_details{padding:180px 133px;}
+.flex_question_box{display: flex;justify-content: space-between;}
+.flex_question_box_cols{width:49%;}
+.flex_question_box_cols input[type="text"]
+{
+    width:100%;
+    border: none;
+    color: #5680A0;
+    padding: 8px;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid #265C85;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    margin-top: 17px;
+    text-align: justify;
+}
+/* .questions_box_block input[type="text"]
+{
+    width:100%;
+    border: none;
+    margin-top: 17px;
+    color: #5680A0;
+    padding: 8px;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid #265C85;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    text-align: justify;
+} */
+.questions_section_form_cols .section_details .questions_box_block textarea {
+    width:100%;
+    letter-spacing: 0.02em;
+    border: none;
+    margin-top: 17px;
+    color: #5680A0;
+    padding: 8px;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid #265C85;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    text-align: justify;
+    font-family: 'DM Sans', sans-serif;
+}
+.questions_section_form_cols .section_details .questions_box_block textarea::placeholder
+{
+    color:#5680A0;
+}
+.questions_section_form_cols .section_details .questions_box_block textarea:hover
+{
+    cursor: pointer;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.questions_box_block input[type="text"]::placeholder
+{
+    color:#5680A0;
+}
+.questions_box_block input[type="text"]:hover
+{
+    cursor: pointer;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+/* .questions_box_block input[type="text"]:hover:-webkit-input-placeholder
+{
+    color: #FFFFFF;
+} */
+.questions_box_block input[type="text"]:hover .questions_box_block input[type="text"]::placeholder
+{
+    color: #FFFFFF;
+}
+.questions_section .questions_section_form_cols .section_details a .arrow{ background: url(../images/Vector.svg) no-repeat 0 0; width: 13px; height: 13px; display: inline-block; margin-left: 0px;margin-right: 11.86px; font-size:15px ;position: relative; transition: 0.3s ease; background-size: contain;}
+.questions_section .questions_section_form_cols .section_details a{margin-top:61px;}
+.questions_section .questions_section_form_cols .section_details a:hover{margin-left:0;}
+.questions_section .questions_section_form_cols .section_details h2{    margin-bottom: 15px;    max-width: 500px;}
+/* .questions_section .questions_section_map_cols img{} */
+.questions_section .questions_section_form_cols .section_details .btn{    letter-spacing: 0.02em;}
+
+
+
+
+
+
+
+
+/* =============== about us page css ===================== */
+
+/* start about us banner */
+.about_us_nexel_services_section .always_excels_section .home_page_container .always_excels_block{    align-items: center;}
+
+.about_us_nexel_services_section .always_excels_section .home_page_container .always_excels_block .always_excels_block_cols2{padding: 0px 0px 0px 118px;}
+.about_us_nexel_services_section .always_excels_section .home_page_container .always_excels_block .always_excels_block_cols1_image1 {
+    width: 100%;
+}
+.about_us_banner_section .page_banner .page_title p {
+    letter-spacing: 0.02em;
+}
+.about_us_nexel_services_section .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols2 .section_details p{text-align: justify;}
+
+
+/* welcome to nexel section */
+.welcome_to_nexel_section .home_page_container .industry_block .section_details .industry_block_cols .industry_block_cols_info p{text-align: justify;}
+.welcome_to_nexel_section .home_page_container .industry_block .section_details .industry_block_cols .sub_title{margin-bottom: 0px;}
+.tailored_funera_section .home_page_container .always_excels_block {align-items: center;}
+.welcome_to_nexel_section .home_page_container .industry_block .section_details .industry_block_cols .industry_block_cols_info p{margin-bottom: 0px;;}
+.welcome_to_nexel_section .home_page_container .industry_block .section_details .industry_block_cols .industry_block_cols_info{padding-top:41px;padding-bottom: 0px;}
+.welcome_to_nexel_section .home_page_container .marketing_specialists_analysis_block .btn{
+    font-weight: 500;
+    color: black;
+    background: none;
+    padding-left:0px;
+}
+.marketing_col{display: flex;width:30%;align-items:end;justify-content: space-between;}
+.marketing_specialists_analysis_block{display: flex;justify-content: space-between;}
+.marketing_col_info{width:82%;}
+.marketing_col_info h5{
+    font-family: "Kumbh Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.marketing_col_info p{
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #707376;
+}
+.welcome_to_nexel_section .home_page_container .marketing_specialists_analysis_block .marketing_col .marketing_col_info .btn 
+.arrow {
+    background: url(../images/blackrightarrrow.svg) no-repeat 0 0;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    margin-left: 22px;
+    position: relative;
+    transition: 0.3s ease;
+}
+.welcome_to_nexel_section .home_page_container .industry_block .section_details .industry_block_cols .industry_block_cols_image{
+    width: 44.5%;
+}
+.welcome_to_nexel_section .home_page_container .industry_block .section_details .industry_block_cols .industry_block_cols_info{
+    width: 55.5%
+}
+.welcome_to_nexel_section .home_page_container .marketing_specialists_analysis_block {
+ margin-top:120px;
+ margin-bottom:100px;
+}
+.welcome_to_nexel_section .home_page_container .welcome_to_nexel_section_image_block{
+    margin-bottom: 120px;
+}
+.welcome_to_nexel_section .home_page_container .marketing_specialists_analysis_block .marketing_col .marketing_col_info .btn .arrow{
+    margin-left: 0 ;
+}
+.welcome_to_nexel_section .home_page_container .marketing_specialists_analysis_block .marketing_col .marketing_col_info .btn .arrow_padding{margin-left: 22px;}
+.marketing_col_info p {
+    margin-bottom: 4px;
+}
+.marketing_col_info h5 {
+    margin-bottom: 15px;
+}
+.welcome_to_nexel_section{
+    border-bottom: 1px solid #F0F0F0;
+}
+
+
+/* ========================= business page ============================= */
+.business_insurance_section{background: #F8F8F8;}
+.business_thing_our_way_section .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols2 .section_details p{text-align:justify;}
+.business_insurance_section{padding-top:81px;}
+.business_thing_our_way_section .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols2{padding: 0px 0px 0px 34px;}
+.business_nexel_software_section .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols2{padding: 0px 0px 0px 0px;width: 52%;}
+.business_nexel_software_section .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols1{width: 48%;}
+.business_nexel_software_section .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols2 .section_details p{text-align:justify;}
+.business_see_more_section .see_more_project_section .page_banner{margin-top:0px}
+.business_our_business_section .discover_our_business_section .home_page_container .always_excels_block{align-items: center;}
+.business_our_business_section .discover_our_business_section .home_page_container .always_excels_block .always_excels_block_cols2{padding: 0px 0px 0px 116px;}
+.business_blue_karrots_section .industry_section{background: none;padding:0px;}
+.business_blue_karrots_section .industry_section .home_page_container .industry_block .section_details .industry_block_cols .industry_block_cols_info{padding-top: 126px;}
+.business_blue_karrots_section .industry_section .home_page_container .industry_block .section_details .industry_block_cols .industry_block_cols_info p{text-align: justify;}
+.business_team_project_section .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols2{padding: 0px 34px 0px 0px;}
+.business_team_project_section .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols1 .always_excels_block_cols1_image1 {margin-left: 0px;}
+.business_team_project_section .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols2 .section_details p{text-align: justify;}
+.business_nexel_building_section .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols2{padding:0px 0px 0px 34px;}
+.business_nexel_building_section .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols2 .section_details p{text-align: justify;}
+.business_nexel_building_section{border-bottom: 1px solid #F0F0F0;}
+.business_nexel_building_section .tailored_funera_section{padding-top:0px;}
+.business_nexel_helth_info_block{width:35%;}
+.business_nexel_helth_image_block{width:60%; display: flex;justify-content: space-between;}
+.business_nexel_health_section .tailored_funera_section .home_page_container .always_excels_block{justify-content: space-between;}
+.business_nexel_helth_image_cols{width:47%;}
+.business_nexel_health_section .tailored_funera_section .home_page_container .always_excels_block{align-items:flex-start;}
+.business_nexel_helth_image_inner_cols{display: flex;justify-content: space-between;align-items: end;}
+.business_nexel_helth_image_inner_cols img{align-items: baseline;}
+.business_nexel_helth_image_inner_cols .marketing_col_info .btn{
+    font-weight: 500;
+    color: black;
+    background: none;
+    padding-left:0px;
+}
+.business_our_business_section .discover_our_business_section .home_page_container{padding:0px 50px;}
+.business_nexel_helth_image_inner_cols .marketing_col_info .btn 
+.arrow {
+    background: url(../images/blackrightarrrow.svg) no-repeat 0 0;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    margin-left: 22px;
+    position: relative;
+    transition: 0.3s ease;
+}
+.business_nexel_helth_image_inner_cols{margin-top: 35px;}
+.business_nexel_health_section .tailored_funera_section {
+   padding-top:20px;
+   padding-bottom:100px;
+}
+.business_nexel_health_section .tailored_funera_section .home_page_container .always_excels_block .business_nexel_helth_info_block .section_details h6{letter-spacing: 0.15em;}
+.business_nexel_health_section .tailored_funera_section .home_page_container .always_excels_block .business_nexel_helth_info_block .section_details p {
+    line-height: 32px;
+    text-align: justify;
+}
+.business_team_project_section .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols1{text-align: end;}
+.business_our_business_section .discover_our_business_section .home_page_container .always_excels_block .always_excels_block_cols2 .section_details p{text-align: justify;}
+
+/* ========================== nexel health page css ====================*/
+
+.gateway_healthcare_section{
+    padding:120px 0px 100px 0px;
+    border-bottom: 1px solid #F0F0F0;
+}
+.gateway_healthcare_section .home_page_container .section_details p{margin-bottom: 37px;line-height: 32px;}
+.gateway_healthcare_section .home_page_container .business_nexel_helth_image_block{width:100%;margin-top: 92px;}
+.gateway_healthcare_section .home_page_container .business_nexel_helth_image_block .business_nexel_helth_image_cols{width:48%;}
+.gateway_healthcare_section .home_page_container .business_nexel_helth_image_block .business_nexel_helth_image_cols .business_nexel_helth_image_inner_cols .marketing_col_info{width:88%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* slider css */
+.mySlides { position: relative;}
+.slick-arrow{ width: 48px; height: 48px;}
+.slick-next{ right: 10px; background: url(../images/slideRigthArrow.svg) no-repeat center center;}
+.slick-prev{ left: 10px; z-index: 1;background: url(../images/leftArrow.svg) no-repeat center center;}
+.slick-arrow:after, .slick-arrow:before{ display: none;}
+.slick-prev:hover, .slick-prev:focus {background: url(../images/leftArrow.svg) no-repeat center center;} 
+.slick-next:hover, .slick-next:focus{background: url(../images/slideRigthArrow.svg) no-repeat center center;}
+.slick-dots{ bottom: 108px; }
+.slick-dots li button{ width: 16px; height: 16px; position: relative; }
+.slick-dots li.slick-active button:before{  width: 16px; height: 16px; content: ''; position: absolute; top: 0px; left: 0px; border-radius: 50%; background: #F6A50C; opacity: 0.2;}
+.slick-dots li button:after{cursor: pointer;height: 10px;width: 10px;margin: 0 15px;background-color: #bbb; border-radius: 50%;display: inline-block;transition: background-color 0.6s ease; content: ''; left: 3px; top: 3px; margin: 0; position: absolute;}
+.slick-dots li.slick-active button:after{ background: #F6A50C}
+.slick-dotted.slick-slider {
+    margin-bottom: 0px;
+}
+ 
+
+/* responsive home page */
+
+@media only screen and (max-width: 1260px) {
+   /* comman css */
+   .home_page_container{
+    max-width: 1302px;
+    padding:0px 30px;
+    margin: 0 auto;
+    }
+    .business_thing_our_way_section .tailored_funera_section .home_page_container{
+        max-width: 1302px;
+        padding:0px 30px;
+       
+    }
+    .business_nexel_health_section .tailored_funera_section .home_page_container{
+        max-width: 1302px;
+        padding:0px 30px;
+       
+    }
+    .business_insurance_section .welcome_to_nexel_section .home_page_container{
+        max-width: 1302px;
+    padding:0px 30px;
+   
+    }
+    .business_nexel_software_section .tailored_funera_section .home_page_container{
+        max-width: 1302px;
+    padding:0px 30px;
+   
+    }
+    .business_our_business_section .discover_our_business_section .home_page_container{
+        max-width: 1302px;
+        padding:0px 30px;
+       
+    }
+    .business_blue_karrots_section .industry_section .home_page_container{
+        max-width: 1302px;
+    padding:0px 30px;
+   
+    }
+    .business_team_project_section .tailored_funera_section .home_page_container{
+        max-width: 1302px;
+        padding:0px 30px;
+       
+    }
+    .business_team_project_section .tailored_funera_section .home_page_container{
+        max-width: 1302px;
+    padding:0px 30px;
+   
+    }
+    .page_title h1 {
+        max-width: 1302px;
+        padding:0px 30px;
+       
+    }
+    .page_title p {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .btn {
+        font-size: 16px;
+        padding: 16px 26px;
+    }
+    .section_details h2 {
+        font-size: 47px; 
+        margin-bottom: 22px; 
+    }
+    .section_details .btn {
+        margin-top: 50px;
+    }
+    .section_details p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+  
+
+
+
+
+  
+
+
+    .gateway_healthcare_section {
+        padding: 90px 0px 80px 0px;
+    }
+    .gateway_healthcare_section .home_page_container .section_details p {
+        margin-bottom: 24px;
+        line-height: 28px;
+    }
+    .gateway_healthcare_section .home_page_container .business_nexel_helth_image_block {
+        width: 100%;
+        margin-top: 65px;
+    }
+    /* .business_nexel_health_section .tailored_funera_section .home_page_container .always_excels_block .business_nexel_helth_info_block .section_details h2 {
+        font-size: 47px;
+        margin-bottom: 22px;
+        line-height: 48px;
+    }
+    .business_nexel_health_section .tailored_funera_section .home_page_container .always_excels_block .business_nexel_helth_info_block .section_details p{
+        font-size: 18px;
+        line-height: 28px;
+    } */
+    .business_nexel_health_section .tailored_funera_section .home_page_container .always_excels_block .business_nexel_helth_info_block .section_details p {
+        line-height: 28px;
+        text-align: justify;
+    }
+    .welcome_to_nexel_section .home_page_container .marketing_specialists_analysis_block {
+        margin-top: 90px;
+        margin-bottom: 90px;
+    }
+    .welcome_to_nexel_section .home_page_container .welcome_to_nexel_section_image_block {
+        margin-bottom: 90px;
+    }
+    .marketing_col_info h5 {
+
+        font-size: 19px;
+        margin-bottom: 12px;
+    }
+    .marketing_col_info p {
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+    .three_dots_position {
+
+        bottom: 6%;
+
+    }
+    .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols2 {
+        padding: 0px 0px 0px 10px;
+    }
+    .always_excels_block .always_excels_block_cols2 .section_details h2 {
+        line-height: 48px;
+    }
+    .industry_block .section_details .industry_block_cols .industry_block_cols_image h2 {
+        line-height: 48px;
+    }
+    .see_more_project_section .page_banner h2{ line-height: 48px; font-size: 47px;  }
+    .questions_section .questions_section_form_cols .section_details h2{ line-height: 48px;}
+    .always_excels_block .always_excels_block_cols2 .section_details p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .industry_block .section_details .industry_block_cols .industry_block_cols_info p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .see_more_project_section .page_banner p
+    {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .always_excels_section {
+        padding: 90px 0px;
+    }
+    .industry_section {
+        padding: 90px 0px;
+    }
+    .see_more_project_section .page_banner {
+        margin-top: 90px;
+    }
+    .discover_our_business_section {
+        padding: 90px 0px;
+    }
+    .tailored_funera_section {
+        padding: 90px 0px;
+    }
+    .always_excels_block_cols1_image1 {
+        width: 71%;
+    }
+    .always_excels_block_cols1_image2 {
+      
+        right: 12px;
+        
+    }
+    .always_excels_block_cols2 {
+        padding: 0px 0px 0px 80px;
+    }
+    .industry_block_cols_info {
+      
+        padding-left: 50px;
+    }
+    .industry_block_cols_image img{margin-top:15px;}
+    .see_more_project_section .page_banner img {
+        height: 304px;
+    }
+    .Nexel_Health_services_section .see_more_project_section .page_banner img {
+        height: 370px;
+    }
+    .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols2 {
+        padding: 84px 0px 84px 10px;
+    }
+    .always_excels_block {
+      
+        align-items: center;
+    }
+    .discover_our_business_section .home_page_container .always_excels_block .always_excels_block_cols1 .always_excels_block_cols1_image2 {
+        right: 6px;
+        padding: 37px 27px 37px 27px;
+        font-size: 27px;
+        line-height: 36px;
+    }
+    .discover_our_business_section .home_page_container .always_excels_block .always_excels_block_cols2 {
+        padding: 50px 0px 50px 70px;
+    }
+    .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols1 .always_excels_block_cols1_image1 {
+        width: 86%;
+    }
+    .industry_block_cols {
+        display: flex;
+        align-items: center;
+    }
+    .questions_section_form_cols .section_details {
+        padding: 89px 57px;
+    }
+    .industry_block_cols_info {
+        width: 37.5%;
+        padding-top: 00px;
+        padding-bottom: 00px;
+        padding-left: 66px;
+    }
+    .always_excels_block_cols1_image2 {
+        width: 55%;
+        position: absolute;
+        bottom: 0;
+        right: 37px;
+        z-index: 1;
+    }
+}   
+
+@media only screen and (max-width: 1000px) {
+    .business_nexel_health_section .tailored_funera_section .home_page_container .always_excels_block .business_nexel_helth_info_block .section_details p {
+        line-height: 25px;
+        text-align: justify;
+    }
+    .business_nexel_software_section .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols2 {
+        padding: 0px 0px 0px 29px;
+        width: 52%;
+    }
+    .section_details p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .page_title h1 {
+        font-size: 58px;
+        margin-bottom: 16px;
+    }
+    .page_title p {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    .btn {
+        font-size: 15px;
+        padding: 13px 23px;
+    }
+    .section_details h6 {
+       
+        font-size: 11px;
+       
+        margin-bottom: 20px;
+    }
+    .section_details h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .section_details .btn {
+        margin-top: 45px;
+    }
+    
+   
+
+
+
+
+
+
+  
+
+    
+    .gateway_healthcare_section .home_page_container .business_nexel_helth_image_block .business_nexel_helth_image_cols .business_nexel_helth_image_inner_cols .marketing_col_info {
+        width: 84%;
+    }
+    .gateway_healthcare_section {
+        padding: 70px 0px 70px 0px;
+    }
+    .gateway_healthcare_section .home_page_container .section_details p {
+        margin-bottom: 17px;
+        line-height: 25px;
+    }
+    .gateway_healthcare_section .home_page_container .business_nexel_helth_image_block {
+        width: 100%;
+        margin-top: 60px;
+    }
+    .business_our_business_section .discover_our_business_section .home_page_container .always_excels_block .always_excels_block_cols2 {
+        padding: 0px 0px 0px 60px;
+    }
+    .business_nexel_health_section .tailored_funera_section {
+        padding-top: 20px;
+        padding-bottom: 70px;
+    }
+   
+    .business_insurance_section {
+        padding-top: 50px;
+    }
+    .marketing_col_info {
+        width: 75%;
+    }
+    .marketing_col_info h5 {
+        font-size: 18px;
+        margin-bottom: 6px;
+    }
+    .marketing_col {
+        display: flex;
+        width: 32%;
+        align-items: end;
+        justify-content: space-between;
+    }
+    .welcome_to_nexel_section .home_page_container .marketing_specialists_analysis_block {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .welcome_to_nexel_section .home_page_container .welcome_to_nexel_section_image_block {
+        margin-bottom: 70px;
+    }
+    .next {
+        right: 40px;
+        font-size: 20px;
+    }
+    .three_dots_position {
+       
+        left: calc(50% - 47px);
+    }
+    .dot {
+      
+        height: 8px;
+        width: 8px;
+        margin: 0 10px;
+       
+    }
+    .prev {
+        left: 40px;
+        font-size: 20px;
+    }
+
+    .discover_our_business_banner_section .page_banner .page_title h1 {
+        letter-spacing: 0.1em;
+        padding: 0px 30px;
+    }
+    .discover_our_business_banner_section .page_banner .page_title p {
+        letter-spacing: 0.02em;
+        padding: 0px 30px;
+    }
+    .see_more_project_section .page_banner h2 {
+        line-height: 37px;
+        font-size: 36px;
+    }
+    .questions_box_block input[type="text"] {
+        margin-top: 8px;
+    }
+    .questions_section_form_cols .section_details {
+        padding: 70px 50px;
+    }
+    .questions_section .questions_section_form_cols .section_details a {
+        margin-top: 50px;
+    }
+
+    .see_more_project_section .page_banner img {
+        height: 270px;
+    }
+    .Nexel_Health_services_section .see_more_project_section .page_banner img {
+        height: 330px;
+    }
+    .see_more_project_section .page_banner p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .industry_block .section_details .industry_block_cols .industry_block_cols_image h2 {
+        line-height: 37px;
+    }
+
+    .always_excels_block .always_excels_block_cols2 .section_details p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .industry_block .section_details .industry_block_cols .industry_block_cols_info p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .questions_section .questions_section_form_cols .section_details h2 {
+        line-height: 37px;
+    }
+    .always_excels_block .always_excels_block_cols2 .section_details h2 {
+        line-height: 37px;
+    }
+    .industry_section {
+        padding: 70px 0px;
+    }
+    .discover_our_business_section {
+        padding: 70px 0px;
+    }
+    .tailored_funera_section {
+        padding: 70px 0px;
+    }
+    .see_more_project_section .page_banner {
+        margin-top: 70px;
+    }
+    .always_excels_section {
+        padding: 70px 0px;
+    }
+    .discover_our_business_banner_section .page_title a {
+        margin-top: 23px;
+    }
+    .always_excels_block_cols2 {
+        padding: 0px 0px 0px 40px;
+    }
+    .always_excels_block_cols1_image2 {
+        right: 20px;
+    }
+    .industry_block_cols_info {
+        width: 37.5%;
+        padding-top: 00px;
+        padding-bottom: 00px;
+        padding-left: 50px;
+    }
+    .discover_our_business_section .home_page_container .always_excels_block .always_excels_block_cols2 {
+    padding: 00px 0px 00px 50px;
+}
+.discover_our_business_section .home_page_container .always_excels_block .always_excels_block_cols1 .always_excels_block_cols1_image2 {
+    right: 0px;
+    padding: 40px 20px;
+    font-size: 22px;
+    line-height: 34px;
+}
+.discover_our_business_section .home_page_container .always_excels_block .always_excels_block_cols1 .always_excels_block_cols1_image1 {
+    width: 79%;
+}
+.tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols1 .always_excels_block_cols1_image1 {
+    width: 92%;
+}
+.tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols2 {
+    padding: 0px 0px 0px 10px;
+}
+}
+
+
+@media only screen and (max-width: 768px) {
+    .business_nexel_software_section .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols1 {
+        width: 70%;
+    }
+    .business_nexel_software_section .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols2 {
+        padding: 0px 0px 0px 29px;
+        width: 100%;
+    }
+    .business_nexel_health_section .tailored_funera_section .home_page_container .always_excels_block .business_nexel_helth_info_block .section_details p {
+        line-height: 25px;
+        text-align: justify;
+    }
+    
+    
+    .section_details p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .discover_our_business_banner_section .page_banner_slider .discover_our_business_banner_section_slider .mySlides 
+    .page_title {
+        padding: 0px 42px;
+    }
+    .section_details h2 {
+        margin-bottom: 17px;
+    }
+    .section_details .btn {
+        margin-top: 31px;
+    }
+    .slick-dots {
+        bottom: 77px;
+    }
+    /* .discover_our_business_banner_section .page_banner img {
+        height: 600px;
+        object-fit: cover;
+    } */
+    .slick-arrow {
+        width: 28px;
+        height: 19px;
+    }
+    
+    .slick-slide img{
+        height: 600px;
+        object-fit: cover;
+    }
+    .page_banner img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        display: block;
+    }
+    .questions_section .contact_map{
+        width:100%;
+    }
+
+
+
+
+
+
+
+
+
+    .gateway_healthcare_section .home_page_container .business_nexel_helth_image_block .business_nexel_helth_image_cols {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .gateway_healthcare_section .home_page_container .business_nexel_helth_image_block {
+        margin-top: 0px;
+    }
+    .gateway_healthcare_section .home_page_container .business_nexel_helth_image_block {
+        flex-direction: column;
+    }
+    .gateway_healthcare_section .home_page_container .section_details p {
+        margin-bottom: 14px;
+        line-height: 25px;
+    }
+
+    .gateway_healthcare_section .home_page_container .business_nexel_helth_image_block {
+        width: 100%;
+    }
+    .gateway_healthcare_section {
+        padding: 50px 0px 50px 0px;
+    }
+    .industry_block_cols_image img {
+        margin-top: 0px;
+    }
+    .business_team_project_section .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols1 .always_excels_block_cols1_image1 {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    
+    .business_nexel_building_section .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols2 {
+        padding: 0px 0px 0px 0px;
+    }
+    .business_team_project_section .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols2 {
+        padding: 0px 0px 0px 0px;
+    }
+.business_nexel_health_section .tailored_funera_section .home_page_container .always_excels_block .business_nexel_helth_image_block .business_nexel_helth_image_cols .business_nexel_helth_image_inner_cols .marketing_col_info{
+    padding-left:15px;
+}
+.business_blue_karrots_section .industry_section .home_page_container .industry_block .section_details .industry_block_cols .industry_block_cols_info {
+    padding-top: 0px;
+}
+.business_our_business_section .discover_our_business_section .home_page_container .always_excels_block .always_excels_block_cols2 {
+    padding: 0px 0px 0px 0px;
+}
+.business_nexel_software_section .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols2 {
+    padding: 0px 0px 0px 0px;
+}
+    .business_thing_our_way_section .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols2 {
+        padding: 0px 0px 0px 0px;
+    }
+    .business_nexel_helth_image_block {
+        width: 100%;
+        display: flex;
+        margin-top: 35px;
+        justify-content: space-between;
+    }
+    .business_nexel_helth_info_block {
+        width: 100%;
+    }
+    .welcome_to_nexel_section .home_page_container .industry_block .section_details .industry_block_cols .sub_title{margin-bottom:17px;}
+    .welcome_to_nexel_section .home_page_container .marketing_specialists_analysis_block {
+        margin-top: 35px;
+        margin-bottom: 50px;
+        flex-direction: column;
+    }
+    .welcome_to_nexel_section .home_page_container .welcome_to_nexel_section_image_block {
+        margin-bottom: 50px;
+    }
+    .marketing_col_info {
+        width: 88%;
+    }
+    .marketing_col {
+        margin-top: 15px;
+        width: 100%;
+    }
+    .about_us_nexel_services_section .tailored_funera_section .home_page_container {
+        padding: 0px 30px;
+    }
+    .welcome_to_nexel_section .home_page_container .industry_block .section_details .industry_block_cols .industry_block_cols_image {
+        width: 100%;
+    }
+    .welcome_to_nexel_section .home_page_container .industry_block .section_details .industry_block_cols .industry_block_cols_info {
+        width: 100%;
+        margin-top:0px;
+        padding-top:0px;
+    }
+    .page_title h1 {
+        font-size: 50px;
+        margin-bottom: 13px;
+    }
+    .page_title p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .next {
+        right: 25px;
+    }
+    .prev {
+        left: 25px;
+    }
+    .three_dots_position {
+        left: calc(50% - 47px);
+    }
+    .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols2 {
+        padding: 0px 0px 0px 00px;
+    }
+    .questions_section .questions_section_form_cols .section_details a {
+        margin-top: 43px;
+    }
+    .questions_section_form_cols .section_details .questions_box_block textarea {
+        width: 100%;
+        border: none;
+        margin-top: 5px;
+        color: #5680A0;
+        padding: 8px;
+        background: none;
+        outline: none;
+        border-bottom: 1px solid #265C85;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 32px;
+        text-align: justify;
+    }
+    .industry_block_cols_info p:first-child {
+        margin-bottom: 20px;
+    }
+    .industry_block .section_details .industry_block_cols .industry_block_cols_info p {
+        line-height: 23px;
+    }
+    .see_more_project_section .page_banner p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .questions_box_block input[type="text"] {
+        margin-top: 5px;
+    }
+    .always_excels_block {
+        flex-direction: column;
+    }
+    .always_excels_block_cols1 {
+        width: 100%;
+        position: relative;
+    }
+    .always_excels_block_cols1_image1 {
+        width: 54%;
+    }
+    .always_excels_block_cols1_image2 {
+        width: 51%;
+        right: 0px;
+    }
+    .discover_our_business_section .home_page_container .always_excels_block .always_excels_block_cols1 .always_excels_block_cols1_image1 {
+        width: 63%;
+    }
+    .discover_our_business_section .home_page_container .always_excels_block .always_excels_block_cols2 {
+        padding: 00px 0px 00px 0px;
+    }
+    .always_excels_block_cols2 {
+        padding: 0px 0px 0px 00px;
+        width:100%;
+        margin-top: 30px;
+    }
+    .industry_block_cols {
+        flex-direction: column;
+    }
+    .industry_block_cols_image {
+        width: 100%;
+    }
+    .industry_block_cols_info {
+        width: 100%;
+        margin-top: 30px;
+        padding-left: 0px;
+    }
+    .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols1 .always_excels_block_cols1_image1{    width: 100%;}
+    .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols1{    max-width: 100%;
+        margin: 0 auto;
+        width: 70%;
+        position: relative;
+    }
+    .questions_section {
+        flex-direction: column;
+    }
+    .questions_section_map_cols {
+        width: 100%;
+    }
+    .questions_section_form_cols {
+        width: 100%;
+    }
+    .questions_section .contact_map #map{
+        height: 400px;
+        object-fit: contain;
+    }
+    /* .questions_section .questions_section_map_cols img {
+        height: 400px;
+        object-fit: cover;
+    } */
+    .always_excels_section {
+        padding: 50px 0px;
+    }
+    .industry_section {
+        padding: 50px 0px;
+    }
+    .see_more_project_section .page_banner {
+        margin-top: 50px;
+    }
+    .discover_our_business_section {
+        padding: 50px 0px;
+    }
+    .tailored_funera_section {
+        padding: 50px 0px;
+    }
+    .business_nexel_health_section .tailored_funera_section {
+        padding-top: 20px;
+        padding-bottom: 45px;
+    }
+  
+    
+}
+
+
+@media only screen and (max-width: 500px){
+    /* .page_title h1 {
+        font-size: 45px;
+        margin-bottom: 13px;
+    } */
+    .business_nexel_health_section .tailored_funera_section .home_page_container .always_excels_block .business_nexel_helth_info_block .section_details p {
+        line-height: 22px;
+        text-align: justify;
+    }
+   
+    .business_our_business_section .discover_our_business_section .home_page_container {
+        padding: 0px 30px;
+    }
+    .section_details p {
+        font-size: 14.5px;
+        line-height: 22px;
+    }
+    .page_title p {
+        font-size: 14.5px;
+        line-height: 19px;
+    }
+    .section_details h6 {
+        font-size: 11px;
+        margin-bottom: 15px;
+    }
+    .slick-slide img{
+        height: 460px;
+        object-fit: cover;
+    }
+    .slick-dots {
+        bottom: 35px;
+    }
+    .discover_our_business_banner_section .page_banner img {
+        height: 460px;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 11px 14px;
+    }
+    .section_details h2 {
+        margin-bottom: 12px;
+    }
+    .section_details h2 {
+        font-size: 33px;
+        margin-bottom: 10px;
+    }
+    .discover_our_business_section .home_page_container .always_excels_block .always_excels_block_cols1 .always_excels_block_cols1_image2 {
+        right: 0px;
+        padding: 24px 15px;
+        font-size: 19px;
+        line-height: 30px;
+    }
+    .always_excels_block .always_excels_block_cols2 .section_details p {
+        font-size: 14.5px;
+        line-height: 22px;
+    }
+    .industry_block .section_details .industry_block_cols .industry_block_cols_info p {
+        font-size: 14.5px;
+        line-height: 22px;
+    }
+    .see_more_project_section .page_banner h2 {
+        line-height: 34px;
+        font-size: 33px;
+    }
+    .see_more_project_section .page_banner p {
+        font-size: 14.4px;
+        line-height: 17px;
+    }
+    .flex_question_box_cols input[type="text"] {
+       
+        padding: 5px;
+        font-size: 15px;
+        margin-top: 9px;
+        line-height: 30px;
+       
+    }
+    .questions_section_form_cols .section_details .questions_box_block textarea {
+        padding: 5px;
+        font-size: 15px;
+        margin-top: 17px;
+        line-height: 30px;
+    }
+    .questions_section_form_cols .section_details {
+        padding: 40px 30px;
+    }
+    .questions_section .contact_map #map{
+        height: 358px;
+        object-fit: cover;
+    }
+    /* .questions_section .questions_section_map_cols img {
+       
+    } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .gateway_healthcare_section .home_page_container .section_details p {
+        margin-bottom: 12px;
+        line-height: 22px;
+    }
+    .gateway_healthcare_section .home_page_container .business_nexel_helth_image_block .business_nexel_helth_image_cols {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .welcome_to_nexel_section .home_page_container .industry_block .section_details .industry_block_cols .sub_title {
+        margin-bottom: 10px;
+    }
+    .marketing_col_info {
+        width: 83%;
+    }
+    .three_dots_position {
+        left: calc(50% - 35px);
+    }
+    .next {
+        right: 14px;
+    }
+    .prev {
+        left: 14px;
+    }
+    .industry_block_cols_image img {
+        margin-top: 8px;
+    }
+    .industry_block_cols_info {
+        margin-top: 18px;
+    }
+    .dot {
+        height: 7px;
+        width: 7px;
+        margin: 0 6px;
+    }
+   
+
+
+
+
+
+.industry_block_cols_info p:first-child {
+    margin-bottom: 16px;
+}
+
+    .tailored_funera_section .home_page_container {
+    padding: 0px 30px;
+}
+.questions_section .questions_section_form_cols .section_details h2 {
+    margin-bottom: 10px;
+}
+}
+
+
+
+@media only screen and (max-width: 400px){
+    .business_team_project_section .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols2{margin-top:0px;}
+    .business_nexel_health_section .tailored_funera_section .home_page_container .always_excels_block .business_nexel_helth_info_block .section_details p {
+        line-height: 19px;
+        text-align: justify;
+    }
+   
+    .home_page_container{
+        max-width: 1302px;
+        padding:0px 15px;
+        margin: 0 auto;
+        }
+        .business_thing_our_way_section .tailored_funera_section .home_page_container{
+            max-width: 1302px;
+            padding:0px 15px;
+           
+        }
+        .business_nexel_health_section .tailored_funera_section .home_page_container{
+            max-width: 1302px;
+            padding:0px 15px;
+           
+        }
+        .business_insurance_section .welcome_to_nexel_section .home_page_container{
+            max-width: 1302px;
+        padding:0px 15px;
+       
+        }
+        .business_nexel_software_section .tailored_funera_section .home_page_container{
+            max-width: 1302px;
+        padding:0px 15px;
+       
+        }
+        .business_our_business_section .discover_our_business_section .home_page_container{
+            max-width: 1302px;
+            padding:0px 15px;
+           
+        }
+        .business_blue_karrots_section .industry_section .home_page_container{
+            max-width: 1302px;
+        padding:0px 15px;
+       
+        }
+        .business_team_project_section .tailored_funera_section .home_page_container{
+            max-width: 1302px;
+            padding:0px 15px;
+           
+        }
+        .business_team_project_section .tailored_funera_section .home_page_container{
+            max-width: 1302px;
+        padding:0px 15px;
+       
+        }
+
+
+
+
+    .section_details p {
+        font-size: 13.5px;
+        line-height: 19px;
+    }
+    .slick-arrow {
+        width: 28px;
+        height: 19px;
+        background-size: contain;
+    }
+    .page_banner img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        display: block;
+    }
+    .discover_our_business_banner_section .page_banner img {
+        height: 375px;
+    }
+    .slick-slide img{
+        height: 375px;
+    }
+    .slick-dots li.slick-active button:before {
+        width: 14px;
+        height: 14px;
+    }
+    .slick-dots li button:after {
+        height: 8px;
+        width: 8px;
+    }
+    .slick-dots {
+        bottom: 19px;
+    }
+    .page_title {
+        padding: 0 10px;
+    }
+    .section_details h6 {
+        font-size: 9px;
+        margin-bottom: 10px;
+    }
+    .page_title p {
+        font-size: 13.5px;
+        line-height: 17px;
+    }
+    .next {
+       
+        font-size: 17px;
+    }
+    .prev {
+        font-size: 17px;
+    }
+    .page_title h1 {
+        font-size: 39px;
+        margin-bottom: 9px;
+    }
+    .section_details h2 {
+        font-size: 27px;
+        margin-bottom: 10px;
+    }
+    .section_details .btn {
+        margin-top: 18px;
+    }
+    .btn {
+        font-size: 13px;
+    }
+   
+
+
+
+
+
+    
+
+
+
+
+    .gateway_healthcare_section {
+        padding: 40px 0px 40px 0px;
+    }
+    .gateway_healthcare_section .home_page_container .business_nexel_helth_image_block .business_nexel_helth_image_cols .business_nexel_helth_image_inner_cols .marketing_col_info {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .gateway_healthcare_section .home_page_container .business_nexel_helth_image_block .business_nexel_helth_image_cols {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .business_our_business_section .discover_our_business_section .home_page_container {
+        padding: 0px 15px;
+    }
+    .business_nexel_helth_image_inner_cols {
+        flex-direction: column;
+    }
+    .business_nexel_helth_image_inner_cols {
+        margin-top: 10px;
+    }
+    .business_nexel_health_section .tailored_funera_section .home_page_container .always_excels_block .business_nexel_helth_image_block .business_nexel_helth_image_cols .business_nexel_helth_image_inner_cols .marketing_col_info {
+        padding-left: 0px;
+        margin-top:10px;
+        width: 100%;
+    }
+    .about_us_nexel_services_section .tailored_funera_section .home_page_container {
+        padding: 0px 15px;
+    }
+    .tailored_funera_section .home_page_container {
+        padding: 0px 15px;
+    }
+    .about_us_nexel_services_section .tailored_funera_section .home_page_container {
+        padding: 0px 15px;
+    }
+    .marketing_col_info p {
+        margin-bottom: 0px;
+        font-size: 13px;
+    }
+    .marketing_col_info h5 {
+        font-size: 17px;
+        margin-bottom: 4px;
+    }
+    .welcome_to_nexel_section .home_page_container .marketing_specialists_analysis_block {
+        margin-top: 30px;
+        margin-bottom: 40px;
+        flex-direction: column;
+    }
+    .welcome_to_nexel_section .home_page_container .welcome_to_nexel_section_image_block {
+        margin-bottom: 40px;
+    }
+
+    .flex_question_box_cols input[type="text"] {
+        padding: 5px;
+        font-size: 14px;
+        margin-top: 7px;
+        line-height: 27px;
+    }
+    .discover_our_business_section .home_page_container .always_excels_block .always_excels_block_cols1 .always_excels_block_cols1_image1 {
+        width: 69%;
+    }
+    .discover_our_business_section .home_page_container .always_excels_block .always_excels_block_cols1 .always_excels_block_cols1_image2 {
+        right: 0px;
+        padding: 24px 15px;
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .questions_section_form_cols .section_details .questions_box_block textarea {
+        padding: 5px;
+        font-size: 14px;
+        margin-top: 7px;
+        line-height: 27px;
+    }
+
+    .see_more_project_section .page_banner img {
+        height: 230px;
+    }
+    .Nexel_Health_services_section .see_more_project_section .page_banner img {
+        height: 290px;
+    }
+    .tailored_funera_section .home_page_container .always_excels_block .always_excels_block_cols1 {
+     
+        width: 78%;
+      
+    }
+    .questions_section .questions_section_form_cols .section_details h2 {
+        line-height: 31px;
+    }
+    .questions_section .contact_map #map{
+        height: 300px;
+        object-fit: cover;
+    }
+    /* .questions_section .questions_section_map_cols img {
+     
+    } */
+
+    .see_more_project_section .page_banner p {
+        font-size: 13.4px;
+        line-height: 15px;
+    }
+    .see_more_project_section .page_banner h2 {
+        line-height: 25px;
+        font-size: 27px;
+        margin-bottom: 10px;
+    }
+    .industry_block_cols_info p:first-child {
+        margin-bottom: 10px;
+    }
+    .industry_block .section_details .industry_block_cols .industry_block_cols_info p {
+        font-size: 13.5px;
+        line-height: 19px;
+    }
+    .industry_block .section_details .industry_block_cols .industry_block_cols_image h2 {
+        line-height: 25px;
+    }
+    .industry_block_cols_image img {
+        margin-top: 0px;
+    }
+    .always_excels_block .always_excels_block_cols2 .section_details p {
+        font-size: 13.5px;
+        line-height: 19px;
+    }
+    .always_excels_block .always_excels_block_cols2 .section_details h2 {
+        line-height: 25px;
+    }
+    .always_excels_section {
+        padding: 40px 0px;
+    }
+    .industry_section {
+        padding: 40px 0px;
+    }
+    .see_more_project_section .page_banner {
+        margin-top: 40px;
+    }
+    .discover_our_business_section {
+        padding: 40px 0px;
+    }
+    .tailored_funera_section {
+        padding: 40px 0px;
+    }
+    .always_excels_block_cols2 {
+        margin-top: 22px;
+    }
+    .home_page_container {
+        padding: 0px 15px;
+    }
+   
+    
+}
+
+@media only screen and (max-width: 311px){
+    .section_details p {
+        font-size: 12.5px;
+    line-height: 17px;
+    }
+    .welcome_to_nexel_section .home_page_container .marketing_specialists_analysis_block {
+        margin-top: 23px;
+        margin-bottom: 40px;
+    }
+    .discover_our_business_banner_section .page_banner_slider .discover_our_business_banner_section_slider .mySlides .page_title {
+        padding: 0px 37px;
+    }
+    .marketing_col_info {
+        width: 76%;
+    }
+    .marketing_col_info h5 {
+        font-size: 16px;
+        margin-bottom: 3px;
+    }
+    .marketing_col_info p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .page_title h1 {
+        font-size: 30px;
+        margin-bottom: 9px;
+    }
+    .discover_our_business_banner_section .page_banner img {
+        height: 349px;
+    }
+    .page_title {
+        padding: 0 10px;
+    }
+    .page_title p {
+        font-size: 12.5px;
+        line-height: 17px;
+    }
+    .btn {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+    .section_details h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .always_excels_block .always_excels_block_cols2 .section_details p {
+        font-size: 12.5px;
+        line-height: 17px;
+    }
+    .industry_block .section_details .industry_block_cols .industry_block_cols_info p {
+        font-size: 12.5px;
+        line-height: 17px;
+    }
+    .see_more_project_section .page_banner h2 {
+        font-size: 22px;
+    }
+    .see_more_project_section .page_banner p {
+        font-size: 12.5px;
+        line-height: 17px;
+    }
+
+    .questions_section .contact_map #map{
+        height: 250px;
+        object-fit: cover;
+    }
+    /* .questions_section .questions_section_map_cols img {
+      
+    } */
+    .questions_section .questions_section_form_cols .section_details h2 {
+        line-height: 27px;
+    }
+    .flex_question_box_cols input[type="text"] {
+        padding: 5px;
+        font-size: 13px;
+        margin-top: 7px;
+        line-height: 22px;
+    }
+    .questions_section_form_cols .section_details .questions_box_block textarea {
+        padding: 5px;
+        font-size: 13px;
+        margin-top: 7px;
+        line-height: 22px;
+    }
+    .discover_our_business_section .home_page_container .always_excels_block .always_excels_block_cols1 .always_excels_block_cols1_image2 {
+        right: 0px;
+        padding: 18px 13px;
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .gateway_healthcare_section .home_page_container .section_details p {
+        margin-bottom: 10px;
+        line-height: 17px;
+    }
+}

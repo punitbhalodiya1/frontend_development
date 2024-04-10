@@ -1,0 +1,208 @@
+.login-page-area-main {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(../images/login-background.webp)no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center center;
+    overflow-y: auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.login-page-area-main .inner-box-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-page-area-main .login-card-main {
+    width: 600px;
+    background: #fff;
+    margin: auto;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0px;
+}
+
+.login-page-area-main .login-card-main .first-row-main {
+    display: flex;
+    justify-content: center;
+    column-gap: 35px;
+    align-items: center;
+}
+
+.login-page-area-main .login-card-main .first-row-main .link-text {
+    color: #8697A8;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.login-page-area-main .login-card-main .first-row-main .link-text:hover{
+    color: #1C63B8;
+    transition: 0.3s all ease;
+}
+.login-page-area-main .login-card-main .first-row-main .link-text.active-link {
+    color: #1C63B8;
+}
+
+.company-logo-main {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.login-form-main {
+    width: 75%;
+    margin: auto;
+}
+
+.login-form-main .hide-icon-main {
+    position: absolute;
+    top: 51px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.forgot-pass-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.forgot-pass-row .form-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    column-gap: 10px;
+    cursor: pointer;
+}
+
+.forgot-pass-row .form-check .form-check-label {
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+.forgot-pass-row .form-check .form-check-input {
+    width: 19px !important;
+    height: 19px !important;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.forgot-password-man {
+    color: #0081FF;
+    font-family: 'Open Sans';
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.login-form-main .login-btn {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.login-form-main .login-btn .btn-login {
+    width: 100%;
+    border: none;
+    background: #4191F2;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    padding: 13px 0px;
+    border-radius: 8px;
+}
+
+.login-text-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-text-links .email-text {
+    font-size: 15px;
+    font-family: 'Open sans';
+    color: #8697A8;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login-text-links .tel-text{
+    font-size: 15px;
+    font-family: 'Open sans';
+    color: #8697A8;
+    cursor: pointer;
+}
+
+.login-text-links .version-text {
+    font-size: 11px;
+    color: #8697A8;
+    margin-right: 0px;
+}
+
+@media (max-width:767px) {
+    .login-page-area-main{
+        display:flex;
+    }
+    .login-page-area-main .inner-box-main{
+        width:95%;
+        margin: auto;
+    }
+    .login-card-main {
+        width: 100%;
+        padding: 20px 0px !important;
+    }
+    .login-page-area-main .login-card-main .first-row-main .link-text{
+        font-size: 14px;
+    }
+    .company-logo-main {     
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .company-logo-main img {
+        width: 50%;
+    }
+    .login-form-main {
+        width: 90%;
+        margin: auto;
+    }
+    .login-form-main .login-btn{
+        margin-bottom: 30px;
+    }
+    .login-text-links .email-text,
+    .login-text-links .tel-text {
+        font-size: 12px;
+    }
+    .login-page-area-main .login-card-main .first-row-main{
+        column-gap:20px;
+    }
+    .forgot-pass-row .form-check .form-check-label,
+    .forgot-password-man{
+        font-size: 13px;
+    }
+}
+.show-icon-main {
+    position: absolute;
+    top: 48px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.fa-eye img.show-icon-main {
+    display: none;
+}
+
+.fa-eye img.hide-icon-main{
+    display:block
+}
+
+.fa-eye-slash img.show-icon-main{
+    display:block;
+}
+
+.fa-eye-slash img.hide-icon-main{
+    display:none;
+}
