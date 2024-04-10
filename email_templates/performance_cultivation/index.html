@@ -1,0 +1,450 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark only">
+<meta name="x-apple-disable-message-reformatting">
+<!-- Use this Tag to Make VML Scale -->
+    <!--[if gte mso 9]>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:AllowPNG/>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  <![endif]-->
+<title>Performance</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+<!--[if mso]>
+<style type="text/css">
+body,table,td,th,p,span,a,h1,h2,h3,h4,h5,h6,strong,small,i,em,sub,sup,b,u,s,ul,li,ol{font-family: Verdana, Tahoma, sans-serif !important;}
+</style>
+<![endif]-->
+
+
+<style type="text/css">
+#outlook a {
+padding: 0;
+}
+body, table, td, a {
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+}
+table, td {
+mso-table-lspace: 0pt;
+mso-table-rspace: 0pt;
+}
+img {
+-ms-interpolation-mode: bicubic;
+}
+body {
+margin: 0;
+padding: 0;
+}
+img {
+border: 0;
+height: auto;
+line-height: 100%;
+outline: none;
+text-decoration: none;
+}
+img[src*="c_pixel"] {width:0px;height:0px;display:block;}
+table {
+border-collapse: collapse !important;
+}
+
+.title-a h2 { margin: 0; color: #FFF;text-align: center;font-family: 'Roboto', sans-serif;font-size: 16px;font-style: normal;font-weight: 700;line-height: 2.05; letter-spacing: 0.32px;text-transform: uppercase; display: block; }
+.title-a h2 span { color: #FF5C39; }
+.desc-a p { margin: 0; color: #515759;text-align: left;font-family: 'Roboto', sans-serif;font-size: 15px;font-style: normal;font-weight: 400;line-height: 1.333; display: block; }
+.desc-a p strong { font-weight: 700; }
+
+.title-b h2 { margin: 0; color: #1A3459;text-align: center;font-family: 'Roboto', sans-serif;font-size: 19px;font-style: normal;font-weight: 700;line-height: 2; letter-spacing: 0.57px;;display: block; }
+.desc-b p { margin: 0; color: #414042;text-align: left;font-family: 'Roboto', sans-serif;font-size: 15px;font-style: normal;font-weight: 400;line-height: 1.625; display: block; }
+.desc-b p strong { font-weight: 700; font-size: 16px; color: #1A3459; }
+
+.title-c h2 { margin: 0; color: #1A3459;text-align: center;font-family: 'Roboto', sans-serif;font-size: 16px;font-style: normal;font-weight: 700;line-height: 2; letter-spacing: 0.57px;;display: block; }
+
+.desc-c p { margin: 0; color: #fff;text-align: center;font-family: 'Roboto', sans-serif;font-size: 14px;font-style: normal;font-weight: 700;line-height: 1.714;letter-spacing: 0.28px; display: block; }
+
+.desc-d p { margin: 0; color: #fff;font-family: 'Roboto', sans-serif;font-size: 14px;font-style: normal;font-weight: 400;line-height: 1.429; display: block; }
+.desc-d p a { color: #2773D6;text-decoration: underline; display: inline-block; }
+
+.desc-e p { margin: 0; color: #fff;text-align: center; font-family: 'Roboto', sans-serif;font-size: 15px;font-style: normal;font-weight: 500;line-height: 1.429; display: block; }
+.desc-e p a { color: #FF5C39;text-decoration: none; display: inline-block; }
+
+@media screen and (max-width: 660px) {
+
+.container-table {
+    width: 100% !important;     
+}
+.column {
+    width: 100% !important;
+    table-layout: fixed !important;
+    display: block !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-bottom: 0.625em;
+}
+.column-half{
+    width: 50% !important;
+    table-layout: fixed !important;       
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-bottom: 0.625em;
+}
+.column-text-center {
+    width: 100% !important;
+    table-layout: fixed !important;
+    display: block !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-bottom: 0.625em;
+    text-align: center !important;
+}
+.fullheight { height: auto !important; }
+
+.plr-0 { padding-left: 0 !important;padding-right: 0 !important; }
+.plr-15 { padding-left: 15px !important;padding-right: 15px !important; }
+}
+</style>
+</head>
+
+<body bgcolor="#e5e5e5" style="margin:0;padding:0;">
+
+        <table width="100%" bgcolor="#e5e5e5" border="0" cellpadding="0" cellspacing="0" style="margin:0 auto;min-width:300px; font-size:16px;">
+            <tr>
+                <th align="center" valign="top" style="padding: 0;" class="ptb-0">
+
+                    <table width="640" align="center" bgcolor="#F2F2F2" border="0" cellpadding="0" cellspacing="0" class="container-table" style="width:640px;margin:0 auto;" mc:repeatable="header">
+                        <tr>
+                            <th bgcolor="#F2F2F2" align="center" width="100%" style="padding: 55px 15px 40px 15px;width:100%;" class="plr-15">
+                                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <th align="center" width="100%">
+                                        	<a href="#">
+                                                <img src="images/logo.png" width="236" alt="performance" style="display:block;height:auto;border:none;max-width:100%;" mc:edit="aa_logo">
+                                            </a>
+                                        </th>
+                                    </tr>
+                                </table>
+                            </th>
+                        </tr>
+                    </table>
+                
+                    <table width="640" align="center" border="0" cellpadding="0" cellspacing="0" class="container-table" style="width:640px;margin:0 auto;">
+                        <tr>
+                            <th>
+
+                            	<table bgcolor="#ffffff" width="100%" border="0" cellpadding="0" cellspacing="0" mc:repeatable="hero-section">
+                                    <tr>
+                                        <th bgcolor="#ffffff">
+                                        	<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+				                                <tr>
+				                                    <th background="images/intro-bg.jpg" bgcolor="#ffffff" valign="top" width="100%" height="571" style="width:100%; height:571px; background-repeat:no-repeat; background-color:#ffffff;background-size:100% 100%; background-position:center top;" class="fullheight">
+				                                        <!--[if gte mso 9]>
+				                                        <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:571px;">
+				                                          <v:fill type="tile" src="images/intro-bg.jpg" color="#ffffff" />
+				                                          <v:textbox inset="0,0,0,0">
+				                                        <![endif]-->
+				                                        <div>
+				                                            <table width="100%" align="left" border="0" cellpadding="0" cellspacing="0">
+				                                                <tr>
+				                                                    <th align="left" style="padding: 68px 33px 35px 33px;" class="plr-15">
+				                                                    	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				                                                            <tr>
+							                                                    <th align="left" style="padding: 0 100px 34px 100px;" class="plr-15" mc:edit="intro_title">
+							                                                    	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+							                                                            <tr>
+							                                                                <th align="left" class="title-a">
+							                                                                    <h2>🚀 Unleash Your Business Potential with Our <span>FREE Exclusive Offer!</span> 🚀</h2>
+							                                                                </th>
+							                                                            </tr>
+							                                                        </table>
+							                                                    </th>
+							                                                </tr>
+							                                                <tr>
+							                                                    <th bgcolor="#fff">
+							                                                    	<table bgcolor="#fff" width="100%" border="0" cellpadding="0" cellspacing="0">
+							                                                            <tr>
+							                                                                <th align="left" style="padding: 20px 42px;">
+							                                                                    <table bgcolor="#fff" width="100%" border="0" cellpadding="0" cellspacing="0">
+										                                                            <tr>
+										                                                                <th class="desc-a" style="padding-bottom: 20px;">
+										                                                                    <p>Hey there,</p>
+										                                                                </th>
+										                                                            </tr>
+										                                                            <tr>
+										                                                                <th class="desc-a" style="padding-bottom: 20px;">
+										                                                                    <p>Ambitious entrepreneurs and business owners! 🌟 Are you ready to skyrocket your success? Say hello to Performance Cultivation – your ultimate partner in data-driven dominance! 📊📈</p>
+										                                                                </th>
+										                                                            </tr>
+										                                                            <tr>
+										                                                                <th class="desc-a" style="padding-bottom: 20px;">
+										                                                                    <p>Imagine effortlessly mastering data analysis, crushing workforce management, and unveiling the secret to flawless reporting and scheduling! 📊 👥 📅 It's not a dream – it's your reality, and we're about to prove it to you!</p>
+										                                                                </th>
+										                                                            </tr>
+										                                                            <tr>
+										                                                                <th class="desc-a">
+										                                                                    <p>🔥 <strong>FREE Trial Alert!</strong> 🔥 Experience the power of Performance Cultivation FOR FREE! 🎉 Yep, you read that right – choose any single service that tickles your business fancy, and we're putting it on the house! No strings attached, just pure business magic. ✨</p>
+										                                                                </th>
+										                                                            </tr>
+										                                                        </table>
+							                                                                </th>
+							                                                            </tr>
+							                                                        </table>
+							                                                    </th>
+							                                                </tr>
+				                                                        </table>
+				                                                    </th>
+				                                                </tr>
+				                                            </table>
+				                                        </div>
+				                                        <!--[if gte mso 9]>
+				                                          </v:textbox>
+				                                        </v:rect>
+				                                        <![endif]-->
+				                                        
+				                                    </th>
+				                                </tr>
+				                            </table>
+			                            </th>
+			                        </tr>
+			                    </table>
+
+			                    <table bgcolor="#f2f2f2" width="100%" border="0" cellpadding="0" cellspacing="0" mc:repeatable="care">
+                                    <tr>
+                                        <th bgcolor="#f2f2f2" style="padding: 28px 32px 68px 32px;" class="plr-15">
+
+                                        	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+			                                    <tr>
+			                                        <th style="padding: 0 29px;" class="plr-0">
+			                                        	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+						                                    <tr>
+						                                        <th style="padding-bottom: 20px;">
+						                                            <table bgcolor="#ffffff" width="100%" border="0" cellpadding="0" cellspacing="0">
+						                                                <tr>
+						                                                    <th bgcolor="#ffffff">
+						                                                        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+						                                                            <tr>
+						                                                                <th align="left" style="padding: 2px 15px;" class="title-b" mc:edit="intro_title">
+						                                                                    <h2>Why should you even care? Let us break it down:</h2>
+						                                                                </th>
+						                                                            </tr>
+						                                                        </table>
+						                                                    </th>
+						                                                </tr>
+						                                            </table>
+						                                        </th>
+						                                    </tr>
+						                                    <tr>
+						                                        <th style="padding-bottom: 20px;">
+						                                            <table bgcolor="#ffffff" width="100%" border="0" cellpadding="0" cellspacing="0">
+						                                                <tr>
+						                                                    <th bgcolor="#ffffff" style="padding: 10px;">
+						                                                        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+						                                                            <tr>
+						                                                                <th align="left">
+						                                                                    <img width="498" src="images/care.jpg" alt="story-cta-1.png" style="display:block;width:100%;height:auto !important;border:none;outline:none;" mc:edit="story_leftcta">
+						                                                                </th>
+						                                                            </tr>
+						                                                        </table>
+						                                                    </th>
+						                                                </tr>
+						                                            </table>
+						                                        </th>
+						                                    </tr>
+						                                    <tr>
+						                                        <th style="padding-bottom: 26px;">
+						                                            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+						                                                <tr>
+			                                                                <th align="left" class="desc-a" style="padding-bottom: 33px;" mc:edit="intro_description">
+			                                                                	<p>🌟 <strong>Customized Brilliance:</strong> Your business is as unique as your fingerprint – and guess what? Our services are tailor-made to fit YOU. No cookie-cutter solutions here, just personalized strategies that speak directly to your needs.</p>
+			                                                                </th>
+			                                                            </tr>
+			                                                            <tr>
+			                                                                <th align="center" style="padding-bottom: 26px;">
+			                                                                	<a href="" target="_blank">
+			                                                                    	<img width="171" src="images/free-call-btn.png" alt="free-call-btn.png" style="max-width: 100%; height:auto;border:none;display:inline-block;" mc:edit="story_leftcta">
+			                                                                    </a>
+			                                                                </th>
+			                                                            </tr>
+						                                            </table>
+						                                        </th>
+						                                    </tr>
+						                                </table>
+			                                        </th>
+			                                    </tr>
+			                                </table>
+
+			                                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+			                                    <tr>
+			                                        <th bgcolor="#ffffff" align="left" style="padding: 29px 29px 48px 29px;border-radius: 0px 0px 50px 50px;background-color: #FFF;" class="plr-15">
+			                                            <table bgcolor="#ffffff" width="100%" border="0" cellpadding="0" cellspacing="0">
+			                                                <tr>
+			                                                    <th bgcolor="#ffffff">
+			                                                        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+			                                                        	<tr>
+			                                                                <th align="left" style="padding-bottom: 9px;">
+			                                                                    <img width="518" src="images/journey.jpg" alt="journey.jpg" style="display:block;width:100%;height:auto !important;border:none;outline:none;" mc:edit="story_leftcta">
+			                                                                </th>
+			                                                            </tr>
+			                                                            <tr>
+			                                                                <th align="left" style="padding-bottom: 16px;" class="title-c" mc:edit="intro_title">
+			                                                                    <h2>Ready to make your mark? 🚀 Schedule a free call below🔥<br>and let's chat! Your journey to the top starts here.</h2>
+			                                                                </th>
+			                                                            </tr>
+			                                                            <tr>
+			                                                                <th align="center" style="padding-bottom: 37px;">
+			                                                                    <table width="100" border="0" cellpadding="0" cellspacing="0">
+												                                    <tr>
+												                                        <th width="100%" height="4" bgcolor="#F05D44" align="center">
+												                                        </th>
+												                                    </tr>
+												                                </table>
+			                                                                </th>
+			                                                            </tr>
+			                                                            <tr>
+			                                                                <th align="left" class="desc-b" style="padding-bottom: 33px;" mc:edit="intro_description">
+			                                                                	<p>🌟 <strong>Dream Team at Your Fingertips: </strong> Our squad of seasoned pros? They eat challenges for breakfast. 🍳👊 They're not just experts – they're your business's new best friends, working tirelessly to see you thrive.</p>
+			                                                                </th>
+			                                                            </tr>
+			                                                            <tr>
+			                                                                <th align="left" class="desc-b" style="padding-bottom: 33px;" mc:edit="intro_description">
+			                                                                	<p>🌟 <strong>Success Stories That Sizzle: </strong>We've helped companies crush their goals left and right, and we're not about to stop. From startup legends to industry giants, our track record speaks volumes.</p>
+			                                                                </th>
+			                                                            </tr>
+			                                                            <tr>
+			                                                                <th align="center">
+			                                                                	<a href="" target="_blank">
+			                                                                    	<img width="171" src="images/free-call-btn.png" alt="free-call-btn.png" style="max-width: 100%; height:auto;border:none;display:inline-block;" mc:edit="story_leftcta">
+			                                                                    </a>
+			                                                                </th>
+			                                                            </tr>
+			                                                        </table>
+			                                                    </th>
+			                                                </tr>
+			                                            </table>
+			                                        </th>
+			                                    </tr>
+			                                </table>
+			                            </th>
+			                        </tr>
+			                    </table>
+
+			                    <table bgcolor="#18365B" width="100%" border="0" cellpadding="0" cellspacing="0" mc:repeatable="data-collection">
+                                    <tr>
+                                        <th bgcolor="#18365B" style="padding: 10px 32px;" class="plr-15">
+			                                <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <th width="33.33%" style="padding: 10px;" valign="top" class="column-text-center">
+                                                        <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                                <th align="center" style="padding-bottom: 4px;">
+                                                                    <img width="58" src="images/icon-1.png" alt="icon-1.png" style="max-width: 100%; height:auto;border:none;display:inline-block;" mc:edit="story_leftcta">
+                                                                </th>
+                                                            </tr>
+                                                            <tr>
+                                                                <th align="center" class="desc-c" mc:edit="intro_description">
+                                                                	<p>Data Collection & Preparation</p>
+                                                                </th>
+                                                            </tr>
+                                                        </table>
+                                                    </th>
+                                                    <th width="33.33%" style="padding:10px;" valign="top" class="column-text-center">
+                                                        <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                                <th align="center" style="padding-bottom: 4px;">
+                                                                    <img width="58" src="images/icon-2.png" alt="icon-2.png" style="max-width: 100%; height:auto;border:none;display:inline-block;" mc:edit="story_leftcta">
+                                                                </th>
+                                                            </tr>
+                                                            <tr>
+                                                                <th align="center" class="desc-c" mc:edit="intro_description">
+                                                                	<p>Analysis & Modelling</p>
+                                                                </th>
+                                                            </tr>
+                                                        </table>
+                                                    </th>
+                                                    <th width="33.33%" style="padding:10px;" valign="top" class="column-text-center">
+                                                        <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                                <th align="center" style="padding-bottom: 4px;">
+                                                                    <img width="58" src="images/icon-3.png" alt="icon-3.png" style="max-width: 100%; height:auto;border:none;display:inline-block;" mc:edit="story_leftcta">
+                                                                </th>
+                                                            </tr>
+                                                            <tr>
+                                                                <th align="center" class="desc-c" mc:edit="intro_description">
+                                                                	<p>Interpretation & Communication</p>
+                                                                </th>
+                                                            </tr>
+                                                        </table>
+                                                    </th>
+                                                </tr>
+                                            </table>
+			                            </th>
+			                        </tr>
+			                    </table>
+
+			                    <table bgcolor="#0F2B4D" width="100%" border="0" cellpadding="0" cellspacing="0" mc:repeatable="footer">
+                                    <tr>
+                                        <th bgcolor="#0F2B4D" style="padding: 20px 60px 36px 60px;" class="plr-15">
+                                        	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	                                        	<tr>
+	                                                <th align="left" class="desc-d" style="padding-bottom: 20px;">
+	                                                    <p>This email was sent to <a href="mailto:sales@performancecultivation.com" target="_blank">sales@performancecultivation.com</a>. If you’d rather not receive this kind of email, you can <a href="#" target="_blank">unsubscribe or manage your email preferences</a>.</p>
+	                                                </th>
+	                                            </tr>
+	                                            <tr>
+	                                                <th align="left" class="desc-d" style="padding-bottom: 30px;">
+	                                                    <p>Noor Kamil<br>CEO & Founder at Performance Cultivation 🚀<br>#BusinessBoss #GameChanger #DataSolutions</p>
+	                                                </th>
+	                                            </tr>
+	                                            <tr>
+	                                                <th align="center" style="padding-bottom: 20px;">
+	                                                    <table width="123" align="center" border="0" cellpadding="0" cellspacing="0">
+				                                        	<tr>
+	                                                            <th width="41" style="padding: 0;">
+	                                                            	<a href="#" target="_blank">
+	                                                                	<img width="41" alt="twitter" src="images/icon-tw.png" style="max-width: 100%; height:auto;border:none;display:inline-block;" mc:edit="twitter">
+	                                                                </a>
+	                                                            </th>
+	                                                            <th width="41" style="padding: 0;">
+	                                                            	<a href="#" target="_blank">
+	                                                                	<img width="41" alt="instagram" src="images/icon-insta.png" style="max-width: 100%; height:auto;border:none;display:inline-block;" mc:edit="instagram">
+	                                                                </a>
+	                                                            </th>
+	                                                            <th width="41" style="padding: 0;">
+	                                                            	<a href="#" target="_blank">
+	                                                                	<img width="41" alt="facebook" src="images/icon-fb.png" style="max-width: 100%; height:auto;border:none;display:inline-block;" mc:edit="facebook">
+	                                                                </a>
+	                                                            </th>
+	                                                        </tr>
+				                                        </table>
+	                                                </th>
+	                                            </tr>
+	                                            <tr>
+	                                                <th align="center" class="desc-e" style="padding-bottom: 0;">
+	                                                    <p>©2023 <a href="#" target="_blank">Performance Cultivation</a>. All Right Reserved.</p>
+	                                                </th>
+	                                            </tr>
+	                                        </table>
+                                        </th>
+                                    </tr>
+                                </table>
+
+                            </th>
+                        </tr>
+
+                    </table>
+                    
+                </th>
+            </tr>
+        </table>
+    </body>
+</html>
