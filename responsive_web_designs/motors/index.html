@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/slick.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <script>
+        var pickupHolder = 'Pickup Date';
+        var returnHolder = 'Return Date';
+        var selectDTHolder = 'Select Date-Time';
+        var pickupTime = 'Pick-Up Time';
+        var returnTime = 'Return Time';
+        var decimalSep = ',';
+        var decimalNum = '0';
+        var datepickervars = { "apply": "Apply", "cancel": "Cancel" };
+    </script>
+    
+    <script src="https://kit.fontawesome.com/bf9fd72f31.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+</head>
+
+<body>
+
+    <!-- Header  -->
+    <header class="header-main-area">
+        <div class="container">
+            <div class="inner-header-area">
+                <div class="left-side-area-main">
+                    <a href="#" target="_blank">
+                        <img src="assets/images/logo.svg" alt="Logo" title="Logo">
+                    </a>
+                </div>
+                <div class="right-side-area-main">
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">HOME PAGE</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">EXPLORE VEHICLES</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">CONTACT</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="login-and-register-btn">
+                                            <img src="assets/images/user.webp" alt="img" title="img" width="20">
+                                            LOGIN or REGISTER
+                                        </a>
+                                    </li>
+                                </ul>
+                                <button class="navbar-toggler close-btn-new" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                        <img src="assets/images/close.webp" alt="close.webp">
+                                    </button>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <section class="first-section-main">
+        <div class="full-width-main">
+            <div class="left-side-area">
+                <div class="slick-slider">
+                    <div class="element element-1 first-background">
+                        <div class="heading-main">
+                            <h1>Enjoy <br>the Journey <br>with your family! </h1>
+                            <div class="sub-heading"> Motors Car Rental Template</div>
+                        </div>
+                    </div>
+                    <div class="element element-2 second-background">
+                        <div class="heading-main">
+                            <h1>Enjoy <br>the Journey <br>with your family! </h1>
+                            <div class="sub-heading"> Motors Car Rental Template</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-wrap">
+                    <a href="#">
+                        <div class="btn-title">Rent Now</div>
+                        <div class="product-title">BMW 530i</div>
+                    </a>
+                </div>
+            </div>
+            <div class="right-side-area">
+                <div class="inner-find-new-car">
+                    <div class="find-title-main">Find your car</div>
+                    <div class="main-box-area">
+                        <div class="first-cols-main common-cols">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="assets/images/location.webp" width="15" alt="location.webp">
+                                    Recent Location
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="date-picker-main second-cols-main common-cols">
+                            <div class="dateTimeRangeWrap">
+                                <div class="start-dt-wrap">
+                                    <i class="fa fa-calendar"></i>
+                                    <div id="pickup-date-holder" class="rent-date-text-holder">Pickup Date</div>
+                                </div>
+                                <div class="end-dt-wrap">
+                                    <i class="fa fa-calendar"></i>
+                                    <div id="return-date-holder" class="rent-date-text-holder">Return Date</div>
+                                </div>
+                            </div>
+                            <input type="text" value=" - " name="dt-holder" class="stm-date-timepicker-holder">
+                            <input type="hidden" class="stm-date-timepicker-start" name="pickup_date" value="">
+                            <input type="hidden" class="stm-date-timepicker-end" name="return_date" value="">
+                        </div>
+                        
+                        <div class="search-btn">
+                            <img src="assets/images/search.webp" width="15" alt="search.webp">
+                        </div>
+                    </div>
+                    <div class="below-row">
+                        <div class="check-box-main">
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1">Deliver at different point</label>
+                        </div>
+                        <div class="clear-data">
+                            <a href="#">Clear Data</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="stm-mcr-special-prod-wrap">
+                    <div class="price-wrap">
+                        <span>Start from</span>
+                        <div class="stm-mcr-price-view"><span class="currency">$</span><span class="price-big">0</span></div>
+                    </div>
+                    <div class="product-info">
+                        <h4>BMW 530i</h4>
+                        <ul>
+                            <li>
+                                <div class="attr-ico">
+                                    <img src="assets/images/mcr-fuel-type.svg" alt="mcr-fuel-type.svg">
+                                </div>
+                                <p class="value">Gasoline</p>
+                            </li>
+                            <li>
+                                <div class="attr-ico">
+                                    <img src="assets/images/mcr-gear-type.svg" alt="mcr-gear-type.svg">
+                                </div>
+                                <p class="value">Automatic</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="product-img">
+                        <img src="assets/images/mcr-bmw-5.webp" alt="mcr-bmw-5.webp">
+                    </div>
+                </div>
+                <div class="btn-wrap d-none">
+                    <a href="#">
+                        <div class="btn-title">Rent Now</div>
+                        <div class="product-title">BMW 530i</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/moment.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/daterangepicker.js"></script>
+    <script src="assets/js/stmdatetimepicker.js"></script>
+
+</body>
+</html>
