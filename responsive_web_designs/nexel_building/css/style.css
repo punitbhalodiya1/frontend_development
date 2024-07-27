@@ -1,0 +1,65 @@
+a{cursor:pointer;outline:none;text-decoration:none;} 
+a img{border:none;outline:none;}
+input[type="text"], input[type="email"], input[type="password"],input[type="number"], input[type="tel"], input[type="button"],input[type="reset"],input[type="submit"], button{-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased; font-family: 'Poppins', sans-serif;  -webkit-appearance:none; font-weight:300;}
+body,html{font-size: 10px; position:relative;background:#ffffff;margin:0;padding:0;}
+body{background:#ffffff; background-size:cover; -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;text-rendering: optimizeLegibility;text-rendering: geometricPrecision;font-smooth: always;font-smoothing: antialiased;font-family: 'Poppins', sans-serif; font-weight:300;color:#084d6d; min-width:320px;line-height:normal;}
+* {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+*:before, *:after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.clearfix:before, .clearfix:after{content: " ";display: table;}
+.clearfix:after{clear:both;}
+a, a:hover, a:active, a:visited, a:focus{outline-offset: 0px;}
+a:focus, button:focus{outline:none;text-decoration:none;}
+li{line-height:normal;}
+
+
+.nbc-section{position: relative;}
+.nbc-content{}
+.nbc-left{position: relative;}
+.nbc-right{background-image:url(../images/nbc-right-bg.jpg);background-repeat: no-repeat;background-size: cover;background-position: center center;}
+.nbc-left-content{padding:13rem 2rem 2rem 2rem; height: 100%; display: flex; align-items: center;}
+.logo{width: 13rem; display: block; position: absolute; top: 2rem; left: 2rem;z-index: 1;}
+.logo img{width: 100%; height: auto; display: block;}
+.nbc-left-desc{max-width: 67rem;}
+.nbc-left-desc h2{margin: 0 0 1.5rem 0; padding-bottom: 1.5rem; font-size: 2.4rem; line-height: 1.2; font-weight: 700; color: #000; position: relative;}
+.nbc-left-desc h2:after{width: 11.1rem; height: 0.3rem; background-color: #285ea3; position: absolute; bottom: 0; left: 0;z-index: 1;display: block;content: '';}
+.nbc-left-desc p{margin: 0 0 2rem 0; font-size: 1.6rem; line-height: 1.4; font-weight: 400; color: #000;word-break: break-word;}
+.nbc-right-content{padding: 2rem 2rem 10rem 2rem;height: 100%; display: flex; align-items: center; flex-grow: 1;}
+.nbc-right-desc h2{margin: 0 0 1.5rem 0; font-size: 2.4rem; line-height: 1.2; font-weight: 700; color: #285ea3; position: relative;}
+.nbc-right-desc p{margin: 0 0 2rem 0; font-size: 1.6rem; line-height: 1.4; font-weight: 400; color: #000;word-break: break-word;}
+
+.nbc-footer{width: 100%; position: absolute; bottom: 0; left: 0; z-index: 11; border-top: 0.4rem solid #f8f8f8; background-color: #fff; display: block;}
+.nbc-logos{padding: 1rem 0; display: flex;justify-content: space-around;align-items: center;}
+.nbc-logos a{margin: 0 0.5rem; max-width: 7rem;}
+.nbc-logos a img{max-width: 100%; height: auto; display: block;}
+
+@media (min-width: 992px) {
+    .nbc-content{min-height: calc(100vh); display: flex;}
+    .nbc-left{flex: 1 0 50%;width: 50%;max-width: 50%; align-items: stretch;}
+    .nbc-right{flex: 1 0 50%;width: 50%;max-width: 50%;}
+    .nbc-logos a{margin: 0 1rem;}
+}
+
+@media (min-width: 1200px) {
+    .logo{width: 15.9rem;top: 2.5rem; left: 4rem;}
+    .nbc-left-content{padding: 10rem 4rem;}
+    .nbc-right-content{padding: 10rem 4rem;}
+    .nbc-left-desc h2{margin-bottom: 1.9rem; padding-bottom: 2.6rem; font-size: 3.2rem;}
+    .nbc-left-desc h2:after{height: 0.5rem;}
+    .nbc-left-desc p{margin-bottom: 2.5rem; font-size: 2rem;}
+    .nbc-right-desc h2{margin-bottom:2.5rem; font-size: 3.2rem;}
+    .nbc-right-desc p{margin-bottom: 2.5rem; font-size: 2rem;}
+    .nbc-logos a{max-width: 10rem;}
+}
+
+@media (min-width: 1440px) {
+    .logo{width: 19.9rem;top: 3.1rem; left: 8.2rem;}
+    .nbc-left-content{padding: 20rem 8rem;}
+    .nbc-right-content{padding: 20rem 8rem;}
+    .nbc-logos{padding: 2.1rem 0;max-width: none;}
+    .nbc-left-desc h2{margin-bottom: 3.9rem; padding-bottom: 4.6rem; font-size: 4.2rem;}
+    .nbc-left-desc h2:after{height: 0.8rem;}
+    .nbc-left-desc p{margin-bottom: 3.9rem; font-size: 2.5rem;}
+    .nbc-right-desc h2{margin-bottom:4rem; font-size: 4.2rem;}
+    .nbc-right-desc p{margin-bottom: 3.9rem; font-size: 2.5rem;}
+    .nbc-logos a{max-width: none;}
+}
