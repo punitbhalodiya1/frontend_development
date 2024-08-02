@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="AgTyrH-FoK0wMc_2muF7uoyGI6TtrPWYPx0CJN1N3gY">
+    <meta name="description" content="Art Of Conversation">
+    <meta name="keywords" content="Art Of Conversation">
+    <meta name="author" content="Gupshup">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gupshup | Art Of Conversation</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css" />
+    
+</head>
+<body>
+    <!-- First section -->
+    <section  class="first-section">
+        <div class="container">
+            <div class="inner-box">
+                <div class="first-logo">
+                    <img src="images/logo.png" alt="logo" />
+                </div>
+                <h1 class="landing-heading">Art Of Conversation</h1>
+                <div class="date-time">18 de Agosto, 2022 | <a href="http://rooftopberrini.com.br/" target="_blank" class="location-click">Rooftop Berrini</a></div>
+                <div class="form-heading">Registre-se agora e garanta sua vaga!</div>
+                <form action="thankyou.php" name="captureInquiry" id="capture-inquiry" method="post" >
+                    <input type="hidden" name="Email" value="">
+                    <input type="submit" name="sub" value="submit" style="display:none;">
+                </form> 
+                <form name="google-sheet" id="google-sheet" class="wn-form" method="post" autocomplete="off" >
+                    <div class="form-filed-area-main">
+                        <div class="comman-row">
+                            <div class="comman-input-col">
+                                <input type="text" name="Name" id="Name" placeholder="Nome" autocomplete="off" />
+                                <div id="name_err_msg" class="error"></div>
+                            </div>
+                            <!-- <div class="comman-input-col">
+                                <input type="text" placeholder="Função" name="Role" id="Role" autocomplete="off"/>
+                                <div id="role_err_msg" class="error"></div>
+                            </div> -->
+                            <div class="comman-input-col">
+                                <input type="text" placeholder="Empresa" name="Organization" id="Organization" autocomplete="off"/>
+                                <div id="org_err_msg" class="error"></div>
+                            </div>
+                        </div>
+                        <div class="comman-row">
+                            <div class="comman-input-col">
+                                <input type="text" placeholder="Email" name="Email" id="Email" autocomplete="off" />
+                                <div id="email_err_msg" class="error"></div>
+                            </div>
+                            <div class="comman-input-col">
+                                <input type="text" placeholder="WhatsApp" name="WhatsApp" id="WhatsApp" autocomplete="off" />
+                                <div id="WhatsApp_err_msg" class="error"></div>
+                            </div>
+                        </div>
+                        <!-- <div class="last-row">
+                            <div class="comman-input-col">
+                                <input type="text" placeholder="Nome da pessoa que o convidou" name="PersonName" id="PersonName" autocomplete="off" />
+                                <div id="PersonName_err_msg" class="error"></div>
+                            </div>
+                        </div>
+                        <div class="last-row">
+                            <div class="comman-input-col">
+                                <input type="text" name="Phone_prefix" class="phone_prefix" value="+351" readonly />
+                                <input type="text" placeholder="Telefon Numarası" name="Phone" id="Phone" autocomplete="off"/>
+                                <div id="phone_err_msg" class="error"></div>
+                            </div>
+                        </div> -->
+                        <div class="comman-text">Você é parceiro (ISV) da Gupshup?</div>
+                        <div class="radio-group-main">
+                            <div class="com-col">
+                                <input type="radio" id="RegisteredISV" name="RegisteredISV" value="Yes" checked>
+                                <label for="RegisteredISV">Sim</label>
+                            </div>
+                            <div class="com-col">
+                                <input type="radio" id="RegisteredISV" name="RegisteredISV" value="No">
+                                <label for="RegisteredISV">Não</label>
+                            </div>
+                        </div>
+                        <div class="check-box-main">
+                            <input type="checkbox" id="WANotification" name="WANotification" value="Yes" checked>
+                            <label for="WANotification">Aceito receber notificações via WhatsApp</label>
+                        </div>
+                    </div>
+                    <div class="banner-btn">
+                        <button type="submit" name="submit" id="submitBtn" class="btn-com">Guarde o seu lugar de graça!</button>
+                        <div id="final_msg"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Second-section -->
+    <div>
+        <img src="images/top-sec-pattern.png" alt="top-sec-pattern.png" style="width:100%;height:auto;max-width:100%;display:block;">
+    </div>
+    <section class="third-section">
+        <div class="container">
+            <p>Como parte do evento Art of Conversation, que realizamos pela primeira vez no Brasil, falaremos sobre as principais tecnologias de mensagens e tendências do setor que ajudarão as empresas a melhorar suas estratégias de comunicação. A Gupshup, como Meta Business Partner mediará este agradável painel com a participação de provedores de soluções de Omnichannel, CRM, e CX, cujo tema principal é o networking.<br/><br/>Você está convidado para este encontro especial e exclusivo, onde iremos compartilhar sucessos e discutir formas conjuntas de crescimento.</p>
+        </div>
+    </section>
+    
+    <!-- Fourth Section -->
+    <section class="fourth-section">
+        <div class="container">
+            <h3 class="medium-heading">Venha conhecer e interagir com<br/>os craques do mercado de mensageria</h3>
+            <div class="people-grid-main">
+                <div class="first-row-grid">
+                    <div class="grid-column">
+                        <img src="images/gaurav.png" alt="Gaurav Kachhawa" />
+                        <div class="title-name">Gaurav Kachhawa</div>
+                        <div class="description">Chief Product Officer</div>
+                    </div>
+
+                    <div class="grid-column">
+                        <img src="images/5.png" alt="Anindita Guha" />
+                        <div class="title-name">Anindita Guha</div>
+                        <div class="description">Senior Director Growth and new product innovations</div>
+                    </div>
+
+                    <div class="grid-column">
+                        <img src="images/luiz.png" alt="Luiz Tardelli" />
+                        <div class="title-name">Luiz Tardelli</div>
+                        <div class="description">CEO Getbots</div>
+                    </div>
+                    <div class="grid-column">
+                        <img src="images/david.png" alt="David Cotinguiba" />
+                        <div class="title-name">David Cotinguiba</div>
+                        <div class="description">CEO Voll Solutions</div>
+                    </div>
+                    
+                </div>
+                <div class="second-row-grid">
+                    <div class="grid-column">
+                        <img src="images/arthur.jpg" alt="Arthur Frota" />
+                        <div class="title-name">Arthur Frota</div>
+                        <div class="description">CEO - Tallos</div>
+                    </div>
+                    <div class="grid-column">
+                        <img src="images/leo.png" alt="Leonardo de Paula" />
+                        <div class="title-name">Leonardo de Paula</div>
+                        <div class="description">Senior Manager Business Development</div>
+                    </div>
+
+                    <div class="grid-column">
+                        <img src="images/vini.png" alt="Vinicius Soares" />
+                        <div class="title-name">Vinicius Soares</div>
+                        <div class="description">Technical Evangelist</div>
+                    </div>
+                    <div class="grid-column">
+                        <img src="images/savio.png" alt="Sávio Vilela" />
+                        <div class="title-name">Sávio Vilela</div>
+                        <div class="description">Manager Business Development</div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-btn">
+                <a href="javascript:;" class="btn-com forth-click">Reserve seu lugar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Third Section -->
+    <div>
+        <img src="images/bottom-pattern.png" alt="bottom-pattern.png" style="width:100%;height:auto;max-width:100%;display:block;">
+    </div>
+    <!-- <section class="sixth-section" style="background-color: #F6F9FB;">
+        <div class="container">
+            <h5 class="section-heading">Evento 18 de agosto</h5>
+            <div class="data-table-main">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Hora</th>
+                            <th>Evento</th>
+                            <th>Speaker</th>
+                            <th>Designação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>15:30-16h</td>
+                            <td>Abertura dos portões</td>
+                            <td></td>
+                            <td></td>
+                        </tr>  
+                        <tr>
+                            <td>16h</td>
+                            <td>Keynote</td>
+                            <td>Anindita Guha</td>
+                            <td>Senior Director Growth and New Product innovations</td>
+                        </tr>    
+                        <tr>
+                            <td>16:15h</td>
+                            <td>Abertura do evento</td>
+                            <td>Leonardo de Paula<br>Sávio Vilela</td>
+                            <td>Senior Manager - Business Development<br>Manager - Business Development</td>
+                        </tr>    
+                        <tr>
+                            <td>16:45h</td>
+                            <td>Novidades Gupshup e o caminho adiante</td>
+                            <td>Vinícius Soares</td>
+                            <td>Technical Evangelist</td>
+                        </tr>
+                        <tr>
+                            <td>17h-17:30h</td>
+                            <td style="text-align: center;"><b>Break</b></td>
+                            <td></td>
+                            <td></td>
+                        </tr>    
+                        <tr>
+                            <td>17:30h-17:45</td>
+                            <td>Getbots</td>
+                            <td>Luiz Tardelli</td>
+                            <td>CEO</td>
+                        </tr>
+                        <tr>
+                            <td>17:45-18:00h</td>
+                            <td>Voll solutions</td>
+                            <td>David Cotinguiba</td>
+                            <td>CEO</td>
+                        </tr>
+                        <tr>
+                            <td>18:15-18:30h</td>
+                            <td>Tallos</td>
+                            <td>Arthur Frota</td>
+                            <td>CEO</td>
+                        </tr>    
+                        <tr>
+                            <td>18:30-18:50h</td>
+                            <td style="text-align: center;"><b>Q&A</b></td>
+                            <td>Anindita Guha,<br>Leonardo de Paula,<br>Sávio Vilela<br>Vinícius Soares</td>
+                            <td></td>
+                        </tr>    
+                        <tr>
+                            <td>18:50-19:00h</td>
+                            <td style="text-align: center;"><b>Break</b></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>19:00h-21:00h</td>
+                            <td>Happy Hour & Networking</td>
+                            <td></td>
+                            <td></td>
+                        </tr>    
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section> -->
+    <section class="sixth-section" style="background-color: #F6F9FB;">
+        <div class="container">
+            <h5 class="section-heading">Evento 18 de agosto</h5>
+            <div class="data-table-main">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Hora</th>
+                            <th>Evento</th>
+                            <th>Palestrante</th>
+                            <th>Designação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>15h30-16h</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>  
+                        <tr>
+                            <td>16h</td>
+                            <td>Keynote</td>
+                            <td>Gaurav Kachhawa</td>
+                            <td>Diretor de produtos, Gupshup</td>
+                        </tr>    
+                        <tr>
+                            <td>16h30</td>
+                            <td>Novos produtos e inovações</td>
+                            <td>Anindita Guha</td>
+                            <td>Diretora Sênior,<br/>Growth e Inovações de novos produtos,<br/>Gupshup</td>
+                        </tr>    
+                        <tr>
+                            <td>17h00</td>
+                            <td>Sessão do WhatsApp + Perguntas e respostas</td>
+                            <td>Mariana Taiani</td>
+                            <td>Gestora de parcerias estratégicas, Gupshup</td>
+                        </tr>
+                        <tr>
+                            <td>17h45</td>
+                            <td>Abertura do evento</td>
+                            <td>"Leonardo de Paula Sávio Vilela"</td>
+                            <td>"Gerente sênior - Desenvolvimento empresarial Gerente - Desenvolvimento empresarial"</td>
+                        </tr>    
+                        <tr>
+                            <td>18h</td>
+                            <td>Novidades da Gupshup e o caminho adiante</td>
+                            <td>Vinícius Soares</td>
+                            <td>Evangelista tecnológico</td>
+                        </tr>
+                        <tr>
+                            <td>18h15</td>
+                            <td>Getbots</td>
+                            <td>Luiz Tardelli</td>
+                            <td>CEO</td>
+                        </tr>
+                        <tr>
+                            <td>18h30</td>
+                            <td>Voll solutions</td>
+                            <td>David Cotinguiba</td>
+                            <td>CEO</td>
+                        </tr>    
+                        <tr>
+                            <td>18h45</td>
+                            <td>Tallos</td>
+                            <td>Arthur Frota</td>
+                            <td>CEO</td>
+                        </tr>    
+                        <tr>
+                            <td>19h</td>
+                            <td style="text-align: center;"><b>Perguntas e respostas</b></td>
+                            <td>"Anindita Guha,<br/>Leonardo de Paula,<br/>Sávio Vilela,<br/>Vinícius Soares"</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>19h15</td>
+                            <td>Happy Hour & Networking</td>
+                            <td></td>
+                            <td></td>
+                        </tr>    
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- Forth Section -->
+    
+    <!-- <section class="sixth-section seventh-section">
+        <div class="container">
+            <h5 class="section-heading">Direction</h5>
+            <div class="data-table-main">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.5068159843886!2d29.00623681568661!3d41.07977187929375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab66774177699%3A0x936fefd8e611f9de!2sKolektif%20House%20Levent!5e0!3m2!1sen!2sin!4v1657202623220!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="section-copyright">
+            <div class="container">
+                <div class="copyright-text">Gupshup ©2022. All right reserved.</div>
+            </div>
+    </section>
+    <!-- <section class="section-bottom">
+            <div class="container">
+                <a href="https://gupshupcommunica8.com/privacy-policy.html" target="_blank">Privacy Policy</a>
+                <a href="https://gupshupcommunica8.com/terms-of-service.html" target="_blank">Terms of Service</a>
+            </div>
+    </section> -->
+    
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        (function () {
+            const btn = document.querySelector("form button[type=submit]");
+              if (btn && btn.addEventListener) { 
+                btn.addEventListener("click",function() { 
+                  //window.lintrk('track', { conversion_id: 7985202 });
+                });
+              }
+        }());      
+    </script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="AgTyrH-FoK0wMc_2muF7uoyGI6TtrPWYPx0CJN1N3gY">
+    <meta name="description" content="Communica8 India 2022">
+    <meta name="keywords" content="Communica8 India 2022">
+    <meta name="author" content="Gupshup">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | Communica8 India 2022</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        html, body{min-height: 100vh;display: flex;flex-direction: column;}
+        section.section-copyright{margin-top: auto;}
+        .first-section .inner-box{margin: 16.7% 0;}
+        @media (max-width: 767px){
+            .first-section{
+                padding: 30px 0px;
+                background-position: unset;
+            }
+            .first-section .inner-box{
+                margin: 23.7% 0;
+                top: 146px;
+            }
+        }
+    </style>
+    <!-- Global site tag (gtag.js) - Google Ads: 957133444 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-957133444"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-957133444');
+    </script>
+</head>
+<body>
+
+    <!-- First section -->
+    <section  class="first-section">
+        <div class="container">
+            <div class="inner-box">
+                <div class="first-logo">
+                    <img src="images/logo.svg" alt="logo" />
+                </div>
+                <h1 class="landing-heading">Thanks for Contacting us..!</h1>
+                <div class="date-time">We will contact you soon...</div>
+
+                <!-- <div class="banner-btn">
+                    <a href="javascript:;" class="btn-com" id='authorize-button' onclick='handleAuthClick();'>Add event to your calender</a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="section-copyright">
+            <div class="container">
+                <div class="copyright-text">Copyright 2022</div>
+                <a href="https://www.gupshup.io/" target="_blank"><img src="images/white-gupshup.png" alt="img" /></a>
+            </div>
+    </section>
+    
+    <section class="section-bottom">
+            <div class="container">
+                <a href="https://gupshupcommunica8.com/privacy-policy.html" target="_blank">Privacy Policy</a>
+                <a href="https://gupshupcommunica8.com/terms-of-service.html" target="_blank">Terms of Service</a>
+                <!-- <div class="copyright-text">Copyright 2022</div>
+                <a href="https://www.gupshup.io/" target="_blank"><img src="images/white-gupshup.png" alt="img" /></a> -->
+            </div>
+    </section>
+
+    <script>
+        //var clientId = '1046778703171-n6aqfqpbelr28goer46jmatt0dgk0d3m.apps.googleusercontent.com';
+        var clientId = '57596860253-ctiv244fmpqlqs5al96kmpa9suvbfupv.apps.googleusercontent.com';
+        //secret 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
+        
+        //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
+        var apiKey = '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';
+        var scopes = 'https://www.googleapis.com/auth/calendar';
+
+        function handleClientLoad() {
+          gapi.client.setApiKey(apiKey);
+          window.setTimeout(checkAuth,1);
+          checkAuth();
+        }
+
+        function checkAuth() {
+          gapi.auth.authorize({client_id: clientId, scope: scopes, immediate: true},
+              handleAuthResult);
+        }
+
+        function handleAuthResult(authResult) {
+          var authorizeButton = document.getElementById('authorize-button');
+          if (authResult) {
+            authorizeButton.style.visibility = 'hidden';
+            makeApiCall();
+          } else {
+            authorizeButton.style.visibility = '';
+            authorizeButton.onclick = handleAuthClick;
+           }
+        }
+
+        function handleAuthClick(event) {
+          gapi.auth.authorize(
+              {client_id: clientId, scope: scopes, immediate: false},
+              handleAuthResult);
+          return false;
+        }
+
+        function makeApiCall() {
+          gapi.client.load('calendar', 'v3', function() {
+
+            var resource = {
+              "summary": "Communica8 2022 - Conversation about conversations",
+              "location": "Mumbai, India",
+              "start": {
+                "dateTime": "2022-06-30T10:00:00.000-07:00"
+              },
+              "end": {
+                "dateTime": "2011-06-30T10:25:00.000-07:00"
+              }
+            };
+            var request = gapi.client.calendar.events.insert({
+              'calendarId': 'primary',
+              'resource': resource
+            });
+            request.execute(function(resp) {
+              console.log(resp);
+            });
+          });
+        }
+    </script>
+    <script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+    <!-- <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script> -->
+</body>
+</html>
