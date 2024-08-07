@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+
+
+    <!-- Data Table -->
+    <link rel="stylesheet" href="css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+</head>
+
+<body class="home">
+    <!-- side-bar-main -->
+    <div id="myDIV" class="side-bar-area-main">
+        <div class="side-bar-inner-box">
+            <!-- <div class="side-bar-logo">
+                <a href='#'>
+                    <img src="./images/new-img/krass-logo-1.svg" alt="img" />
+                </a>
+            </div> -->
+            <div class="side-bar-links-area">
+                <div class="main-title-headings">All products | Dashboard</div>
+                <div class="menu-items-main-new">
+                    <div class="menu-titles">Categories</div>
+                    <div class="menu-items-main">
+                        <div class="img-tag">
+                            <img src="./images/new-img/first-menu.svg" alt="img">
+                        </div>
+                        <div class="title-text-main">Baby tools</div>
+                    </div>
+                    <div class="menu-items-main">
+                        <div class="img-tag">
+                            <img src="./images/new-img/second-menu.svg" alt="img">
+                        </div>
+                        <div class="title-text-main">Fashion</div>
+                    </div>
+                    <div class="menu-items-main">
+                        <div class="img-tag">
+                            <img src="./images/new-img/third-menu.svg" alt="img">
+                        </div>
+                        <div class="title-text-main">Teenagers</div>
+                    </div>
+                    <div class="menu-items-main">
+                        <div class="img-tag">
+                            <img src="./images/new-img/fourth-menu.svg" alt="img">
+                        </div>
+                        <div class="title-text-main">Bicycles</div>
+                    </div>
+                    <div class="menu-items-main">
+                        <div class="img-tag">
+                            <img src="./images/new-img/fifth-menu.svg" alt="img">
+                        </div>
+                        <div class="title-text-main">Ballons</div>
+                    </div>
+                    <div class="menu-items-main">
+                        <div class="img-tag">
+                            <img src="./images/new-img/sixth-menu.svg" alt="img">
+                        </div>
+                        <div class="title-text-main">Toys</div>
+                    </div>
+                    <div class="menu-items-main-dropdowns">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            <img src="./images/new-img/seventh-menu.svg" alt="img">
+                            <span class="title-text-main">Games</span>
+                        </button>
+                        <div class="collapse" id="collapseExample">
+                            <div class="inner-ul-main">
+                                <ul>
+                                    <li>Games for kids</li>
+                                    <li>Games for PS4</li>
+                                    <li>Boardgames</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-items-main-new">
+                    <div class="menu-titles">Global lists</div>
+                    <div class="menu-items-main">
+                        <div class="img-tag">
+                            <img src="./images/new-img/global-first.svg" alt="img">
+                        </div>
+                        <div class="title-text-main">New products august</div>
+                    </div>
+                    <div class="menu-items-main">
+                        <div class="img-tag">
+                            <img src="./images/new-img/glob-second.svg" alt="img">
+                        </div>
+                        <div class="title-text-main">Dead stock</div>
+                    </div>
+                    <div class="menu-items-main">
+                        <div class="img-tag">
+                            <img src="./images/new-img/glob-third.svg" alt="img">
+                        </div>
+                        <div class="title-text-main">Discount 50%</div>
+                        <div class="hots-main">HOT</div>
+                    </div>
+                    <div class="menu-items-main">
+                        <div class="img-tag">
+                            <img src="./images/new-img/glob-fourth.svg" alt="img">
+                        </div>
+                        <div class="title-text-main">New arrivals</div>
+                    </div>
+                </div>
+                <div class="menu-items-main-new">
+                    <div class="menu-titles">My ToDo</div>
+                    <div class="menu-items-main">
+                        <div class="img-tag">
+                            <img src="./images/new-img/todo-first.svg" alt="img">
+                        </div>
+                        <div class="title-text-main">Offer drafts</div>
+                    </div>
+                    <div class="menu-items-main">
+                        <div class="img-tag">
+                            <img src="./images/new-img/todo-second.svg" alt="img">
+                        </div>
+                        <div class="title-text-main">Offer sent</div>
+                    </div>
+                    <div class="menu-items-main">
+                        <div class="img-tag">
+                            <img src="./images/new-img/todo-third.svg" alt="img">
+                        </div>
+                        <div class="title-text-main">Customers</div>
+                    </div>
+                    <div class="menu-items-main">
+                        <div class="img-tag">
+                            <img src="./images/new-img/todo-fourth.svg" alt="img">
+                        </div>
+                        <div class="title-text-main">Orders</div>
+                    </div>
+                    <div class="menu-items-main">
+                        <div class="img-tag">
+                            <img src="./images/new-img/todo-fifth.svg" alt="img">
+                        </div>
+                        <div class="title-text-main">Invoices</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blur-effect" onclick="myFunction()"></div>
+    <!-- end-of-side-bar -->
+    <!-- Pagestart -->
+    <div id="myDIV1" class="page-start-here">
+        <!-- Header-Box -->
+        <div class="header-box-main">
+            <div class="inner-box-main">
+                <div class="left-side-boxed-main">
+                    <div class="title-text">
+                        <img src="./images/new-img/krass-logo-1.svg" alt="img">
+                    </div>
+                    <button class="toggle-btn-main" onclick="myFunction()">
+                        <img src='./images/new-img/humberger.svg' alt="img">
+                    </button>
+                </div>
+                <div class="right-sie-boxed-main">
+                    <!-- <button onclick="myFunction()">close</button> -->
+                    <div class="input-boxed-main">
+                        <img src='./images/new-img/search-1.svg' alt="img" class="search-icons">
+                        <input type="text" placeholder='Start typing to search...'>
+                    </div>
+                    <div class="notifications-bell-main">
+                        <div class="not-bell">
+                            <div class="est-dropdowns">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img src="./images/new-img/english.png" alt="img">
+                                        English
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="icons-groups">
+                            <img src="./images/new-img/notification-bell.svg" alt="img">
+                            <img src="./images/new-img/settings.svg" alt="img">
+                        </div>
+                        <div class="est-dropdowns">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="./images/new-img/person.png" alt="img">
+                                    Hi, Sander
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page-start-box-main -->
+        <div class="inner-box-main-padding-main">
+
+            <div class="white-box-main">
+                <div class="comman-heading-area">
+                    <div class="text-title-main">Your Dashboard</div>
+                    <div class="right-icons">
+                        <img src="./images/new-img/grid-icons.svg" alt="img">
+                        <img src="./images/new-img/grid-icon-1.svg" alt="img">
+                        <img src="./images/new-img/grid-icon-2.svg" alt="img">
+                    </div>
+                </div>
+                <div class="table-margin-main">
+                    <div class="tood-table-main over-flow-table">
+                        <table id="example" class="display">
+                            <thead>
+                                <tr>
+                                    <th>Your last five offers</th>
+                                    <th>Search offer name</th>
+                                    <th>Search contact person</th>
+                                    <th>Search date</th>
+                                    <th>Draft, Completed, Exported, Sent</th>
+                                    <th>Sort by sum</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>
+                                        <div class="above-texts-main">Torupilli selver</div>
+                                        <div class="below-texts-main">Open - Edit - History</div>
+                                    </td>
+                                    <td>Mudelautod ja ohupallid</td>
+                                    <td>
+                                        <div class="comman-boxed-main">
+                                            <div class="small-text">Siiri Selver</div>
+                                            <span>+372 5554 3323</span>
+                                            <span>siiri@selver.ee</span>
+                                        </div>
+                                    </td>
+                                    <td>24 August, 2022</td>
+                                    <td>Sent to e-mail</td>
+                                    <td class="euro-text-main">4322 EUR</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="above-texts-main">Torupilli selver</div>
+                                        <div class="below-texts-main">Open - Edit - History</div>
+                                    </td>
+                                    <td>Mudelautod ja ohupallid</td>
+                                    <td>
+                                        <div class="comman-boxed-main">
+                                            <div class="small-text">Siiri Selver</div>
+                                            <span>+372 5554 3323</span>
+                                            <span>siiri@selver.ee</span>
+                                        </div>
+                                    </td>
+                                    <td>24 August, 2022</td>
+                                    <td>Sent to e-mail</td>
+                                    <td class="euro-text-main">4322 EUR</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="above-texts-main">Torupilli selver</div>
+                                        <div class="below-texts-main">Open - Edit - History</div>
+                                    </td>
+                                    <td>Mudelautod ja ohupallid</td>
+                                    <td>
+                                        <div class="comman-boxed-main">
+                                            <div class="small-text">Siiri Selver</div>
+                                            <span>+372 5554 3323</span>
+                                            <span>siiri@selver.ee</span>
+                                        </div>
+                                    </td>
+                                    <td>24 August, 2022</td>
+                                    <td>Sent to e-mail</td>
+                                    <td class="euro-text-main">4322 EUR</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="above-texts-main">Torupilli selver</div>
+                                        <div class="below-texts-main">Open - Edit - History</div>
+                                    </td>
+                                    <td>Mudelautod ja ohupallid</td>
+                                    <td>
+                                        <div class="comman-boxed-main">
+                                            <div class="small-text">Siiri Selver</div>
+                                            <span>+372 5554 3323</span>
+                                            <span>siiri@selver.ee</span>
+                                        </div>
+                                    </td>
+                                    <td>24 August, 2022</td>
+                                    <td>Sent to e-mail</td>
+                                    <td class="euro-text-main">4322 EUR</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="table-margin-main">
+                    <div class="tood-table-main over-flow-table">
+                        <table id="example2" class="display">
+                            <thead>
+                                <tr>
+                                    <th>Your last five offers</th>
+                                    <th>Order sent to LADU20</th>
+                                    <th>Invoice from LADU20</th>
+                                    <th style="text-align: center;">Search contact person</th>
+                                    <th>Received,completed,paid</th>
+                                    <th>Sort by invoice sum</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>
+                                        <div class="above-texts-main">Torupilli selver</div>
+                                        <div class="below-texts-main">Open - Edit - History</div>
+                                    </td>
+                                    <td>
+                                        <div class="text-line-main">Order near 1234</div>
+                                    </td>
+                                    <td>
+                                        <!-- <div class="text-line-main">Invoice nr 1234</div> -->
+                                    </td>
+                                    <td>
+                                        <div class="comman-boxed-main">
+                                            <div class="small-text">Siiri Selver</div>
+                                            <span>+372 5554 3323</span>
+                                            <span>siiri@selver.ee</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="color-red">NEW</div>
+                                    </td>
+                                    <td class="euro-text-main">4322 EUR</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="above-texts-main">Torupilli selver</div>
+                                        <div class="below-texts-main">Open - Edit - History</div>
+                                    </td>
+                                    <td>
+                                        <div class="text-line-main">Order near 1234</div>
+                                    </td>
+                                    <td>
+                                        <!-- <div class="text-line-main">Invoice nr 1234</div> -->
+                                    </td>
+                                    <td>
+                                        <div class="comman-boxed-main">
+                                            <div class="small-text">Siiri Selver</div>
+                                            <span>+372 5554 3323</span>
+                                            <span>siiri@selver.ee</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="color-red">NEW</div>
+                                    </td>
+                                    <td class="euro-text-main">4322 EUR</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="above-texts-main">Torupilli selver</div>
+                                        <div class="below-texts-main">Open - Edit - History</div>
+                                    </td>
+                                    <td>
+                                        <div class="text-line-main">Order near 1234</div>
+                                    </td>
+                                    <td>
+                                        <div class="text-line-main">Invoice nr 1234</div>
+                                    </td>
+                                    <td>
+                                        <div class="comman-boxed-main">
+                                            <div class="small-text">Siiri Selver</div>
+                                            <span>+372 5554 3323</span>
+                                            <span>siiri@selver.ee</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="color-paid">Completed</div>
+                                    </td>
+                                    <td class="euro-text-main">4322 EUR</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="above-texts-main">Torupilli selver</div>
+                                        <div class="below-texts-main">Open - Edit - History</div>
+                                    </td>
+                                    <td>
+                                        <div class="text-line-main">Order near 1234</div>
+                                    </td>
+                                    <td>
+                                        <div class="text-line-main">OInvoice nr 1234</div>
+                                    </td>
+                                    <td>
+                                        <div class="comman-boxed-main">
+                                            <div class="small-text">Siiri Selver</div>
+                                            <span>+372 5554 3323</span>
+                                            <span>siiri@selver.ee</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="color-paid">Paid</div>
+                                    </td>
+                                    <td class="euro-text-main">4322 EUR</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="tood-table-main over-flow-table">
+                    <table id="example1" class="display">
+                        <thead>
+                            <tr>
+                                <th>New Registered Customers</th>
+                                <th>Address</th>
+                                <th style="text-align: center;">Reg no, Vat no</th>
+                                <th style="text-align: center;">Search contact person</th>
+                                <th>Shops ordering with permissions</th>
+                                <th>Total Sales</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td>
+                                    <div class="above-texts-main">Toys24</div>
+                                    <div class="below-texts-main">Open - Edit - History</div>
+                                </td>
+                                <td>Keemia 4, Tallinn</td>
+                                <td style="text-align:center;">1239087482, EE389384433</td>
+                                <td>
+                                    <div class="comman-boxed-main">
+                                        <div class="small-text">Siiri Selver</div>
+                                        <span>+372 5554 3323</span>
+                                        <span>siiri@selver.ee <span class="color-red">(unconfirmed)</span> </span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>4</div>
+                                </td>
+                                <td class="euro-text-main">4322 EUR</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="above-texts-main">Torupilli selver</div>
+                                    <div class="below-texts-main">Open - Edit - History</div>
+                                </td>
+                                <td>Keemia 4, Tallinn</td>
+                                <td style="text-align:center;">1239087482, EE389384433</td>
+                                <td>
+                                    <div class="comman-boxed-main">
+                                        <div class="small-text">Siiri Selver</div>
+                                        <span>+372 5554 3323</span>
+                                        <span>siiri@selver.ee <span class="color-red">(unconfirmed)</span> </span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>4</div>
+                                </td>
+                                <td class="euro-text-main">4322 EUR</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="above-texts-main">Torupilli selver</div>
+                                    <div class="below-texts-main">Open - Edit - History</div>
+                                </td>
+                                <td>Keemia 4, Tallinn</td>
+                                <td style="text-align:center;">1239087482, EE389384433</td>
+                                <td>
+                                    <div class="comman-boxed-main">
+                                        <div class="small-text">Siiri Selver</div>
+                                        <span>+372 5554 3323</span>
+                                        <span>siiri@selver.ee <span class="color-red">(unconfirmed)</span> </span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>4</div>
+                                </td>
+                                <td class="euro-text-main">4322 EUR</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="above-texts-main">Torupilli selver</div>
+                                    <div class="below-texts-main">Open - Edit - History</div>
+                                </td>
+                                <td>Keemia 4, Tallinn</td>
+                                <td style="text-align:center;">1239087482, EE389384433</td>
+                                <td>
+                                    <div class="comman-boxed-main">
+                                        <div class="small-text">Siiri Selver</div>
+                                        <span>+372 5554 3323</span>
+                                        <span>siiri@selver.ee <span class="color-red">(unconfirmed)</span> </span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>4</div>
+                                </td>
+                                <td class="euro-text-main">4322 EUR</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- PageEnd -->
+
+
+    <script>
+        function myFunction() {
+            // var element = document.body.className;
+            document.body.classList.toggle("mystyle");
+        }
+    </script>
+
+    <script src="js/common.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+<svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g filter="url(#filter0_d_1201_5479)">
+<rect x="4" y="2" width="34" height="34" rx="8" fill="white" shape-rendering="crispEdges"/>
+<rect x="9" y="8" width="24" height="22.6667" fill="url(#pattern0)"/>
+</g>
+<defs>
+<filter id="filter0_d_1201_5479" x="0" y="0" width="42" height="42" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.04 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1201_5479"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1201_5479" result="shape"/>
+</filter>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_1201_5479" transform="scale(0.0185185 0.0196078)"/>
+</pattern>
+<image id="image0_1201_5479" width="54" height="51" xlink:href="data:image/png;base64,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"/>
+</defs>
+</svg>

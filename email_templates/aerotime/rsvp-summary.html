@@ -1,0 +1,936 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+<!-- Use this Tag to Make VML Scale -->
+    <!--[if gte mso 9]>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:AllowPNG/>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  <![endif]-->
+<title>Aerotime</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style type="text/css">
+/*font-family: 'Inter', sans-serif;*/
+#outlook a {
+    padding: 0;
+}
+body, table, td, a {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+table, td {
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;
+}
+img {
+    -ms-interpolation-mode: bicubic;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+img {
+    border: 0;
+    height: auto;
+    line-height: 100%;
+    outline: none;
+    text-decoration: none;
+}
+img[src*="c_pixel"] {width:0px;height:0px;display:block;}
+table {
+    border-collapse: collapse !important;
+}
+
+.agenda_text * { margin: 0 0 10px 0 !important; font-family: 'Inter', sans-serif !important; color: #47536B !important; word-break: break-all !important;line-height: 100% !important;}
+
+.agenda_text pre {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    color: #666;
+    font-family: 'Inter', sans-serif !important;
+    margin: 10px 0 !important;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+    white-space: pre-line;
+}
+
+.agenda_text > ul, .agenda_text > ol{padding-left: 17px !important;}
+.agenda_text p{line-height: 130% !important;}
+
+@media screen and (max-width: 660px) {
+	
+    .container-table {
+        width: 100% !important;
+    }
+    .column {
+        width: 100% !important;
+        table-layout: fixed !important;
+        display: block !important;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        margin-bottom: 0.625em;
+    }
+	.column-half {
+		width: 50% !important;
+        table-layout: fixed !important;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        margin-bottom: 0.625em;
+	}
+    .column-text-center {
+        width: 100% !important;
+        table-layout: fixed !important;
+        display: block !important;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        margin-bottom: 0.625em;
+        text-align: center !important;
+    }
+	.fullheight { height: auto !important; }
+
+    .plr-8 { padding-left: 8px !important;padding-right: 8px !important; }
+    .plr-16 { padding-left: 16px !important;padding-right: 16px !important; }
+    .pl-0 { padding-left: 0 !important; }
+    .pr-0 { padding-right: 0 !important; }
+    .pt-0 { padding-top: 0 !important; }
+    .pb-0 { padding-bottom: 0 !important; }
+    
+    .pt-4 { padding-top: 4px !important; }
+    .pb-8 { padding-bottom: 8px !important; }
+    .pb-3 { padding-bottom: 3px !important; }
+    .pb-20 { padding-bottom: 20px !important; }
+
+    .pl-12 { padding-left: 12px !important; }
+
+    .ml-0 { margin-left: 0 !important; }
+    .mr-0 { margin-right: 0 !important; }
+    .mt-0 { margin-top: 0 !important; }
+    .mb-0 { margin-bottom: 0 !important; }
+
+    .header-ptb { padding-top: 25px !important; padding-bottom: 14px !important; }
+    .sec2-ptb { padding-top: 28px !important; padding-bottom: 22px !important; }
+
+    .mo-head-icon { /*width: 20px !important;*/ }
+    .mo-head-icon img { width: 100% !important; }
+
+    .gr-pd { padding: 28px 15px 28px 22px !important; }
+    .team-ptb { padding: 40px 15px !important; }
+    .hours-lbl { font-size: 20px !important; }
+    .hours-lbl > p > strong { padding-right: 8px !important; font-size: 20px !important; }
+    .bxshadow-none { box-shadow: none !important; border: none !important; }
+    .rep-ptb { padding-top: 24px !important; padding-bottom: 12px !important; }
+    .gh-ptb { padding-top: 24px !important; padding-bottom: 20px !important; }
+    .sm-padding { padding: 20px 16px !important; }
+}
+
+@media (prefers-color-scheme: dark ) {
+    body, [data-ogsc] body,
+    .main-tbl, [data-ogsc] .main-tbl {
+        background-color: #2e3748 !important;
+        color: #ffffff !important;
+    }
+    .dm-container, [data-ogsc] .dm-container {
+        background-color: #202125 !important;
+        border-color: #202125 !important;
+        color: #ffffff !important;
+    }
+    .dark-mode-white h2, [data-ogsc] .dark-mode-white h2 { color: #ffffff !important; }
+    .dark-mode-white p, [data-ogsc] .dark-mode-white p { color: #ffffff !important; }
+    .dark-mode-white span, [data-ogsc] .dark-mode-white span { color: #ffffff !important; }
+    .dm-white-1 span, [data-ogsc] .dm-white-1 span,
+    .dm-white-1 span a, [data-ogsc] .dm-white-1 span a { color: #CFD3DC !important; }
+    .dm-update-invitation *, [data-ogsc] .dm-update-invitation * { color: #7095FF !important; }
+    .dm-badge-tbl, [data-ogsc] .dm-badge-tbl { background: #2D3748 !important; border-color: #47536b !important; }
+    .dm-badge-tbl table, [data-ogsc] .dm-badge-tbl table { background: #2D3748 !important; }
+    .dm-badge-tbl span, [data-ogsc] .dm-badge-tbl span { color: #A4ACBC !important; }
+    .dm-host-title span, [data-ogsc] .dm-host-title span { color: #F9F9FA !important; }
+    .dm-host-link a, [data-ogsc] .dm-host-link a { color: #A4ACBC !important; }
+    .dm-white-2 span, [data-ogsc] .dm-white-2 span { color: #F0F1F4 !important; }
+    .dm-white-3 *, [data-ogsc] .dm-white-3 * { color: #F9F9FA !important; }
+    .dm-white-4, [data-ogsc] .dm-white-4 { color: #E1E9FF !important; }
+    .dm-white-5 *, [data-ogsc] .dm-white-5 * { color: #E6E8EC !important; }
+    .dm-white-6, [data-ogsc] .dm-white-6 { color: #F0F1F4 !important; }
+    .dm-total-time, [data-ogsc] .dm-total-time { color: #9CB5FF !important; }
+    .dm-time-desc, [data-ogsc] .dm-time-desc { color: #C2D2FF !important; }
+    .dm-powered-by *, [data-ogsc] .dm-powered-by * { color: #A4ACBC !important; }
+    .dm-footer-address *, [data-ogsc] .dm-footer-address * { color: #717D96 !important; }
+
+    .agenda_text *, [data-ogsc] .agenda_text * { color: #F0F1F4 !important; }
+    .agenda_text pre, [data-ogsc] .agenda_text pre { background: #202125 !important; color: #ffffff !important; }
+
+    .hours-box-bg, [data-ogsc] .hours-box-bg { background-color: #18254c !important; }
+    .dm-update-invitation, [data-ogsc] .dm-update-invitation { color: #7095FF !important; }
+
+    .dm-orange-bg, [data-ogsc] .dm-bb-color{ background-color: #3e2528 !important; }
+    .dm-welcom-bg, [data-ogsc] .dm-welcom-bg { background-color: #3f465c !important; }
+    .dm-bb-color, [data-ogsc] .dm-bb-color { border-color: #2D3748 !important; }
+    .sm-padding { background-color: #2D3748 !important; }
+
+}
+ 
+</style>
+<!--[if mso]>
+<style type="text/css">
+body,table,td,p,span,a,h1,h2,h3,h4,h5,h6,strong,small,i,em,sub,sup,b,u,s,ul,li,ol{font-family: Arial, Helvetica, sans-serif !important;}
+</style>
+<![endif]-->
+</head>
+
+<body bgcolor="#F9F9FA" style="margin:0;padding:0;">
+	<table width="100%" bgcolor="#F9F9FA" border="0" cellpadding="0" cellspacing="0" style="margin:0 auto;min-width:300px; font-size:16px;" class="main-tbl">
+		<tr>
+			<td align="center" valign="top" style="padding: 48px 0;" class="pt-0">
+
+                <table width="640" align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="container-table bxshadow-none dm-container" style="width:640px;margin:0 auto; border: 1px solid #f5f5f5; -webkit-box-shadow: 0px 4px 8px rgba(26, 32, 44, 0.1); -moz-box-shadow: 0px 4px 8px rgba(26, 32, 44, 0.1); box-shadow: 0px 4px 8px rgba(26, 32, 44, 0.1);">
+                    <tr>
+                        <td style="padding: 40px; border-bottom: 1px solid #F0F1F4;" class="plr-16 header-ptb">
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td valign="top" align="left" style="padding-bottom: 16px;">
+                                        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <th align="left" width="50%" valign="middle" class="dm-update-invitation">
+                                                    <span style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 600;font-size: 15px;line-height: 1.333;color: #386CFF;text-decoration: none;">
+                                                        RSVP summary
+                                                    </span>
+                                                </th>
+                                                <th align="right" width="50%" valign="middle" style="text-align: right;padding: 0;">
+                                                    <a target="_blank" href="#" style="width:auto;height:auto;max-width:100%;display:inline-block;">
+                                                        <img src="http://54.163.12.14/aerotime/images/aerotime-logo.png" width="93" alt="Aerotime" style="display:inline-block;height:auto;border:none;max-width:100%;">
+                                                    </a>
+                                                </th>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td valign="top" align="left" style="padding-bottom: 16px;" class="pb-20">
+                                        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td style="padding-right: 104px;" class="pr-0 dark-mode-white">
+                                                    <h2 style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 24px;line-height: 1.333;color: #1A202C;text-decoration: none;">Board of Directors Meeting to discuss the Q1 financial statistics</h2>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td valign="top" align="left" style="padding-bottom: 0;">
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td style="padding-right: 24px;" class="column" valign="middle">
+                                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td width="14" align="left" valign="middle" style="text-align:left;" class="mo-head-icon">
+                                                                <img src="http://54.163.12.14/aerotime/images/icon-calendar.png" width="14" height="14" alt="icon–calendar" style="display:block;height:auto;border:none;max-width:100%;">
+                                                            </td>
+                                                            <td valign="middle" style="padding-left: 8px;" class="pl-12 dm-white-1">
+                                                                <span  style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 14px;line-height: 1.714;color: #47536B;text-decoration: none;">Friday, 21 Jan 2022</span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td class="column" valign="middle">
+                                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td valign="middle" style="padding: 0 4px 0 0;">
+                                                                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td width="14" align="left" valign="middle" style="text-align:left;" class="mo-head-icon">
+                                                                            <img src="http://54.163.12.14/aerotime/images/Icon-clock.png" width="14" height="14" alt="clock" style="display:block;height:auto;border:none;max-width:100%;">
+                                                                        </td>
+                                                                        <td valign="middle" style="padding-left: 8px;" class="pl-12 dm-white-1">
+                                                                            <span style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 14px;line-height: 1.714;color: #47536B;text-decoration: none !important;"><a style="text-decoration: none;color: #47536B;">9:00 – 9:30 AM</a></span>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                            <td valign="middle" style="padding: 0 4px;">
+                                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate !important;">
+                                                                    <tr>
+                                                                        <td style="background: #F9F9FA;border: 1px solid #F0F1F4;border-radius: 4px;" class="dm-badge-tbl">
+                                                                            <table width="100%" border="0" cellpadding="0" cellspacing="0" style="background: #F9F9FA;border-radius: 4px;">
+                                                                                <tr>
+                                                                                    <td style="margin:0;padding: 0 4px 2px;">
+                                                                                        <span style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 12px;line-height: 1.333;color: #717D96;text-decoration: none;">30 min</span>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                            <td valign="middle" style="padding: 0 4px;">
+                                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate !important;">
+                                                                    <tr>
+                                                                        <td style="background: #F9F9FA;border: 1px solid #F0F1F4;border-radius: 4px;" class="dm-badge-tbl">
+                                                                            <table width="100%" border="0" cellpadding="0" cellspacing="0" style="background: #F9F9FA;border-radius: 4px;">
+                                                                                <tr>
+                                                                                    <td style="margin:0;padding: 0 4px 2px;">
+                                                                                        <span style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 12px;line-height: 1.333;color: #717D96;text-decoration: none;">UTC+1</span>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding: 40px 40px 24px 40px;" class="plr-16 gh-ptb">
+                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td class="dm-powered-by">
+                                        <h3 style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 600;font-size: 15px;line-height: 1.333;color: #717D96;text-decoration: none;">Guests that haven’t RSVPd</h3>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding: 0 20px;" class="plr-8">
+                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td bgcolor="#F5F8FF" style="padding: 32px 24px; border-radius: 8px;" class="sm-padding">
+                                        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td>
+                                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td width="45%" style="padding: 0 24px 12px 0;" valign="top" class="column pb-8 mb-0">
+                                                                <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td width="26" valign="middle">
+                                                                            <span style="border: 1px solid #FFFFFF; border-radius: 50%; display: block;">
+                                                                                <img src="http://54.163.12.14/aerotime/images/avtar-2.png" width="26" alt="avtar-2" style="display:block;height:auto;border:none;max-width:100%;">
+                                                                            </span>
+                                                                        </td>
+                                                                        <td style="padding: 0 0 0 12px;" valign="middle">
+                                                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="padding: 0 8px 0 0;" valign="middle">
+                                                                                                    <span style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 14px;line-height: 1.429;color: #47536B;text-decoration: none;" class="dm-white-6">Tobias Worthly</span>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="padding: 0 8px 0 0;" valign="middle">
+                                                                                                    <a target="_blank" href="mailto:t.worthy@gmail.com" style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 11px;line-height: 1.455;color: #A4ACBC;text-decoration: none;display: block;cursor: default;">t.worthy@gmail.com</a>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                            <td width="55%" style="padding: 0 24px 12px 0;" valign="top" class="column pb-8 mb-0">
+                                                                <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td width="26" valign="middle">
+                                                                            <span style="border: 1px solid #FFFFFF; border-radius: 50%; display: block;">
+                                                                                <img src="http://54.163.12.14/aerotime/images/avtar-3.png" width="26" alt="avtar-3" style="display:block;height:auto;border:none;max-width:100%;">
+                                                                            </span>
+                                                                        </td>
+                                                                        <td style="padding: 0 0 0 12px;" valign="middle">
+                                                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="padding: 0 8px 0 0;" valign="middle">
+                                                                                                    <span style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 14px;line-height: 1.429;color: #47536B;text-decoration: none;" class="dm-white-6">Lindsay McCallen</span>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="padding: 0 8px 0 0;" valign="middle">
+                                                                                                    <a target="_blank" href="mailto:l.mc.callen@gmail.com" style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 11px;line-height: 1.455;color: #A4ACBC;text-decoration: none;display: block;cursor: default;">l.mc.callen@gmail.com</a>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td width="45%" style="padding: 0 24px 12px 0;" valign="top" class="column pb-8 mb-0">
+                                                                <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td width="26" valign="middle">
+                                                                            <span style="border: 1px solid #FFFFFF; border-radius: 50%; display: block;">
+                                                                                <img src="http://54.163.12.14/aerotime/images/avtar-2.png" width="26" alt="avtar-2" style="display:block;height:auto;border:none;max-width:100%;">
+                                                                            </span>
+                                                                        </td>
+                                                                        <td style="padding: 0 0 0 12px;" valign="middle">
+                                                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="padding: 0 8px 0 0;" valign="middle">
+                                                                                                    <span style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 14px;line-height: 1.429;color: #47536B;text-decoration: none;" class="dm-white-6">Frank Ibara</span>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="padding: 0 8px 0 0;" valign="middle">
+                                                                                                    <a target="_blank" href="mailto:t.worthy@gmail.com" style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 11px;line-height: 1.455;color: #A4ACBC;text-decoration: none;display: block;cursor: default;">f.ibara@gmail.com</a>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding-top: 20px;" class="pt-4">
+                                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td align="left" width="100%" style="padding-bottom: 1px;">
+                                                                <div><!--[if mso]>
+                                                                  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:44px;v-text-anchor:middle;width:100%;" arcsize="19%" stroke="f" fillcolor="#386CFF">
+                                                                    <w:anchorlock/>
+                                                                    <center>
+                                                                  <![endif]-->
+                                                                      <a href="http://" style="background-color:#386CFF;border-radius:8px;color:#ffffff;display:inline-block;font-family: 'Inter', sans-serif;font-size:14px;font-weight:600;line-height:44px;text-align:center;text-decoration:none;width:100%;-webkit-text-size-adjust:none;" class="fullwidth"><img src="http://54.163.12.14/aerotime/images/send-reminder-icon.png" width="17" alt="send-reminder-icon.png" style="margin-right: 8px; display: inline-block; vertical-align: middle;"><span class="dm-txt-color-white" style="color:#ffffff; display: inline-block; vertical-align: middle;">Accept the invite</span></a>
+                                                                  <!--[if mso]>
+                                                                    </center>
+                                                                  </v:roundrect>
+                                                                <![endif]--></div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding: 40px 40px 16px 40px;" class="plr-16 rep-ptb">
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td style="padding-bottom: 24px;" class="pb-20 dm-powered-by">
+                                        <h3 style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 600;font-size: 15px;line-height: 1.333;color: #717D96;text-decoration: none;">Replies</h3>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-bottom: 4px;">
+                                         <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td width="103" style="padding: 0 10px 8px 0;" valign="top" class="column mb-0">
+                                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td>
+                                                                <span style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 14px;line-height: 1.429;color: #A4ACBC;text-decoration: none;">Yes</span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td style="padding: 0 0 8px 0;" valign="middle" class="column mb-0">
+                                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td width="50%" style="padding: 0 24px 12px 0;" valign="top" class="column pb-8 mb-0">
+                                                                <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td width="24" valign="middle">
+                                                                            <span>
+                                                                                <img src="http://54.163.12.14/aerotime/images/avtar-2.png" width="24" alt="avtar-2" style="display:block;height:auto;border:none;max-width:100%;">
+                                                                            </span>
+                                                                        </td>
+                                                                        <td style="padding: 0 0 0 12px;" valign="middle">
+                                                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="padding: 0 8px 0 0;" valign="middle" class="dm-host-title">
+                                                                                                    <span style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 14px;line-height: 1.429;color: #47536B;text-decoration: none;">Jacqueline Norris</span>
+                                                                                                </td>
+                                                                                                <td width="12" valign="middle">
+                                                                                                    <span>
+                                                                                                        <img src="http://54.163.12.14/aerotime/images/icon-availability.png" width="12" alt="icon-availability.png" style="display:block;height:auto;border:none;max-width:100%;">
+                                                                                                    </span>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="padding: 0 8px 0 0;" valign="middle" class="dm-host-link">
+                                                                                                    <a target="_blank" href="mailto:j.norris@gmail.com" style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 11px;line-height: 1.455;color: #A4ACBC;text-decoration: none;display: block;cursor: default;">j.norris@gmail.com</a>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                            <td width="50%" style="padding: 0 24px 12px 0;" valign="top" class="column pb-8 mb-0">
+                                                                <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td width="24" valign="middle">
+                                                                            <span>
+                                                                                <img src="http://54.163.12.14/aerotime/images/avtar-3.png" width="24" alt="avtar-3" style="display:block;height:auto;border:none;max-width:100%;">
+                                                                            </span>
+                                                                        </td>
+                                                                        <td style="padding: 0 0 0 12px;" valign="middle">
+                                                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="padding: 0 8px 0 0;" valign="middle" class="dm-host-title">
+                                                                                                    <span style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 14px;line-height: 1.429;color: #47536B;text-decoration: none;">Esther Howard</span>
+                                                                                                </td>
+                                                                                                <td width="12" valign="middle">
+                                                                                                    <span>
+                                                                                                        <img src="http://54.163.12.14/aerotime/images/icon-availability.png" width="12" alt="icon-availability.png" style="display:block;height:auto;border:none;max-width:100%;">
+                                                                                                    </span>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="padding: 0 8px 0 0;" valign="middle" class="dm-host-link">
+                                                                                                    <a target="_blank" href="mailto:e.howard@gmail.com" style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 11px;line-height: 1.455;color: #A4ACBC;text-decoration: none;display: block;cursor: default;">e.howard@gmail.com</a>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td width="50%" style="padding: 0 24px 12px 0;" valign="top" class="column mb-0">
+                                                                <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td width="24" valign="middle">
+                                                                            <span>
+                                                                                <img src="http://54.163.12.14/aerotime/images/avtar-4.png" width="24" alt="avtar-4.png" style="display:block;height:auto;border:none;max-width:100%;">
+                                                                            </span>
+                                                                        </td>
+                                                                        <td style="padding: 0 0 0 12px;" valign="middle">
+                                                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="padding: 0 8px 0 0;" valign="middle" class="dm-host-title">
+                                                                                                    <span style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 14px;line-height: 1.429;color: #47536B;text-decoration: none;">Jacob Jones</span>
+                                                                                                </td>
+                                                                                                <td width="12" valign="middle">
+                                                                                                    <span>
+                                                                                                        <img src="http://54.163.12.14/aerotime/images/icon-availability.png" width="12" alt="icon-availability.png" style="display:block;height:auto;border:none;max-width:100%;">
+                                                                                                    </span>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="padding: 0 8px 0 0;" valign="middle" class="dm-host-link">
+                                                                                                    <a target="_blank" href="mailto:e.flores@gmail.com" style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 11px;line-height: 1.455;color: #A4ACBC;text-decoration: none;display: block;cursor: default;">j.jones@gmail.com</a>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding-bottom: 4px;">
+                                         <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td width="103" style="padding: 0 10px 8px 0;" valign="top" class="column mb-0">
+                                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td>
+                                                                <span style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 14px;line-height: 1.429;color: #A4ACBC;text-decoration: none;">Maybe</span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td style="padding: 0 0 8px 0;" valign="middle" class="column pb-0 mb-0">
+                                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td width="50%" style="padding: 0 24px 12px 0;" valign="top" class="column pb-8 mb-0">
+                                                                <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td width="24" valign="middle">
+                                                                            <span>
+                                                                                <img src="http://54.163.12.14/aerotime/images/avtar-2.png" width="24" alt="avtar-2" style="display:block;height:auto;border:none;max-width:100%;">
+                                                                            </span>
+                                                                        </td>
+                                                                        <td style="padding: 0 0 0 12px;" valign="middle">
+                                                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="padding: 0 8px 0 0;" valign="middle" class="dm-host-title">
+                                                                                                    <span style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 14px;line-height: 1.429;color: #47536B;text-decoration: none;">Grace Fields</span>
+                                                                                                </td>
+                                                                                                <td width="12" valign="middle">
+                                                                                                    <span>
+                                                                                                        <img src="http://54.163.12.14/aerotime/images/icon-info.png" width="12" alt="icon-info.png" style="display:block;height:auto;border:none;max-width:100%;">
+                                                                                                    </span>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="padding: 0 8px 0 0;" valign="middle" class="dm-host-link">
+                                                                                                    <a target="_blank" href="mailto:g.fie@gmail.com" style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 11px;line-height: 1.455;color: #A4ACBC;text-decoration: none;display: block;cursor: default;">g.fie@gmail.com</a>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                            <td width="50%" style="padding: 0 24px 12px 0;" valign="top" class="column pb-8 mb-0">
+                                                                <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td width="24" valign="middle">
+                                                                            <span>
+                                                                                <img src="http://54.163.12.14/aerotime/images/avtar-3.png" width="24" alt="avtar-3" style="display:block;height:auto;border:none;max-width:100%;">
+                                                                            </span>
+                                                                        </td>
+                                                                        <td style="padding: 0 0 0 12px;" valign="middle">
+                                                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="padding: 0 8px 0 0;" valign="middle" class="dm-host-title">
+                                                                                                    <span style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 14px;line-height: 1.429;color: #47536B;text-decoration: none;">Morgan Miller</span>
+                                                                                                </td>
+                                                                                                <td width="12" valign="middle">
+                                                                                                    <span>
+                                                                                                        <img src="http://54.163.12.14/aerotime/images/icon-info.png" width="12" alt="icon-info.png" style="display:block;height:auto;border:none;max-width:100%;">
+                                                                                                    </span>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="padding: 0 8px 0 0;" valign="middle" class="dm-host-link">
+                                                                                                    <a target="_blank" href="mailto:e.howard@gmail.com" style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 11px;line-height: 1.455;color: #A4ACBC;text-decoration: none;display: block;cursor: default;">m.miller@gmail.com</a>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding-bottom: 4px;">
+                                         <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td width="103" style="padding: 0 10px 8px 0;" valign="top" class="column mb-0">
+                                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td>
+                                                                <span style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 14px;line-height: 1.429;color: #A4ACBC;text-decoration: none;">No</span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td style="padding: 0 0 8px 0;" valign="middle" class="column pb-0 mb-0">
+                                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td width="50%" style="padding: 0 24px 12px 0;" valign="top" class="column pb-8 mb-0">
+                                                                <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td width="24" valign="middle">
+                                                                            <span>
+                                                                                <img src="http://54.163.12.14/aerotime/images/avtar-2.png" width="24" alt="avtar-2" style="display:block;height:auto;border:none;max-width:100%;">
+                                                                            </span>
+                                                                        </td>
+                                                                        <td style="padding: 0 0 0 12px;" valign="middle">
+                                                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="padding: 0 8px 0 0;" valign="middle" class="dm-host-title">
+                                                                                                    <span style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 14px;line-height: 1.429;color: #47536B;text-decoration: none;">Gerard Johnson</span>
+                                                                                                </td>
+                                                                                                <td width="12" valign="middle">
+                                                                                                    <span>
+                                                                                                        <img src="http://54.163.12.14/aerotime/images/icon-close-2.png" width="12" alt="icon-close-2.png" style="display:block;height:auto;border:none;max-width:100%;">
+                                                                                                    </span>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="padding: 0 8px 0 0;" valign="middle" class="dm-host-link">
+                                                                                                    <a target="_blank" href="mailto:g.fie@gmail.com" style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 11px;line-height: 1.455;color: #A4ACBC;text-decoration: none;display: block;cursor: default;">g.johnson@gmail.com</a>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                            <td width="50%" style="padding: 0 24px 12px 0;" valign="top" class="column pb-8 mb-0">
+                                                                <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td width="24" valign="middle">
+                                                                            <span>
+                                                                                <img src="http://54.163.12.14/aerotime/images/avtar-3.png" width="24" alt="avtar-3" style="display:block;height:auto;border:none;max-width:100%;">
+                                                                            </span>
+                                                                        </td>
+                                                                        <td style="padding: 0 0 0 12px;" valign="middle">
+                                                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="padding: 0 8px 0 0;" valign="middle" class="dm-host-title">
+                                                                                                    <span style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 14px;line-height: 1.429;color: #47536B;text-decoration: none;">Marie Astor</span>
+                                                                                                </td>
+                                                                                                <td width="12" valign="middle">
+                                                                                                    <span>
+                                                                                                        <img src="http://54.163.12.14/aerotime/images/icon-close-2.png" width="12" alt="icon-close-2.png" style="display:block;height:auto;border:none;max-width:100%;">
+                                                                                                    </span>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="padding: 0 8px 0 0;" valign="middle" class="dm-host-link">
+                                                                                                    <a target="_blank" href="mailto:e.howard@gmail.com" style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 11px;line-height: 1.455;color: #A4ACBC;text-decoration: none;display: block;cursor: default;">m.astor@gmail.com</a>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td width="50%" style="padding: 0 24px 12px 0;" valign="top" class="column pb-8 mb-0">
+                                                                <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td width="24" valign="middle">
+                                                                            <span>
+                                                                                <img src="http://54.163.12.14/aerotime/images/avtar-2.png" width="24" alt="avtar-2" style="display:block;height:auto;border:none;max-width:100%;">
+                                                                            </span>
+                                                                        </td>
+                                                                        <td style="padding: 0 0 0 12px;" valign="middle">
+                                                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="padding: 0 8px 0 0;" valign="middle" class="dm-host-title">
+                                                                                                    <span style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 14px;line-height: 1.429;color: #47536B;text-decoration: none;">Peter Olson</span>
+                                                                                                </td>
+                                                                                                <td width="12" valign="middle">
+                                                                                                    <span>
+                                                                                                        <img src="http://54.163.12.14/aerotime/images/icon-close-2.png" width="12" alt="icon-close-2.png" style="display:block;height:auto;border:none;max-width:100%;">
+                                                                                                    </span>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td style="padding: 0 8px 0 0;" valign="middle" class="dm-host-link">
+                                                                                                    <a target="_blank" href="mailto:p.olson@gmail.com" style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 500;font-size: 11px;line-height: 1.455;color: #A4ACBC;text-decoration: none;display: block;cursor: default;">p.olson@gmail.com</a>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </td>
+                    </tr>
+
+                </table>
+
+                <table width="640" align="center" border="0" cellpadding="0" cellspacing="0" class="container-table" style="width:640px;margin:0 auto;">
+                    <tr>
+                        <td style="padding-top: 40px;">
+                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td align="center" style="padding-bottom: 16px;">
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td valign="middle" style="padding: 0 4px;" class="dm-powered-by">
+                                                    <p style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 600;font-size: 14px;line-height: 1.429;color: #717D96;text-decoration: none;text-align: center;">Powered by</p>
+                                                </td>
+                                                <td valign="middle" style="padding: 0 4px;">
+                                                    <a target="_blank" href="#" style="width:auto;height:auto;max-width:100%;display:inline-block;">
+                                                        <img src="http://54.163.12.14/aerotime/images/aerotime-logo.png" width="93" alt="Aerotime" style="display:block;height:auto;border:none;max-width:100%;">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="margin:0;padding: 0 34px;" class="dm-footer-address">
+                                        <p style="margin:0;padding:0;font-family: 'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 12px;line-height: 1.333;color: #A4ACBC;text-decoration: none;text-align: center;">2261 Market Street #4191, San Francisco, <span style="display: inline-block;">California 94114</span></p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                
+            </td>
+		</tr>
+	</table>
+</body>
+</html>
