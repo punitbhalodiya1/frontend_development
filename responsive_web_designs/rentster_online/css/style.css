@@ -369,14 +369,14 @@ ol > li::before { content: counter(li, decimal)'.'; counter-increment: li; left:
 /* -----------------New Page Design Start here-------------- */
 /* -----------Home-css------------ */
 .custom-container{
-    max-width: 1270px;
+    max-width: 1267px;
     margin: auto;
 }
 .comman-heading {
     font-size: 32px;
     color: #29185D;
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 28px;
 }
 
@@ -438,7 +438,6 @@ ol > li::before { content: counter(li, decimal)'.'; counter-increment: li; left:
     outline: none;
     padding: 6px 15px;
     padding-left: 30px;
-    font-weight: 600;
 }
 
 .comman-area-input-group .input-area {
@@ -456,7 +455,7 @@ ol > li::before { content: counter(li, decimal)'.'; counter-increment: li; left:
 }
 
 .comman-area-input-group.search-bar-main .input-area {
-    margin-top: 26px;
+    margin-top: 28px;
     position: relative;
 }
 
@@ -3559,34 +3558,4 @@ ol > li::before { content: counter(li, decimal)'.'; counter-increment: li; left:
     align-items: center;
     justify-content: center;
     margin: auto;
-}
-
-@media (max-width:1200px){
-    .home-swiper .comman-slide .slider-heading{
-        font-size:40px;
-    }
-    .custom-container{
-        max-width: 95%;
-    }
-    .blue-btn-dropdown{
-        font-size:13px
-    }
-}
-
-@media (max-width:1100px) {
-    .home-swiper .comman-slide .slider-heading{
-        font-size: 35px;
-    }
-}
-@media (max-width: 767px){
-.home-swiper .comman-slide .slider-heading {
-    font-size: 23px;
-    line-height: 33px;
-}
-.home-swiper .comman-slide{
-    padding-top:60px
-}
-.home-swiper .comman-slide .small-headings{
-    font-size:12px
-}
 }
